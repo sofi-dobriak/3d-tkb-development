@@ -1,0 +1,39 @@
+.mobile.landscape {
+    .s3d__wrapper__flat {
+        height: 100%;
+    }
+
+    .s3d-flat {
+        height: 100%;
+        grid-template-rows: var(--s3d-header) 70vh min-content min-content calc(var(--menu-h));
+        grid-template-areas:
+            '. .'
+            'img img'
+            'info info'
+            'floorInfo floorInfo'
+            'flat-menu flat-menu';
+
+        //floorInfo
+        .s3d-flat__menu-container {
+            justify-content: flex-start;
+            padding-left: var(--offset);
+            padding-bottom: var(--offset);
+        }
+
+        .s3d-flat__menu-container,
+        &__menu {
+            --menu-h: 40px;
+            background-color: transparent;
+            border: none;
+
+        }
+
+        &__info-container {
+            width: 100%;
+        }
+
+        .s3d-flat__floor {
+            padding-bottom: calc(var(--menu-h) + 40px);
+        }
+    }
+}

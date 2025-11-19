@@ -1,0 +1,82 @@
+polygon[data-type="infrastructure"] {
+  // fill: var(--hover-overlays-transparent-32);
+  // stroke: var(--border-gray-200);
+}
+
+polygon[data-type="flyby"] {
+  stroke: var(--border-gray-200);
+}
+
+polygon[data-type="flat"] {
+  fill: var(--hover-overlays-transparent-16);
+
+  &[data-sale="0"] {
+    fill: var(--color-special-accent-sold-overlays-transparent-16);
+  }
+
+  &[data-sale="2"] {
+    fill: var(--color-special-accent-reserved-overlays-transparent-16);
+  }
+
+  &.active,
+  &.polygon__selected {
+    fill: var(--active-element-transparent-72);
+  }
+
+  &.polygon__filter-select {
+    fill: var(--hover-overlays-transparent-48);
+    // stroke: var(--border-gray-200);
+
+  }
+}
+
+polygon[data-type="floor"] {
+  fill: var(--hover-overlays-transparent-16);
+
+  &.polygon__filter-select {
+    fill: var(--hover-overlays-transparent-48);
+    // stroke: var(--border-gray-200);
+  }
+}
+
+.hybrid,
+.mouseOnly {
+
+  g[data-type="infrastructure"]:hover polygon,
+  polygon[data-type="infrastructure"]:hover {
+    fill: var(--hover-overlays-transparent-32);
+    stroke: var(--border-gray-200);
+  }
+
+  polygon[data-type="floor"]:hover,
+  polygon[data-type="flyby"]:hover,
+  polygon[data-type="flat"]:hover {
+    fill: var(--hover-overlays-transparent-32);
+    stroke: var(--border-gray-200);
+  }
+
+  polygon[data-type="flat"]:hover {
+    &[data-sale="0"] {
+      fill: var(--color-special-accent-sold-overlays-transparent-72);
+    }
+
+    &[data-sale="2"] {
+      fill: var(--color-special-accent-reserved-overlays-transparent-72);
+    }
+  }
+}
+
+//Блок 2 будівель що не відккрилися до продажу 
+// polygon[data-flyby="2"],
+// polygon[data-flyby="3"] {
+//   pointer-events: none;
+//   fill: #6c7a8883;
+// }
+
+// .Dropdown__item.js-s3d-nav__btn[data-flyby="2"],
+// .Dropdown__item.js-s3d-nav__btn[data-flyby="3"],
+// .Dropdown__item.js-s3d-nav__btn[data-flyby="1"] {
+//   pointer-events: none;
+//   background-color: #6c7a88d2;
+//   display: none;
+// }

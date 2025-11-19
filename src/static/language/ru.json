@@ -1,0 +1,449 @@
+{
+  "translation": {
+    "currency_label": "₽",
+    "currency_label_m2": "$t(currency_label) за $t(area_unit)",
+    "area_unit": "м²",
+    "unit_statuses": {
+      "0": "Продано",
+      "1": "Доступно",
+      "2": "Резерв",
+      "3": "Забронировано",
+      "4": "Недоступно",
+      "6": "Заблокировано"
+    },
+    "error": {
+      "pdf": "Чтобы просмотреть содержимое PDF, измените настройки конфиденциальности: Перейдите в Настройки -> Safari -> Блокировка всплывающих окон и отключите ее.",
+      "open_pdf": "Открыть PDF"
+    },
+    "floor_list": {
+      "build": "Здание {{build}}",
+      "section": "Секция {{section}}"
+    },
+    "infoBox": {
+      "parking": "Парковка: Да",
+      "storage": "Хранилище: Да",
+      "coming-soon": "Скоро",
+      "sold": "Все квартиры проданы",
+      "sold_short": "Продано",
+      "flatSold": "Квартира продана",
+      "flatReserved": "Зарезервировано",
+      "flatClosed": "Продажа не открыта",
+      "freeObjects": "Доступно",
+      "price_m2_from": "Цена за $t(area_unit):",
+      "from_price": "от {{currency}} {{text}}",
+      "price_from": "Цена:",
+      "reviewFlat": "Посмотреть недвижимость",
+      "buildReview": "Посмотреть дом",
+      "review": "Обзор",
+      "finishDate": "Дата завершения:",
+      "filter_results": "Отфильтровано {{count}} квартир",
+      "general": {
+        "button_titles": {
+          "queue": "Посмотреть",
+          "villa": "Посмотреть виллу",
+          "house": "Посмотреть дом"
+        }
+      }
+    },
+
+    "title": {
+      "genplan": "Мастер-план",
+      "flyby_1_outside": "Здание 1",
+      "favourites": "Избранное",
+      "plannings": "Планы"
+    },
+
+    "load": {
+      "loading-text": "Загрузка",
+      "loading-text-wait": "Подождите немного..."
+    },
+
+    "menu": {
+      "menu-title": "Меню",
+      "nav": {
+        "1": {
+          "nav-title": "Имя",
+          "nav-subtitle": {
+            "1": "Имя",
+            "2": "Имя",
+            "3": "Имя",
+            "4": "Имя",
+            "5": "Имя"
+          }
+        },
+        "2": {
+          "nav-title": "Имя",
+          "nav-subtitle": {
+            "1": "Имя",
+            "2": "Имя",
+            "3": "Имя",
+            "4": "Имя",
+            "5": "Имя"
+          }
+        }
+      }
+    },
+
+    "ctr": {
+      "nav": {
+        "title": "Меню 3D",
+        "genplan": "Мастер-план",
+        "navigation": "Навигация",
+        "flyby": "Здания",
+        "flyby_1_outside": "Блок А",
+        "flyby_1_inside": "Здание 1 внутри",
+        "flyby_2_outside": "Блок Б",
+        "flyby_2_inside": "Здание 2 внутри",
+        "flyby_3_outside": "Блок В",
+        "flyby_3_inside": "Здание 3 внутри",
+        "flyby_4_outside": "Здание 4",
+        "flyby_4_inside": "Здание 4 внутри",
+        "flyby_5_outside": "Здание 5",
+        "flyby_5_inside": "Здание 5 внутри",
+        "plannings": "Планы",
+        "floor": "План этажа",
+        "floor_plans": "Планы этажей",
+        "flat": "Квартира",
+        "functions": "Функции",
+        "property": "Недвижимость",
+        "flat_shot": "Квартиры",
+        "back": "Назад",
+        "menu": "Меню",
+        "callback": "Перезвоните"
+      },
+      "share": {
+        "link-copied": "Ссылка скопирована"
+      },
+      "flybysidechooser": {
+        "outside": "Внешний фасад",
+        "inside": "Внутренний фасад"
+      },
+      "menu": {
+        "compass": {
+          "south": "Ю",
+          "west": "З",
+          "east": "В",
+          "north": "С"
+        },
+        "btn": {
+          "infrastructure": "Инфраструктура",
+          "filter": "Фильтр",
+          "chooseOfApartment": "Квартира",
+          "chooseOfFloor": "Этаж",
+          "repeatHelp": "?"
+        },
+        "hightlightInfrastructure": "Скрыть наложение",
+        "build_progress": "Ход строительства",
+        "on_the_map": "Местоположение и удобства поблизости",
+        "callbackFormCall": "Связаться с менеджером"
+      }
+    },
+
+    "Helper": {
+      "slide-0--title": "Удерживайте и вращайте",
+      "slide-1--title": "Фильтр",
+      "slide-2--title": "Этажи или квартиры",
+      "slide-3--title": "Используйте навигацию",
+      "title1": "Навигация",
+      "description1": "Вы можете вращать 3D модель",
+      "title2": "Инструменты",
+      "description2": "Инструменты для взаимодействия с 3D моделью",
+      "title3": "Фильтр",
+      "description3": "Вы можете отфильтровать по вашим параметрам",
+      "title4": "Сравнение",
+      "description5": "Вы можете добавить планы для сравнения",
+      "close": "Пропустить обучение"
+    },
+
+    "Filter": {
+      "title": "Выбор по параметрам",
+      "list": {
+        "type": "Тип",
+        "rooms": "Комнаты",
+        "area": "Площадь",
+        "area_unit": "$t(area_unit)",
+        "price": "Цена",
+        "status": "Статус",
+        "floor": "Этаж",
+        "favourite--add": "Выбрать"
+      },
+      "range": {
+        "floor": "Этаж",
+        "area": "Размер",
+        "area_unit": "$t(area_unit)",
+        "price_unit": "€"
+      },
+      "checkboxes": {
+        "rooms": "Спальни",
+        "build": "Здание",
+        "type": "Тип"
+      },
+      "reset": "Очистить",
+      "apply": "Применить",
+
+      "hide": "Скрытые фильтры",
+      "show": "Показать фильтры",
+
+      "found": "Найдено",
+      "from": "с",
+
+      "to": "до",
+      "not-marked-message": "Этот объект не отмечен",
+      "openFilter": "Открыть фильтр",
+      "enterUnitNumber": "Введите номер квартиры",
+      "Search by number": "Поиск по номеру"
+    },
+
+    "Flat": {
+      "name": "Единица",
+      "explication": "Экспликация",
+      "gallery": "Галерея",
+      "floor_plan": "План этажа",
+      "other_flats_title": "Эта квартира, но на других этажах",
+      "doc_title": "Документация",
+      "financial_terms_title": "Финансовые условия",
+      "construction_title": "Ход строительства",
+      "parking": "Ваш паркінг №",
+      "explication_data": {
+        "floor_1": "1-й этаж",
+        "floor_2": "2-й этаж",
+        "floor_3": "3-й этаж",
+        "floor_4": "4-й этаж",
+        "floor_5": "5-й этаж"
+      },
+      "buttons": {
+        "with": "3D",
+        "without": "2D",
+        "gallery_btn": "Галерея",
+        "showIn3d": "В 3D",
+        "view": "Просмотреть",
+        "windowView": "Из окна",
+        "compare": "Сравнить",
+        "addedToCompare": "Добавлено для сравнения",
+        "pdf": "PDF",
+        "3dTour": "3D тур",
+        "callback--1": "Связаться с менеджером",
+        "callback--2": "Забронировать квартиру",
+        "planning2d": "2D планировка",
+        "planning3d": "3D планировка",
+        "furnished": "С меблировкой",
+        "video": "Посмотреть видеоотчет"
+      },
+      "timer": {
+        "timer-text": "Осталось время для бронирования по этой цене"
+      },
+
+      "information": {
+        "title": "Информация",
+        "sale": "Статус",
+        "build": "Здание",
+        "number": "Номер",
+        "area": "Площадь",
+        "allArea": "Общая площадь",
+        "life_area": "Жилая площадь",
+        "area_unit": "$t(area_unit)",
+        "rooms": "Комнаты",
+        "floor": "Этаж",
+        "price": "Цена",
+        "priceText": " $t(currency_label)",
+        "type": "Тип",
+        "section": "Секция",
+        "price_m2": "Цена $t(area_unit)",
+        "per": "за",
+        "priceHistory": "Динамика цен",
+        "floor_n_desktop": "Номер этажа",
+        "floor_n_mobile": "Этаж №",
+        "viewPlanning": "Посмотреть план"
+      },
+      "goToFloor": "План этажа",
+      "goToFlat": "Посмотреть недвижимость"
+    },
+
+    "Floor": {
+      "title-1": "",
+      "changeFloor--": "Сменить этаж:",
+      "title-2": "план этажа",
+      "number_rooms": "Количество комнат",
+      "apps_from": "Квартиры от",
+      "information": {
+        "title": "Информация",
+        "build": "Здание",
+        "floor": "Этаж",
+        "section": "Секция",
+        "price_m2_from": "От $t(currency_label) за $t(area_unit)",
+        "all-flats": "Всего квартир",
+        "free-flats": "Доступно",
+        "free-flats--": "Доступно:",
+        "from": "От",
+        "reviewFloor": "Посмотреть план этажа"
+      },
+      "filter": {
+        "1": "1 комната",
+        "2": "2 комнаты",
+        "3": "3 комнаты",
+        "4": "4 комнаты",
+        "5": "5 комнат",
+        "all": "Все комнаты",
+        "title-mob": "Спальни"
+      },
+      "floor-list": "этажа",
+      "goToFloor": "Перейти к этажу"
+    },
+
+    "Plannings": {
+      "found": "Найдено",
+      "found--from": "от",
+      "found-flats": "квартир",
+      "notFound": "Но посмотрите эти квартиры"
+    },
+
+    "favourite--title": "Сравнение",
+    "favourite--added": "Сравнение (добавлено <span class=\"js-s3d__fv-count\"></span> квартир)",
+    "favourite--apartments": "квартир",
+    "favourite--add": "Выбрать",
+    "favourite--empty-title": "Ничего не найдено для сравнения",
+    "favourite--empty-text": "Выберите планировки и добавьте их в список сравнения",
+    "favourite--empty-button": "Посмотреть планы",
+    "favourite--show-differences": "Показать только отличия",
+
+    "card--link": "Читать далее",
+
+    "PopupFlyby": {
+      "title": "Квартира ",
+      "description": "Планировка находится в другом здании. Чтобы просмотреть ее в 3D модели, вам нужно переключиться на другой блок.",
+      "btn": "Изменить угол"
+    },
+
+    "Error-popup": {
+      "title": "Произошла ошибка",
+      "translate-info": "Вы будете перенаправлены на 3D мастер-план через",
+      "link": "на главную",
+      "messages": {
+        "not-find-data": "ожиданные данные не получены",
+        "not-all-required-data-received": "не получены все необходимые данные",
+        "invalid-url": "некорректные данные в URL",
+        "failed-request": "не удалось загрузить данные",
+        "network-error": "сетевая ошибка",
+        "application-error": "ошибка приложения",
+        "unknown-error": "Неизвестная ошибка"
+      }
+    },
+
+    "Send-error-popup": {
+      "success": "данные об ошибке успешно отправлены технической поддержке",
+      "failed": "данные об ошибке не сохранены, пожалуйста, уведомите техническую поддержку"
+    },
+
+    "slider_popup": {
+      "227": "Тип MasterFly",
+      "228": "Тип 5BR AB",
+      "229": "Тип 4BR AB",
+      "230": "Тип 4BR AB",
+      "231": "Тип 4BR KS",
+      "232": "Тип 4BR KS",
+      "233": "Тип 4BR SJ",
+      "234": "Тип 4BR SJ",
+      "235": "Тип 5BR JM",
+      "236": "Тип 5BR JM",
+      "239": "Тип 5BR KS",
+      "240": "Тип 5BR KS",
+      "241": "Тип 5BR SJ",
+      "242": "Тип 5BR SJ",
+      "default": "Вилла"
+    },
+
+    "builds": {
+      "1": "А",
+      "2": "Б",
+      "3": "В",
+      "4": "Г",
+      "5": "Д"
+    },
+
+    "rooms": {
+      "1": "1 спальня",
+      "2": "2 спальни",
+      "3": "3 спальни",
+      "4": "4 спальни",
+      "5": "5 спален"
+    },
+
+    "rooms-abbreviation": {
+      "1": "1 BR",
+      "2": "2 BR",
+      "3": "3 BR",
+      "4": "4 BR",
+      "5": "5 BR"
+    },
+
+    "sales": {
+      "0": "продано",
+      "1": "доступно",
+      "2": "резерв",
+      "3": "не доступно"
+    },
+
+    "pins": {
+      "park_trc": "Магазин",
+      "tennis_court": "Гостевая парковка",
+      "walking_zone": "Прогулочная зона",
+      "shop_1": "Продуктовый магазин",
+      "playground_playground1": "Детская площадка",
+      "shop_coffee": "Кофейня",
+      "parking_underground": "Подземная парковка",
+      "commercial_zone": "Коммерческие помещения",
+      "street_zamarstynivska": "ул. Замарстыновская",
+      "street_shidna": "ул. Шидна",
+      "street_kvitova": "ул. Квитова",
+      "tennis_court_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum ligula at, malesuada magna. Nulla nec purus feugiat, vestibulum ligula at, malesuada magna.",
+      "children_playground": "Детская площадка",
+      "gated_entrance": "Закрытая территория",
+      "open_gym_machines": "Тренажеры на открытом воздухе",
+      "multisport": "Многофункциональная спортивная площадка, баскетбол, теннис, мини-футбол",
+      "bbq_area": "Зона для барбекю, открытая зона для отдыха",
+      "swimming_pool": "Бассейн",
+      "open_cinema": "Открытый кинотеатр",
+      "sphere_360": "Панорама BBQ-зона",
+      "sphere_360_descr": "Общая зона бассейна с душевыми, окруженная ландшафтными садами, зоной для барбекю и зоной для отдыха"
+    },
+
+    "loader": {
+      "load": "Загрузка превью",
+      "wait_a_little": "Подождите немного...",
+      "rotate_warning": "Пожалуйста, держите телефон вертикально."
+    },
+    "currencies": {
+      "USD": "$",
+      "UAH": "₴",
+      "EUR": "€"
+    },
+    "Dropdown": {
+      "title": "Навигация"
+    },
+    "tutorial": {
+      "step_nav": "Навигация",
+      "step_nav_description": "Вы можете вращать 3D модель",
+      "step_interact": "Инструменты",
+      "step_interact_description": "Инструменты для взаимодействия с 3D моделью",
+      "ster_filter": "Фильтр",
+      "ster_filter_description": "Вы можете отфильтровать по вашим параметрам",
+      "step_compare": "Сравнение",
+      "step_compare_description": "Вы можете добавить планы для сравнения"
+    },
+    "monthes": {
+      "January": "Январь",
+      "February": "Февраль",
+      "March": "Март",
+      "April": "Апрель",
+      "May": "Май",
+      "June": "Июнь",
+      "July": "Июль",
+      "August": "Август",
+      "September": "Сентябрь",
+      "October": "Октябрь",
+      "November": "Ноябрь",
+      "December": "Декабрь"
+    },
+    "from": "от"
+  }
+}

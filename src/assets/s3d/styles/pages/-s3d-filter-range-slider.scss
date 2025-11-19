@@ -1,0 +1,90 @@
+.irs {
+  --irs-height: 40px;
+  --irs-point: 15px;
+  --irs-color-text: #{$filter-text-color};
+  --irs-color-bg-line: var(--color-surface-gray-600);
+  --irs-color-bar: #{$filter-range-color};
+  --irs-color-point: #{$filter-range-color};
+  --irs-color-point-hover: var(--surface-gray-900);
+  --irs-color-point-stroke: #{$filter-range-color};
+  height: var(--irs-height);
+  &--flat .irs-line{
+    height: 2px;
+    top: calc(var(--irs-point) / 2);
+    background: var(--irs-color-bg-line);
+  }
+  &--flat .irs-bar {
+    top: calc(var(--irs-point) / 2);
+    height: 1px;
+    background: var(--irs-color-bar);
+  }
+  &--flat .irs-handle {
+    top: 0;
+    width: var(--irs-point);
+    height: var(--irs-point);
+    border-radius: 50%;
+    overflow: hidden;
+    box-sizing: content-box;
+    transition: transform 0.4s ease-in-out;
+  }
+  &--flat .irs-handle > i:first-child {
+    width: 100%;
+    position: static;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: var(--irs-color-point);
+    border: 1px solid var(--irs-color-point-stroke);
+  }
+  &--flat .irs-from, &--flat .irs-to, &--flat .irs-single {
+    color: var(--irs-color-text);
+    font-size: var(--font14);
+    line-height: 1.3em;
+    top: calc(var(--irs-point) + 2px);
+    background: none;
+    &:before {
+      display: none;
+    }
+  }
+}
+
+.irs--flat .irs-handle.state_hover > i:first-child, .irs--flat .irs-handle:hover > i:first-child {
+  background-color: $filter-range-color;
+}
+@media screen and (min-width: 1023px) {
+  .irs  {
+    &--flat .irs-handle {
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+    &--flat .irs-handle:hover > i:first-child {
+      background-color: var(--irs-color-point-hover);
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .irs  {
+    --irs-height: 35px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .irs  {
+    --irs-height: 45px;
+    --irs-point: 24px;
+
+    &--flat .irs-handle {
+      top: calc(var(--irs-point) / 2);
+      transform: translate(0%, -50%);
+    }
+  }
+}
+
+
+.mobile.landscape {
+  .irs {
+    --irs-height: 30px;
+  }
+}

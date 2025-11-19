@@ -1,0 +1,36 @@
+$default-font: "Inter Display", sans-serif;
+
+:root {
+  --s3d-header: calc(var(--space-4) + 42px);
+  --filter-offset-hor: var(--space-4);
+  --filter-width: min(550px, 100vw);
+
+  --mobile-controller-height: calc(var(--space-2) + 40px);
+
+  --filter-height-top-closed: 200px;
+  
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --filter-height-top-closed: 110px; 
+  }
+}
+
+.desktop {
+  @media screen and (max-width:1366px) and (min-width: 1024px){
+    --filter-width: min(464px, 100vw);
+  }
+  // @media screen and (max-width:1260px) and (min-width: 1024px){
+  //   --filter-width: min(350px, 100vw);
+  // }
+}
+
+.tablet {
+  --filter-width: 375px;
+  --s3d-header: calc(var(--space-4) + 42px);
+}
+
+.mobile {
+  --s3d-header: calc(var(--space-2) + 42px);
+}

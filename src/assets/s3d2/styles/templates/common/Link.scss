@@ -1,0 +1,40 @@
+.Link {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  &__text {
+    @include text-style-3-d-fonts-1920-body-bold;
+    color:var(--text-gray-700);
+    transition: .25s ease-out;
+
+  }
+  svg {
+    width: var(--space-6);
+    height: var(--space-6);
+    margin-right: var(--space-1);
+    fill: var(--icon-gray-700);
+    transition: .25s ease-out;
+  }
+
+  &:hover {
+    .Link__text {
+      color: var(--text-gray-900);
+    }
+    svg {
+      fill: var(--icon-gray-900);
+    }
+  }
+  &[disabled] {
+    cursor: not-allowed;
+    .Link__text {
+      color: var(--text-gray-400);
+    }
+    svg {
+      fill: var(--icon-gray-400);
+    }
+  }
+}

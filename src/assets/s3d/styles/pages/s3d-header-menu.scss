@@ -1,0 +1,173 @@
+.menu {
+  &-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    width: 100%;
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+    background-color: var(--color-surface-gray-200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+
+    &.active {
+      visibility: visible;
+      opacity: 1;
+      transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+    }
+
+    &-bg {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      height: 85%;
+      z-index: -1;
+    }
+
+    @media screen and (max-width: 1024px) {
+      .smarto_logo {
+        bottom: -3px;
+        top: auto;
+      }
+    }
+  }
+
+  &-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: var(--s3d-header);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--offset);
+    &-title {
+      @include font-default;
+      font-size: var(--s3d-title);
+      text-transform: uppercase;
+      color: var(--text-gray-900);
+    }
+    &-close {
+      border-radius: var(--border-space-2);
+      background: var(--color-surface-brand-800);
+      pointer-events: painted;
+      cursor: pointer;
+      height: var(--btn);
+      width: var(--btn);
+      position: relative;
+      transition: background .4s ease-in-out;
+
+      &-elem-wrapper {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        span {
+          width: 13px;
+          height: 1.5px;
+          border: 2px;
+          background: var(--icon-gray-200);
+          transform: rotate(45deg);
+          &:last-child {
+            transform: rotate(-45deg);
+            margin-top: -1.5px;
+          }
+        }
+      }
+
+      @media screen and (min-width: 1023px) {
+        &:hover {
+          background: var(--color-surface-brand-900);
+          transition: background .4s ease-in-out;
+          .menu-header-close-elem-wrapper {
+            span {
+              background: var(--icon-gray-200);
+              transition: background .4s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-nav {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 60px;
+    overflow-y: scroll;
+    li {
+      width: auto;
+      a {
+        transition: color .3s ease-in-out;
+      }
+    }
+    &-wrap {
+      overflow: hidden;
+      height: 80%;
+      width: 90%;
+      display: flex;
+      align-items: center;
+    }
+    &-link {
+      @include font-default;
+      font-size: 72px;
+      text-align: center;
+      text-transform: uppercase;
+      color: var(--text-gray-800);
+      a {
+        text-decoration: none;
+        color: var(--text-gray-800);
+
+        @media screen and (min-width: 1023px) {
+          &:hover {
+            color: var(--text-gray-900);
+            transition: color .3s ease-in-out;
+          }
+        }
+      }
+
+      @media screen and (max-width: 1024px) {
+        font-size: 48px;
+      }
+    }
+    &-link2 {
+      @include font-default;
+      font-size: 20px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: capitalize;
+      a {
+        text-decoration: none;
+        color:  var(--text-gray-800);
+
+        @media screen and (min-width: 1023px) {
+          &:hover {
+            color:  var(--text-gray-900);
+            transition: color .3s ease-in-out;
+          }
+        }
+      }
+      &-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 16px;
+      }
+    }
+  }
+}

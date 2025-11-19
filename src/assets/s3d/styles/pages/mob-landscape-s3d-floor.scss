@@ -1,0 +1,11 @@
+.mobile.landscape {
+    .s3d {
+        &-floor {
+            .s3d-floor__info {
+                --controller-w: 100%;
+                padding-bottom: var(--menu-h);
+
+            }
+        }
+    }
+}

@@ -1,0 +1,252 @@
+@font-face {
+	font-family: 'Inter Display';
+	font-display: swap;
+	src: url('../../fonts/Inter/Inter-Medium.ttf') format('truetype');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter Display';
+	font-display: swap;
+	src: url('../../fonts/Inter/Inter-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Inter Display';
+	font-display: swap;
+	src: url('../../fonts/Inter/Inter-SemiBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Inter Display';
+	font-display: swap;
+	src: url('../../fonts/Inter/Inter-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Avenir-LT-Pro-55-Roman';
+	src: local('Avenir LT Pro 55 Roman'), local('Avenir-LT-Pro-55-Roman'),
+		url('../../fonts/Avenir-LT-Pro/Avenir-LT-Pro-55-Roman.woff') format('woff') url('../../fonts/Avenir-LT-Pro/Avenir-LT-Pro-55-Roman.woff') format('woff'),
+		url('../../fonts/Avenir-LT-Pro/Avenir-LT-Pro-55-Roman.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+
+@mixin text-style-3-d-fonts-1920-h-1() {
+	font-size: 32px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 130%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+@mixin text-style-3-d-fonts-1920-h-2-semi-bold() {
+	font-size: 20px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 130%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+@mixin text-style-3-d-fonts-1920-h-2-bold() {
+	font-size: 20px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 130%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+@mixin text-style-3-d-fonts-1920-body-bold() {
+	font-size: 13px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 130%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+@mixin text-style-3-d-fonts-1920-body-medium() {
+	font-size: 13px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 130%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+@mixin text-style-3-d-fonts-1920-tiny() {
+	font-size: 12px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 100%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+@mixin text-style-3-d-fonts-1920-super-tiny() {
+	font-size: 10px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 100%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+@mixin text-style-3-d-fonts-1360-h-1() {
+	font-size: 48px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 100%;
+	letter-spacing: -0.02em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+@mixin text-style-3-d-fonts-1360-h-2() {
+	font-size: 32px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 120%;
+	letter-spacing: -0.02em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+@mixin text-style-3-d-fonts-1360-h-3() {
+	font-size: 24px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 130%;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+@mixin text-style-3-d-fonts-1360-h-4() {
+	font-size: 16px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 130%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+@mixin text-style-3-d-fonts-360-h-1() {
+	font-size: 32px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 100%;
+	letter-spacing: -0.02em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+@mixin text-style-3-d-fonts-360-h-2() {
+	font-size: 28px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 120%;
+	letter-spacing: -0.02em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+@mixin text-style-3-d-fonts-360-h-3() {
+	font-size: 22px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 130%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+@mixin text-style-3-d-fonts-360-h-4() {
+	font-size: 16px;
+	font-family: $default-font;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 130%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.text-style-3-d-fonts-1920-h-1 {
+	@include text-style-3-d-fonts-1920-h-1;
+}
+
+.text-style-3-d-fonts-1920-h-2-semi-bold {
+	@include text-style-3-d-fonts-1920-h-2-semi-bold;
+}
+
+.text-style-3-d-fonts-1920-h-2-bold {
+	@include text-style-3-d-fonts-1920-h-2-bold;
+}
+
+.text-style-3-d-fonts-1920-body-bold {
+	@include text-style-3-d-fonts-1920-body-bold;
+}
+
+.text-style-3-d-fonts-1920-body-medium {
+	@include text-style-3-d-fonts-1920-body-medium;
+}
+
+.text-style-3-d-fonts-1920-super-tiny {
+	@include text-style-3-d-fonts-1920-super-tiny;
+}
+
+.text-style-3-d-fonts-1360-h-1 {
+	@include text-style-3-d-fonts-1360-h-1;
+}
+
+.text-style-3-d-fonts-1360-h-2 {
+	@include text-style-3-d-fonts-1360-h-2;
+}
+
+.text-style-3-d-fonts-1360-h-3 {
+	@include text-style-3-d-fonts-1360-h-3;
+}
+
+.text-style-3-d-fonts-1360-h-4 {
+	@include text-style-3-d-fonts-1360-h-4;
+}
+
+.text-style-3-d-fonts-360-h-1 {
+	@include text-style-3-d-fonts-360-h-1;
+}
+
+.text-style-3-d-fonts-360-h-2 {
+	@include text-style-3-d-fonts-360-h-2;
+}
+
+.text-style-3-d-fonts-360-h-3 {
+	@include text-style-3-d-fonts-360-h-3;
+}
+
+.text-style-3-d-fonts-360-h-4 {
+	@include text-style-3-d-fonts-360-h-4;
+}

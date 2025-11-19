@@ -1,0 +1,45 @@
+.CheckboxWithLabel {
+  // display: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  input {
+    display: none;
+  }
+  &__input {
+    width: 24px;
+    height: 24px;
+    padding: var(--space-1);
+    border: 1px solid var(--border-brand-900);
+    border-radius: var(--border-space-1);
+    background-color: var(--color-surface-gray-200);
+    border-color: var(--border-gray-600-transparent-40);
+    transition: .25s ease-out;
+    svg {
+      display: none;
+    }
+  }
+  &:hover input:not(:checked) + &__input {
+    background-color: var(--color-surface-gray-300);
+  }
+  
+  input:checked + &__input {
+    border-color: var(--border-brand-900);
+    background-color: var(--color-surface-brand-800);
+    svg {
+      display: block;
+    }
+  }
+
+  svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--icon-gray-200);
+  }
+
+  &__label {
+    @include text-style-3-d-fonts-1920-body-medium;
+    color: var(--text-gray-900);
+    margin-left: var(--space-2);
+  }
+}

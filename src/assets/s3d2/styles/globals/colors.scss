@@ -1,0 +1,203 @@
+@use 'sass:color';
+
+:root {
+
+  /*Accent*/
+  --color-accent-700: #{$color-accent-700};
+  --color-accent-800: #{$color-accent-800};
+  --color-accent-900: #{$color-accent-900};
+
+  /*Gray*/
+
+  --color-gray-100: #{$color-gray-100};
+  --color-gray-200: #{$color-gray-200};
+  --color-surface-gray-200-transperent-88: #{$color-surface-gray-200-transperent-88};
+  --color-gray-300: #{$color-gray-300};
+  --color-gray-400: #{$color-gray-400};
+  --color-gray-500: #{$color-gray-500};
+  --color-gray-600: #{$color-gray-600};
+  --color-gray-700: #{$color-gray-700};
+  --color-gray-800: #{$color-gray-800};
+  --color-gray-900: #{$color-gray-900};
+
+  /*Special*/
+
+  --color-200-trancperent-88: #{$color-200-trancperent-88};
+  --color-900-trancperent-40: #{$color-900-trancperent-40};
+  --color-bg-overlays-transparent-80: #{$color-bg-overlays-transparent-80};
+
+
+  /*Brand*/
+
+  --color-brand-700: #{$color-brand-700};
+  --color-brand-800: #{$color-brand-800};
+  --color-brand-900: #{$color-brand-900};
+  --color-brand-hover-overlays-transparent-32: #{$color-brand-hover-overlays-transparent-32};
+  --color-brand-hover-overlays-transparent-48: #{$color-brand-hover-overlays-transparent-48};
+  --color-brand-active-element-transparent-72: #{$color-brand-active-element-transparent-72};
+
+  /*Effect*/
+
+  --color-effect-900-transparent-24: #{$color-effect-900-transparent-24};
+  --color-effect-900-transparent-40: #{$color-effect-900-transparent-40};
+
+  /*Semantic*/
+
+  --color-semantic-success: #{$color-semantic-success};
+  --color-semantic-warning: #{$color-semantic-warning};
+  --color-semantic-warning-transparent-16: #{$color-semantic-warning-transparent-16};
+  --color-semantic-info: #{$color-semantic-info};
+  --color-semantic-danger: #{$color-semantic-danger};
+
+
+  /*Colour tokens (front)*/
+
+  /*Colour tokens (front)*/
+  /*Surface*/
+
+  /*Gray*/
+  --color-surface-gray-100: var(--color-gray-100);
+  --color-surface-gray-200: var(--color-gray-200);
+  --color-surface-gray-300: var(--color-gray-300);
+  --color-surface-gray-400: var(--color-gray-400);
+  --color-surface-gray-500: var(--color-gray-500);
+  --color-surface-gray-600: var(--color-gray-600);
+
+  --color-surface-gray-700: var(--color-gray-700);
+  --color-surface-gray-900: var(--color-gray-900);
+  // --color-surface-gray-900-transperent-40: #1A1D2166;
+  --color-surface-gray-900-transperent-40: #{$color-surface-gray-900-transperent-40};
+  --surface-gray-700: var(--color-gray-700);
+  --surface-gray-900: var(--color-gray-900);
+  --surface-gray-900-transperent-40: #{$color-surface-gray-900-transperent-40};
+
+  --color-surface-gray-900: var(--color-gray-900);
+
+  /*Accent*/
+
+  --color-surface-accent-700: var(--color-accent-700);
+  --color-surface-accent-800: var(--color-accent-800);
+
+  /*Brand*/
+  --color-surface-brand-700: var(--color-brand-700);
+  --color-surface-brand-800: var(--color-brand-800);
+  --color-surface-brand-900: var(--color-brand-900);
+
+  /*Semantic*/
+
+  --color-surface-semantic-success: var(--color-semantic-success);
+  --color-surface-semantic-warning-transparent-16: var(--color-semantic-warning-transparent-16);
+
+  /*Colour tokens (front)*/
+  /*Border*/
+
+  /*Gray*/
+
+  --border-gray-200: var(--color-gray-200);
+  --border-gray-400: var(--color-gray-400);
+  --border-gray-500: var(--color-gray-500);
+  --border-gray-600: var(--color-gray-600);
+  --border-gray-600-transparent-40: #{$color-gray-600-transparent-40};
+  --border-gray-900: var(--color-gray-900);
+
+  /*Accent*/
+  --border-accent-800: var(--color-accent-800);
+  --border-accent-900: var(--color-accent-900);
+
+  /*Brand*/
+
+  --border-brand-700: var(--color-brand-700);
+  --border-brand-800: var(--color-brand-800);
+  --border-brand-900: var(--color-brand-900);
+
+  /*Semantic*/
+  --border-semantic-warning: var(--color-semantic-warning);
+  --border-semantic-danger: var(--color-semantic-danger);
+
+  /* Colour tokens (front) text */
+  /*Gray*/
+
+  --text-gray-200: var(--color-gray-200);
+  --text-gray-400: var(--color-gray-400);
+  --text-gray-600: var(--color-gray-600);
+  --text-gray-700: var(--color-gray-700);
+  --text-gray-800: var(--color-gray-800);
+  --text-gray-900: var(--color-gray-900);
+
+  /*Semantic*/
+
+  --text-danger: var(--color-semantic-danger);
+  --text-warning: var(--color-semantic-warning);
+
+  /* Colour tokens (front) Icon */
+  /*Gray*/
+  --icon-gray-200: var(--color-gray-200);
+  --icon-gray-400: var(--color-gray-400);
+  --icon-gray-600: var(--color-gray-600);
+  --icon-gray-700: var(--color-gray-700);
+  --icon-gray-900: var(--color-gray-900);
+
+  /*Semantic*/
+
+  --icon-warning: var(--color-semantic-warning);
+  --icon-danger: var(--color-semantic-danger);
+
+  /* Colour tokens (front) Effects */
+
+  --shadow-gray-900-transparent-24: #{$shadow-gray-900-transparent-24};
+  --shadow-gray-900-transparent-40: #{$shadow-gray-900-transparent-40};
+
+  /* Colour tokens (front) Special */
+
+  --bg-overlay: #{$bg-overlay};
+  --hover-overlays-transparent-16: #{$hover-overlays-transparent-16};
+  --hover-overlays-transparent-32: #{$hover-overlays-transparent-32};
+  --hover-overlays-transparent-48: #{$hover-overlays-transparent-48};
+  --active-element-transparent-72: #{$active-element-transparent-72};
+
+  --color-special-accent-reserved-overlays-transparent-16:#{$color-special-accent-reserved-overlays-transparent-16};
+  --color-special-accent-reserved-overlays-transparent-72:#{$color-special-accent-reserved-overlays-transparent-72};
+  --color-special-accent-sold-overlays-transparent-16: #{$color-special-accent-sold-overlays-transparent-16};
+  --color-special-accent-sold-overlays-transparent-72: #{$color-special-accent-sold-overlays-transparent-72};
+  --color-special-200-transparent-88: #{$color-special-200-transparent-88};
+
+  --surface-accent-800: var(--color-accent-800);
+  --border-accent-900: var(--color-accent-900);
+
+  --surface-gray-700: var(--color-gray-700);
+  --surface-gray-900: var(--color-gray-900);
+
+}
+
+
+.text-gray-200 {
+  color: var(--text-gray-200);
+}
+
+.text-gray-400 {
+  color: var(--text-gray-400);
+}
+
+.text-gray-600 {
+  color: var(--text-gray-600);
+}
+
+.text-gray-700 {
+  color: var(--text-gray-700);
+}
+
+.text-gray-800 {
+  color: var(--text-gray-800);
+}
+
+.text-gray-900 {
+  color: var(--text-gray-900);
+}
+
+.text-danger {
+  color: var(--text-danger);
+}
+
+.text-warning {
+  color: var(--text-warning);
+}

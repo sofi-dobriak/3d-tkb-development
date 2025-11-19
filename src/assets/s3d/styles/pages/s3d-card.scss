@@ -1,0 +1,246 @@
+.s3d {
+  &-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-surface-gray-200-transperent-88);
+    border: 1px solid var(--border-gray-400);
+    padding: var(--space-2);
+    transition: border 0.4s ease-in-out;
+    cursor: pointer;
+    border-radius: var(--border-space-2);
+    overflow: hidden;
+    min-height: 360px;
+    height: auto;
+
+    @media screen and (min-width: 1023px) {
+      &:hover {
+        .s3d-card__image {
+          img {
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 680px) {
+      min-height: 300px;
+    }
+
+    &__image {
+      position: relative;
+      height: 220px;
+      min-height: 220px;
+      width: 100%;
+      padding: calc(var(--offset)/2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // border-bottom: 1px solid $card-border-color;
+      transition: border-bottom 0.4s ease-in-out;
+      border-radius: var(--border-space-2) var(--border-space-2) 0 0;
+
+      @media screen and (max-width: 680px) {
+        height: 170px;
+        min-height: 170px;
+        padding: 12px;
+      }
+
+      img {
+        display: inline-block;
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+        transition: transform .4s ease-in-out;
+      }
+
+      &-info {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: auto;
+        padding: var(--space-1) var(--space-3);
+        @include text-style-3-d-fonts-1920-body-medium;
+
+        border-radius: var(--border-space-1);
+
+        &>svg {
+          width: 24px;
+          height: 24px;
+          margin-top: calc(var(--space-1) * -1);
+          margin-bottom: calc(var(--space-1) * -1);
+          margin-left: var(--space-1);
+        }
+
+        // &.s3d-card__price {
+        //   left: 0;
+        //   bottom: 0;
+        //   // border-radius: 0 $btn-border-radius 0 0;
+        //   // border-radius: 0 4px 0 0;
+
+        //   background-color: #C0D1E1;
+        //   background-color: $sale-3;
+
+        //   color: $card-text-color;
+        //   color: $sale-text;
+        // }
+
+        &.s3d-card__status {
+          right: 0;
+          top: 0;
+          // border-radius: var(--border-space-2) 0 $btn-border-radius $btn-border-radius;
+          // border-radius: 0 0 0 4px;
+          text-transform: capitalize;
+
+          color: var(--text-gray-200);
+
+          svg {
+            width: 24px;
+            height: 24px;
+            fill: var(--icon-gray-200);
+          }
+
+          &[data-sale="0"] {
+            background: $sale-0;
+          }
+
+          &[data-sale="1"] {
+            background: $sale-1;
+          }
+
+          &[data-sale="2"] {
+            background: $sale-2;
+          }
+
+          &[data-sale="3"] {
+            background: $sale-3;
+          }
+        }
+
+        &.s3d-card__rooms-count {
+          left: 0;
+          top: 0;
+          background-color: var(--icon-gray-900);
+          color: var(--text-gray-200);
+        }
+      }
+    }
+
+    &__info-wrapper {
+      // padding: var(--offset);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      gap: var(--space-2);
+
+
+
+      .s3d-card__title {
+        @include text-style-3-d-fonts-1920-h-1;
+        color: var(--text-gray-900);
+      }
+
+      .s3d-card__table {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 2px 8px;
+
+        .s3d-card__row {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          @include text-style-3-d-fonts-1920-h-2-bold;
+          color: var(--text-gray-900);
+          gap: 3px;
+        }
+      }
+
+      .s3d-card__buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 8px;
+        margin-top: auto;
+
+        button {
+          flex-grow: 1;
+          text-align: center;
+        }
+      }
+    }
+
+    &__info-label-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__info-label {
+      background-color: var(--color-surface-gray-200);
+      padding: var(--space-1) var(--space-3);
+      color: var(--text-gray-900);
+      border-radius: var(--border-space-1);
+      border: 1px solid var(--border-gray-400);
+      @include text-style-3-d-fonts-1920-body-medium;
+
+    }
+
+    .s3d__close {
+      display: none;
+      position: absolute;
+      top: calc(var(--offset) / 2);
+      right: calc(var(--offset) / 2);
+      z-index: 50;
+      height: var(--icon16);
+      width: var(--icon16);
+      border: none;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      cursor: pointer;
+      padding: 0;
+
+      @media screen and (min-width: 1023px) {
+        &:hover {
+          svg {
+            transition: fill .4s ease-in-out;
+            fill: var(--icon-gray-900);
+          }
+        }
+      }
+
+      @media screen and (max-width: 680px) {
+        top: 12px;
+        right: 12px;
+      }
+
+      svg {
+        width: 100%;
+        height: 100%;
+        transition: fill .4s ease-in-out;
+        fill: var(--icon-gray-900);
+      }
+    }
+  }
+}
+
+.tablet {
+  .s3d-card {
+    &__info-wrapper {
+      padding: 0 var(--space-2);
+    }
+  }
+}
+
+//Open when sales opened building 2 and 3
+.s3d-card[data-floor="0"] {
+  display: none;
+}

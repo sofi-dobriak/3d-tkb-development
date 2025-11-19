@@ -1,0 +1,17 @@
+.TextInput {
+  padding: var(--space-4);
+  background-color: var(--color-surface-gray-100);
+  border: 1px solid var(--border-gray-600-transparent-40);
+  border-radius: var(--border-space-1);
+  -webkit-appearance: none;
+  appearance: none;
+  @include text-style-3-d-fonts-1920-body-medium;
+  transition: .25s ease-out;
+  &:focus {
+    outline: none;
+    border-color: var(--border-gray-600);
+  }
+  &:hover {
+    // background-color: var(--color-surface-gray-300);
+  }
+}

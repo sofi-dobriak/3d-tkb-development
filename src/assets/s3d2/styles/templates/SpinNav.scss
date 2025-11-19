@@ -1,0 +1,94 @@
+.SpinNav {
+  position: fixed;
+  bottom: var(--space-4);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  // background-color: var(--color-surface-gray-500);
+  background-color: var(--surface-gray-900-transperent-40);
+  padding: var(--space-2);
+  border-radius: 100px;
+  width: max-content !important;
+  overflow: hidden;
+  z-index: 100;
+  &__load-element {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-surface-gray-200);
+    background-color: var(--surface-gray-900-transperent-40);
+    transform-origin: left;
+  }
+  &__counter {
+    margin: 0 var(--space-2);
+    position: relative;
+    width: 46px;
+    z-index: 1;
+    text-align: center;
+    color: var(--text-gray-200);
+    @include text-style-3-d-fonts-1920-h-2-semi-bold;
+  }
+  &__arrow {
+    width: 56px;
+    height: 56px;
+    border-radius: var(--border-space-8);
+    border: 1px solid var(--border-gray-400);
+    background-color: var(--color-surface-gray-300);
+    cursor: pointer; 
+    
+    position: relative;
+    z-index: 1;
+    transition: .25s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.desktop {
+  .SpinNav {
+    svg {
+      transition: .25s ease-out;
+    }
+    &__arrow:hover {
+      background-color: var(--color-surface-gray-400);
+      svg {
+        transform: scale(1.25);
+      }
+    }
+  }
+}
+
+.tablet,
+.mobile {
+  .SpinNav {
+    user-select: none;
+    bottom: calc(var(--mobile-controller-height) + var(--space-4));
+
+    &__arrow {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      transition: .25s ease-out;
+    }
+    &__arrow:active {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.mobile {
+  .SpinNav { 
+    bottom: calc(var(--mobile-controller-height) + var(--space-1));
+  }
+}

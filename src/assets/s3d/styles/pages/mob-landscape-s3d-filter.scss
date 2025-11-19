@@ -1,0 +1,71 @@
+.mobile.landscape {
+
+    [data-type="flyby"] {
+        .s3d-filter-wrap {
+            --filter-width: 65%;
+
+            .s3d-filter__top {
+                height: 100% !important;
+
+                .s3d-filter {
+                    overflow-y: auto;
+                    height: 70vh;
+                    justify-content: space-between;
+                }
+            }
+
+            .s3d-filter__hide,
+            .s3d-filter__table {
+                display: none;
+            }
+        }
+    }
+
+    [data-type="plannings"] {
+        .s3d-filter-wrap .s3d-filter__top .s3d-filter__input-wrapper {
+            transform: scale(0.85);
+            transform-origin: left;
+            bottom: calc(100% + 5px);
+
+            .s3d-filter__param-title {
+                display: none;
+            }
+        }
+
+        .s3d-filter__top {
+            height: auto !important;
+
+            .s3d-filter__reset {
+                position: sticky;
+                top: 0;
+            }
+        }
+
+        .s3d-filter-wrap.s3d-planning-filter-wrap {
+            padding-top: 5px;
+        }
+
+        .s3d-filter {
+            align-items: flex-start;
+            gap: 20px;
+        }
+    }
+
+    .s3d-filter-wrap.active-filter {
+        visibility: visible !important;
+    }
+
+    .s3d-filter__top .s3d-filter__range-wrapper .s3d-filter__range {
+        --filter-margin-bottom: 0;
+    }
+
+    .s3d-ctr[data-type=plannings]~.s3d-filter-wrap {
+        --menu-h: 60px;
+        overflow: auto;
+        overscroll-behavior: none;
+    }
+
+    .s3d-filter__top .s3d-filter .s3d-filter__row .s3d-filter__reset {
+        margin-top: 0;
+    }
+}

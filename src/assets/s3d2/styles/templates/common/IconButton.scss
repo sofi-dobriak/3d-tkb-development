@@ -1,0 +1,49 @@
+.IconButton {
+  border: 1px solid var(--border-gray-400);
+  background-color: var(--color-surface-gray-200);
+  border-radius: var(--border-space-2);
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--icon-gray-900);
+  }
+
+  &--alert {
+    border-color: var(--border-accent-800);
+    background-color: var(--color-special-accent-sold-overlays-transparent-72);
+    svg {
+      fill: var(--icon-gray-200);
+    }
+  }
+
+  &:disabled {
+    pointer-events: none;
+    border-color: var(--border-gray-400);
+    background-color: var(--color-surface-gray-200);
+    svg {
+      fill: var(--icon-gray-400);
+    }
+  }
+}
+
+.mouseOnly,
+.hybrid {
+  .IconButton:hover {
+    background-color: var(--color-surface-gray-300);
+  }
+  .IconButton.active {
+    border-color: var(--border-brand-900);
+    background-color: var(--color-surface-brand-800);
+    svg {
+      fill: var(--icon-gray-200);
+    }
+  }
+}

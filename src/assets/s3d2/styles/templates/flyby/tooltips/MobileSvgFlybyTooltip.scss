@@ -1,0 +1,42 @@
+.MobileSvgFlybyTooltip {
+  background-color: var(--color-brand-active-element-transparent-72);
+  padding: var(--space-1);
+  border-radius: var(--border-space-2);
+  border: 1px solid var(--border-brand-900);
+  // height: 75px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: max-content;
+  color: var(--text-gray-200);
+  @include text-style-3-d-fonts-1920-body-medium;
+
+  svg {
+    width: 16px;
+    height: 16px;
+    margin-right: var(--space-1);
+    [fill] {
+      fill: var(--icon-gray-200)
+    }
+    [stroke] {
+      stroke: var(--icon-gray-200)
+    }
+  }
+  &__title {
+    
+    color: var(--text-gray-200);
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    &-item {
+      display: flex;
+      align-items: center;
+      column-gap: var(--space-1);
+    }
+    &-item~&-item  {
+      margin-left: var(--space-2);
+    }
+  }
+}

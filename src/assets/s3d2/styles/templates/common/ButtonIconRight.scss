@@ -1,0 +1,23 @@
+.ButtonIconRight {
+  border-radius: var(--border-space-2);
+  padding: var(--space-2) var(--space-3);
+  color: var(--text-gray-900);
+  background-color: var(--color-surface-gray-200);
+  border: 1px solid var(--border-gray-400);
+  cursor: pointer;
+  @include text-style-3-d-fonts-1920-body-medium;
+  display: flex;
+  align-items: center;
+  svg {
+    fill: var(--icon-gray-900);
+    width: 24px;
+    height: 24px;
+    margin-left: var(--space-1);
+  }
+}
+
+@include onHover {
+  .ButtonIconRight:hover {
+    background-color: var(--color-surface-gray-300);
+  }
+}

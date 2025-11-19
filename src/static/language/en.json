@@ -1,0 +1,449 @@
+{
+  "translation": {
+    "currency_label": "$",
+    "currency_label_m2": "$t(currency_label) per $t(area_unit)",
+    "area_unit": "m²",
+    "unit_statuses": {
+      "0": "Sold",
+      "1": "Available",
+      "2": "Reserve",
+      "3": "Booked",
+      "4": "Inaccessible",
+      "6": "Blocked"
+    },
+    "error": {
+      "pdf": "To view the content of the PDF, please change your privacy settings: Go to Settings -> Safari -> Block Pop-ups and turn it off.",
+      "open_pdf": "Open PDF"
+    },
+    "floor_list": {
+      "build": "Build {{build}}",
+      "section": "Section {{section}}"
+    },
+    "infoBox": {
+      "parking": "Parking: Yes",
+      "storage": "Storage: Yes",
+      "coming-soon": "Coming soon",
+      "sold": "All apartments are sold",
+      "sold_short": "Sold",
+      "flatSold": "Apartment sold",
+      "flatReserved": "Reserved",
+      "flatClosed": "Sales are not open",
+      "freeObjects": "Available",
+      "price_m2_from": "Price per $t(area_unit):",
+      "from_price": "from {{currency}} {{text}}",
+      "price_from": "Price:",
+      "reviewFlat": "Explore property",
+      "buildReview": "View house",
+      "review": "Review",
+      "finishDate": "Delivery time:",
+      "filter_results": "Filtered {{count}} apartments",
+      "general": {
+        "button_titles": {
+          "queue": "Explore",
+          "villa": "Explore villa",
+          "house": "Explore house"
+        }
+      }
+    },
+
+    "title": {
+      "genplan": "Master Plan",
+      "flyby_1_outside": "Build 1",
+      "favourites": "Favourites",
+      "plannings": "Plannings"
+    },
+
+    "load": {
+      "loading-text": "Loading",
+      "loading-text-wait": "Wait a little..."
+    },
+
+    "menu": {
+      "menu-title": "Menu",
+      "nav": {
+        "1": {
+          "nav-title": "Name",
+          "nav-subtitle": {
+            "1": "Name",
+            "2": "Name",
+            "3": "Name",
+            "4": "Name",
+            "5": "Name"
+          }
+        },
+        "2": {
+          "nav-title": "Name",
+          "nav-subtitle": {
+            "1": "Name",
+            "2": "Name",
+            "3": "Name",
+            "4": "Name",
+            "5": "Name"
+          }
+        }
+      }
+    },
+
+    "ctr": {
+      "nav": {
+        "title": "Menu 3D",
+        "genplan": "Master Plan",
+        "navigation": "Navigation",
+        "flyby": "Builds",
+        "flyby_1_outside": "Block A",
+        "flyby_1_inside": "Build 1 inside",
+        "flyby_2_outside": "Block B",
+        "flyby_2_inside": "Build 2 inside",
+        "flyby_3_outside": "Block C",
+        "flyby_3_inside": "Build 3 inside",
+        "flyby_4_outside": "Build 4",
+        "flyby_4_inside": "Build 4 inside",
+        "flyby_5_outside": "Build 5",
+        "flyby_5_inside": "Build 5 inside",
+        "plannings": "Plannings",
+        "floor": "Floor plan",
+        "floor_plans": "Floor plans",
+        "flat": "Apartment",
+        "functions": "Functions",
+        "property": "Property",
+        "flat_shot": "Appartments",
+        "back": "Back",
+        "menu": "Menu",
+        "callback": "Call back"
+      },
+      "share": {
+        "link-copied": "Link copied"
+      },
+      "flybysidechooser": {
+        "outside": "External facade",
+        "inside": "Internal facade"
+      },
+      "menu": {
+        "compass": {
+          "south": "S",
+          "west": "W",
+          "east": "E",
+          "north": "N"
+        },
+        "btn": {
+          "infrastructure": "Infrastructure",
+          "filter": "Filter",
+          "chooseOfApartment": "Apartment",
+          "chooseOfFloor": "Floor",
+          "repeatHelp": "?"
+        },
+        "hightlightInfrastructure": "Hide overlay",
+        "build_progress": "Construction progress",
+        "on_the_map": "Location & Amenities nearby",
+        "callbackFormCall": "Contact the manager"
+      }
+    },
+
+    "Helper": {
+      "slide-0--title": "Hold and rotate",
+      "slide-1--title": "Filter",
+      "slide-2--title": "Floors or apartments",
+      "slide-3--title": "Use navigation",
+      "title1": "Navigation",
+      "description1": "You can rotate 3D model",
+      "title2": "Instrumens",
+      "description2": "Tools for interacting with the 3D model",
+      "title3": "Filter",
+      "description3": "You can filtered for your parameters",
+      "title4": "Compare",
+      "description5": "You can add plannings to compare",
+      "close": "Skip training"
+    },
+
+    "Filter": {
+      "title": "Selection by parameters",
+      "list": {
+        "type": "Type",
+        "rooms": "Rooms",
+        "area": "Area",
+        "area_unit": "$t(area_unit)",
+        "price": "Price",
+        "status": "Status",
+        "floor": "Floor",
+        "favourite--add": "Select"
+      },
+      "range": {
+        "floor": "Floor",
+        "area": "Size",
+        "area_unit": "$t(area_unit)",
+        "price_unit": "€"
+      },
+      "checkboxes": {
+        "rooms": "Bedrooms",
+        "build": "Build",
+        "type": "Type"
+      },
+      "reset": "Clean up",
+      "apply": "Apply",
+
+      "hide": "Hidden filters",
+      "show": "Show filters",
+
+      "found": "Found",
+      "from": "with",
+
+      "to": "to",
+      "not-marked-message": "This premise is not marked",
+      "openFilter": "Open filter",
+      "enterUnitNumber": "Enter unit number",
+      "Search by number": "Search by number"
+    },
+
+    "Flat": {
+      "name": "Unit",
+      "explication": "Explication",
+      "gallery": "Gallery",
+      "floor_plan": "Floor plan",
+      "other_flats_title": "This apartment, but on other floors",
+      "doc_title": "Documentation",
+      "financial_terms_title": "Financial terms",
+      "construction_title": "Construction progress",
+      "parking": "Your parking №",
+      "explication_data": {
+        "floor_1": "1st floor",
+        "floor_2": "2nd floor",
+        "floor_3": "3rd floor",
+        "floor_4": "4th floor",
+        "floor_5": "5th floor"
+      },
+      "buttons": {
+        "with": "3D",
+        "without": "2D",
+        "gallery_btn": "Gallery",
+        "showIn3d": "On 3D",
+        "view": "View",
+        "windowView": "From window",
+        "compare": "Compare",
+        "addedToCompare": "Added to compare",
+        "pdf": "PDF",
+        "3dTour": "3D tour",
+        "callback--1": "Contact the manager",
+        "callback--2": "Book an apartment",
+        "planning2d": "2D planning",
+        "planning3d": "3D planning",
+        "furnished": "Furnished",
+        "video": "Watch video report"
+      },
+      "timer": {
+        "timer-text": "There is still time to book at this price"
+      },
+
+      "information": {
+        "title": "Information",
+        "sale": "Status",
+        "build": "Build",
+        "number": "Number",
+        "area": "Area",
+        "allArea": "Total area",
+        "life_area": "Living area",
+        "area_unit": "$t(area_unit)",
+        "rooms": "Rooms",
+        "floor": "Floor",
+        "price": "Price",
+        "priceText": " $t(currency_label)",
+        "type": "Type",
+        "section": "Section",
+        "price_m2": "Price $t(area_unit)",
+        "per": "per",
+        "priceHistory": "Price dynamic",
+        "floor_n_desktop": "Floor number",
+        "floor_n_mobile": "Floor №",
+        "viewPlanning": "View Planning"
+      },
+      "goToFloor": "Floor plan",
+      "goToFlat": "Explore property"
+    },
+
+    "Floor": {
+      "title-1": "",
+      "changeFloor--": "Change floor:",
+      "title-2": "floor plan",
+      "number_rooms": "Number of rooms",
+      "apps_from": "Apartments from",
+      "information": {
+        "title": "Information",
+        "build": "Build",
+        "floor": "Floor",
+        "section": "Section",
+        "price_m2_from": "From $t(currency_label) per $t(area_unit)",
+        "all-flats": "Total apartments",
+        "free-flats": "Available",
+        "free-flats--": "Available:",
+        "from": "From",
+        "reviewFloor": "Explore floor plan"
+      },
+      "filter": {
+        "1": "1 room",
+        "2": "2 rooms",
+        "3": "3 rooms",
+        "4": "4 rooms",
+        "5": "5 rooms",
+        "all": "All rooms",
+        "title-mob": "Bedrooms"
+      },
+      "floor-list": "floors",
+      "goToFloor": "Go to floor"
+    },
+
+    "Plannings": {
+      "found": "Found",
+      "found--from": "from",
+      "found-flats": "flats",
+      "notFound": "But look at these apartments"
+    },
+
+    "favourite--title": "Compare",
+    "favourite--added": "Compare (added <span class=\"js-s3d__fv-count\"></span> apartments)",
+    "favourite--apartments": "apartments",
+    "favourite--add": "Select",
+    "favourite--empty-title": "Nothing found to compare",
+    "favourite--empty-text": "Choose layouts and add them to the comparison list",
+    "favourite--empty-button": "View plannings",
+    "favourite--show-differences": "Show only the differences",
+
+    "card--link": "Read more",
+
+    "PopupFlyby": {
+      "title": "Apartment ",
+      "description": "Planning is in another building. To view it on a 3D model, you need to switch to another block.",
+      "btn": "Change the angle"
+    },
+
+    "Error-popup": {
+      "title": "An error has occurred",
+      "translate-info": "You will be redirected to the 3D master plan via",
+      "link": "to the main",
+      "messages": {
+        "not-find-data": "expected data not received",
+        "not-all-required-data-received": "not received all the necessary data",
+        "invalid-url": "incorrect data in url",
+        "failed-request": "failed to load data",
+        "network-error": "network error",
+        "application-error": "application error",
+        "unknown-error": "Unknown error"
+      }
+    },
+
+    "Send-error-popup": {
+      "success": "error data successfully sent to technical support specialists",
+      "failed": "error data not saved, please notify technical support"
+    },
+
+    "slider_popup": {
+      "227": "Type MasterFly",
+      "228": "Type 5BR AB",
+      "229": "Type 4BR AB",
+      "230": "Type 4BR AB",
+      "231": "Type 4BR KS",
+      "232": "Type 4BR KS",
+      "233": "Type 4BR SJ",
+      "234": "Type 4BR SJ",
+      "235": "Type 5BR JM",
+      "236": "Type 5BR JM",
+      "239": "Type 5BR KS",
+      "240": "Type 5BR KS",
+      "241": "Type 5BR SJ",
+      "242": "Type 5BR SJ",
+      "default": "Villa"
+    },
+
+    "builds": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "D",
+      "5": "E"
+    },
+
+    "rooms": {
+      "1": "1 bedroom",
+      "2": "2 bedrooms",
+      "3": "3 bedrooms",
+      "4": "4 bedrooms",
+      "5": "5 bedrooms"
+    },
+
+    "rooms-abbreviation": {
+      "1": "1 BR",
+      "2": "2 BR",
+      "3": "3 BR",
+      "4": "4 BR",
+      "5": "5 BR"
+    },
+
+    "sales": {
+      "0": "sold",
+      "1": "available",
+      "2": "reserve",
+      "3": "not available"
+    },
+
+    "pins": {
+      "park_trc": "Shop",
+      "tennis_court": "Guest parking",
+      "walking_zone": "Walking area",
+      "shop_1": "Food store",
+      "playground_playground1": "Playground",
+      "shop_coffee": "Coffee shop",
+      "parking_underground": "Underground parking",
+      "commercial_zone": "Commercial premises",
+      "street_zamarstynivska": "str. Zamarstynivska",
+      "street_shidna": "str. Shidna",
+      "street_kvitova": "str. Kvitova",
+      "tennis_court_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum ligula at, malesuada magna. Nulla nec purus feugiat, vestibulum ligula at, malesuada magna.",
+      "children_playground": "Children playground",
+      "gated_entrance": "Gated entrance",
+      "open_gym_machines": "Open gym",
+      "multisport": "Multisport outdoor ground, baskeball, teniis, mini football",
+      "bbq_area": "Bbq area, open sitting",
+      "swimming_pool": "Swimming pool",
+      "open_cinema": "Open cinema",
+      "sphere_360": "Panorama BBQ area",
+      "sphere_360_descr": "Common swimming pool area with showers, surrounded by landscaped gardens, bbq area and sitting area"
+    },
+
+    "loader": {
+      "load": "Loading preview",
+      "wait_a_little": "Wait a little...",
+      "rotate_warning": "Please keep the phone upright."
+    },
+    "currencies": {
+      "USD": "$",
+      "UAH": "₴",
+      "EUR": "€"
+    },
+    "Dropdown": {
+      "title": "Navigation"
+    },
+    "tutorial": {
+      "step_nav": "Navigation",
+      "step_nav_description": "You can rotate 3D model",
+      "step_interact": "Instruments",
+      "step_interact_description": "Tools for interacting with the 3D model",
+      "ster_filter": "Filter",
+      "ster_filter_description": "You can filtered for your parameters",
+      "step_compare": "Compare",
+      "step_compare_description": "You can add plannings to compare"
+    },
+    "monthes": {
+      "January": "January",
+      "February": "February",
+      "March": "March",
+      "April": "April",
+      "May": "May",
+      "June": "June",
+      "July": "July",
+      "August": "August",
+      "September": "September",
+      "October": "October",
+      "November": "November",
+      "December": "December"
+    },
+    "from": "from"
+  }
+}

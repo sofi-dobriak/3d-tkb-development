@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Installment plan",
+    "description": "When purchasing real estate on installment terms, you make an initial payment of at least 30% of the total cost, and the remainder is paid in installments until the end of the term. Details about installment payments and calculating the size of the initial payment can be obtained from our managers.",
+    "iconsUrls": [
+      "https://devbase.pro/wp-content/themes/devbase/assets/images/logo.svg",
+      "http://purecatamphetamine.github.io/country-flag-icons/3x2/UA.svg"
+    ]
+  },
+  {
+    "title": "100% payment",
+    "description": "With full payment, you may receive a discount from the developer, MBT Group. Our sales department will be happy to inform you about discounts and special offers and will work with you to find the most advantageous option for layouts and purchasing conditions.",
+    "iconsUrls": [
+      "/wp-content/themes/3d/assets/s3d/images/icon/smarto.svg",
+      "http://purecatamphetamine.github.io/country-flag-icons/3x2/UA.svg"
+    ]
+  },
+  {
+    "title": "State mortgage lending єОселя",
+    "description": "In Ukraine, there is a mortgage lending program called \"єОселя\" with an interest rate of 3% and 7% per annum. Find out who can benefit from the program.",
+    "iconsUrls": [
+      "/wp-content/themes/3d/assets/s3d/images/icon/smarto.svg",
+      "http://purecatamphetamine.github.io/country-flag-icons/3x2/UA.svg"
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+
+.accordion-wrapper {
+  width: 100%;
+  border: 1px solid var(--border-gray-600-transparent-40);
+  border-radius: var(--border-space-2);
+  background-color: var(--color-surface-gray-200-transperent-88);
+  overflow: hidden;
+}
+
+.accordion {
+  color: var(--text-gray-900);
+  cursor: pointer;
+  padding: var(--space-3);
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  
+  background-color: var(--color-surface-gray-200-transperent-88);
+  transition: 0.4s;
+  @include text-style-3-d-fonts-1920-body-medium;
+  &__padding-block {
+    height: var(--space-2);
+    width: 100%;
+  }
+  &:after {
+    content: ''; /* Unicode character for "plus" sign (+) */
+    width: 16px;
+    height: 16px;
+
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M13.3187 4.61188C12.9163 4.23362 12.2834 4.2532 11.9051 4.65562L7.99772 8.81262L4.09029 4.65562C3.71203 4.2532 3.07917 4.23362 2.67675 4.61188C2.27433 4.99013 2.25475 5.623 2.63301 6.02541L7.19621 10.8801C7.63062 11.3422 8.36481 11.3422 8.79922 10.8801L13.3624 6.02541C13.7407 5.623 13.7211 4.99013 13.3187 4.61188Z' fill='%236C7A88'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+    margin-left: 5px;
+    transform-origin: center;
+    transition: .25s ease-out;
+  }
+  &.active:after {
+    content: ""; /* Unicode character for "minus" sign (-) */
+    transform: rotate(180deg);
+  }
+  &.active, &:hover {
+    // background-color: #ccc;
+  }
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 var(--space-2);
+  background-color: white;
+  background-color: var(--color-surface-gray-200-transperent-88);
+  // display: none;
+  overflow: hidden;
+
+  max-height: 0;
+  transition: .25s ease-out;
+}
+
+

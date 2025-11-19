@@ -1,0 +1,41 @@
+.mobile.portrait {
+    .s3d {
+        &-ctr {
+            &__menu-3d {
+                display: flex;
+                &-compass-nav {
+                    justify-content: space-between;
+                }
+                &__compass-wrapper {
+                    display: none;
+                }
+                &-compass-nav {
+                    position: fixed;
+                    top: 50%;
+                    width: 100%;
+                    background-color: transparent;
+                }
+                &-buttons {
+                    width: 100%;
+                    justify-content: flex-start;
+                    overflow: visible;
+                    &>* {
+                        flex-shrink: 0;
+                    }
+                    .s3d__choose--flat--button {
+                        width: 65px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        span {
+                            max-width: calc(100% - 8px);
+                            overflow: hidden;
+                            display: block;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

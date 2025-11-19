@@ -1,0 +1,3943 @@
+[
+	{
+		"currency_label": "USD",
+		"id": "26220",
+		"gallery": [
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png"
+		],
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "2",
+		"rooms": "1",
+		"type": "1\u0412",
+    "_type": "1\u0412",
+		"number": "35964",
+		"sale": "1",
+		"img": "section_7-9_kv1V.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "43.99",
+		"life_room": "16.81",
+		"price": "350000",
+    "_price": 350000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V-400x85-100307.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv1V.png"
+			}
+		},
+		"option": {
+		"corner": true,
+		"terrace": false,
+		"two-level": false,
+		"atrium": false,
+		"panoramic": false
+			},
+			"3d_tour": null,
+			"sorts": "300,0,600,0,600,300,300,300"
+		},
+	{
+		"currency_label": "USD",
+		"id": "26219",
+		"gallery": [
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png"
+		],
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "2",
+		"rooms": "1",
+    "level": "4",
+		"type": "1\u0412",
+    "_type": "1\u0412",
+		"number": "26637",
+		"sale": "0",
+		"img": "section_7-9_kv1V.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "43.99",
+		"life_room": "16.81",
+		"price": "350000",
+    "_price": 350000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V-400x85-100307.png",
+    "flat_levels_photo": {
+      "1": {
+        "without": "https://terra-rossa.devbase.pro/img/projects/2/1/136_-_22_____3_LÜ_VİLLA_2_2-1700139470.png",
+        "with": "https://terra-rossa.devbase.pro/img/projects/2/1/1_ZODİAC__136_22___-2_BODRUM_KAT_PLANI-1700139429.png"
+      },
+      "2": {
+        "without": "https://terra-rossa.devbase.pro/img/projects/2/1/136_-_22_____3_LÜ_VİLLA_2_3-1700139475.png",
+        "with": "https://terra-rossa.devbase.pro/img/projects/2/1/2_ZODİAC_136_22_-1_BODRUM_KAT_PLANI-1700139448.png"
+      },
+      "3": {
+        "without": "https://terra-rossa.devbase.pro/img/projects/2/1/136_-_22_____3_LÜ_VİLLA_2_4-1700139480.png",
+        "with": "https://terra-rossa.devbase.pro/img/projects/2/1/3_ZODİAC_136__22__ZEMİN_KAT_PLANI-1700139452.png"
+      },
+      "4": {
+        "without": "https://terra-rossa.devbase.pro/img/projects/2/1/136_-_22_____3_LÜ_VİLLA_2_5-1700139484.png",
+        "with": "https://terra-rossa.devbase.pro/img/projects/2/1/4_ZODİAC_136__22__1_KAT_PLANI-1700139455.png"
+      },
+      "5": {
+        "without": "https://terra-rossa.devbase.pro/img/projects/2/1/136_-_22_____3_LÜ_VİLLA_2_6-1700139488.png",
+        "with": "https://terra-rossa.devbase.pro/img/projects/2/1/5_ZODİAC_136__22_ÇATI_KAT_PLANI-1700139459.png"
+      }
+    },
+    "properties": {
+      "3": {
+        "id": "82",
+        "property_id": "3",
+        "property_flat": "14.5",
+        "property_level": "4",
+        "properties_order": "0",
+        "property_name": "Bedroom 2",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "4": {
+        "id": "82",
+        "property_id": "4",
+        "property_flat": "14.5",
+        "property_level": "4",
+        "properties_order": "0",
+        "property_name": "Bedroom 3",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "6": {
+        "id": "82",
+        "property_id": "6",
+        "property_flat": "3",
+        "property_level": "1",
+        "properties_order": "0",
+        "property_name": "Bathroom 1",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "7": {
+        "id": "82",
+        "property_id": "7",
+        "property_flat": "3",
+        "property_level": "2",
+        "properties_order": "0",
+        "property_name": "Bathroom 2",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "8": {
+        "id": "82",
+        "property_id": "8",
+        "property_flat": "3",
+        "property_level": "3",
+        "properties_order": "0",
+        "property_name": "Bathroom 3",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "9": {
+        "id": "82",
+        "property_id": "9",
+        "property_flat": "6.5",
+        "property_level": "4",
+        "properties_order": "0",
+        "property_name": "Bathroom 4",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "19": {
+        "id": "82",
+        "property_id": "19",
+        "property_flat": "140",
+        "property_level": "1",
+        "properties_order": "0",
+        "property_name": "NET area",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "23": {
+        "id": "82",
+        "property_id": "23",
+        "property_flat": "7.5",
+        "property_level": "1",
+        "properties_order": "0",
+        "property_name": "Utility room 1",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "28": {
+        "id": "82",
+        "property_id": "28",
+        "property_flat": "20",
+        "property_level": "1",
+        "properties_order": "0",
+        "property_name": "Hallway",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "31": {
+        "id": "82",
+        "property_id": "31",
+        "property_flat": "2.5",
+        "property_level": "1",
+        "properties_order": "0",
+        "property_name": "Elevator",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "32": {
+        "id": "82",
+        "property_id": "32",
+        "property_flat": "9",
+        "property_level": "1",
+        "properties_order": "0",
+        "property_name": "Pantry",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "41": {
+        "id": "82",
+        "property_id": "41",
+        "property_flat": "26",
+        "property_level": "1",
+        "properties_order": "0",
+        "property_name": "Garage",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "48": {
+        "id": "82",
+        "property_id": "48",
+        "property_flat": "30",
+        "property_level": "1",
+        "properties_order": "0",
+        "property_name": "Fitness",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "50": {
+        "id": "82",
+        "property_id": "50",
+        "property_flat": "6.5",
+        "property_level": "1",
+        "properties_order": "0",
+        "property_name": "Wardrobe 1",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "52": {
+        "id": "82",
+        "property_id": "52",
+        "property_flat": "140",
+        "property_level": "2",
+        "properties_order": "0",
+        "property_name": "NET area 2nd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "56": {
+        "id": "82",
+        "property_id": "56",
+        "property_flat": "3.5",
+        "property_level": "2",
+        "properties_order": "0",
+        "property_name": "Technical room 1 2nd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "57": {
+        "id": "82",
+        "property_id": "57",
+        "property_flat": "3.5",
+        "property_level": "2",
+        "properties_order": "0",
+        "property_name": "Technical room 2 2nd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "58": {
+        "id": "82",
+        "property_id": "58",
+        "property_flat": "5.4",
+        "property_level": "2",
+        "properties_order": "0",
+        "property_name": "Technical room 3 2nd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "59": {
+        "id": "82",
+        "property_id": "59",
+        "property_flat": "3.3",
+        "property_level": "2",
+        "properties_order": "0",
+        "property_name": "Technical room 4 2nd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "60": {
+        "id": "82",
+        "property_id": "60",
+        "property_flat": "15.3",
+        "property_level": "2",
+        "properties_order": "0",
+        "property_name": "Cinema 2nd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "62": {
+        "id": "82",
+        "property_id": "62",
+        "property_flat": "3",
+        "property_level": "1",
+        "properties_order": "100",
+        "property_name": "3",
+        "property_type": "1",
+        "properties_field_order": "100"
+      },
+      "64": {
+        "id": "82",
+        "property_id": "64",
+        "property_flat": "22",
+        "property_level": "2",
+        "properties_order": "0",
+        "property_name": "Recreation area 2nd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "65": {
+        "id": "82",
+        "property_id": "65",
+        "property_flat": "17",
+        "property_level": "2",
+        "properties_order": "0",
+        "property_name": "Hall 2nd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "67": {
+        "id": "82",
+        "property_id": "67",
+        "property_flat": "2.5",
+        "property_level": "2",
+        "properties_order": "0",
+        "property_name": "Elevator 2nd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "70": {
+        "id": "82",
+        "property_id": "70",
+        "property_flat": "6.5",
+        "property_level": "2",
+        "properties_order": "0",
+        "property_name": "Finnish sauna 2nd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "71": {
+        "id": "82",
+        "property_id": "71",
+        "property_flat": "6.5",
+        "property_level": "2",
+        "properties_order": "0",
+        "property_name": "Hammam 2nd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "73": {
+        "id": "82",
+        "property_id": "73",
+        "property_flat": "15",
+        "property_level": "2",
+        "properties_order": "0",
+        "property_name": "Jacuzzi 2nd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "87": {
+        "id": "82",
+        "property_id": "87",
+        "property_flat": "130",
+        "property_level": "3",
+        "properties_order": "0",
+        "property_name": "Floor area BRUTO 3rd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "88": {
+        "id": "82",
+        "property_id": "88",
+        "property_flat": "110",
+        "property_level": "3",
+        "properties_order": "0",
+        "property_name": "NET area 3rd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "89": {
+        "id": "82",
+        "property_id": "89",
+        "property_flat": "20",
+        "property_level": "3",
+        "properties_order": "0",
+        "property_name": "Terrace area 3rd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "98": {
+        "id": "82",
+        "property_id": "98",
+        "property_flat": "5",
+        "property_level": "3",
+        "properties_order": "0",
+        "property_name": "Hall 3rd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "100": {
+        "id": "82",
+        "property_id": "100",
+        "property_flat": "2.5",
+        "property_level": "3",
+        "properties_order": "0",
+        "property_name": "Elevator 3rd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "107": {
+        "id": "82",
+        "property_id": "107",
+        "property_flat": "23",
+        "property_level": "3",
+        "properties_order": "0",
+        "property_name": "Infinity pool 3rd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "109": {
+        "id": "82",
+        "property_id": "109",
+        "property_flat": "20",
+        "property_level": "3",
+        "properties_order": "0",
+        "property_name": "BBQ area 3rd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "110": {
+        "id": "82",
+        "property_id": "110",
+        "property_flat": "130",
+        "property_level": "3",
+        "properties_order": "0",
+        "property_name": "Garage 3rd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "112": {
+        "id": "82",
+        "property_id": "112",
+        "property_flat": "86",
+        "property_level": "3",
+        "properties_order": "0",
+        "property_name": "Living room/kitchen 3rd level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "120": {
+        "id": "82",
+        "property_id": "120",
+        "property_flat": "135",
+        "property_level": "4",
+        "properties_order": "0",
+        "property_name": "Floor area BRUTO 4th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "121": {
+        "id": "82",
+        "property_id": "121",
+        "property_flat": "115",
+        "property_level": "4",
+        "properties_order": "0",
+        "property_name": "NET area 4th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "122": {
+        "id": "82",
+        "property_id": "122",
+        "property_flat": "20",
+        "property_level": "4",
+        "properties_order": "0",
+        "property_name": "Terrace area 4th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "123": {
+        "id": "82",
+        "property_id": "123",
+        "property_flat": "3",
+        "property_level": "4",
+        "properties_order": "0",
+        "property_name": "Number of bedrooms on floor 4th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "131": {
+        "id": "82",
+        "property_id": "131",
+        "property_flat": "24",
+        "property_level": "4",
+        "properties_order": "0",
+        "property_name": "Hall 4th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "133": {
+        "id": "82",
+        "property_id": "133",
+        "property_flat": "2.5",
+        "property_level": "4",
+        "properties_order": "0",
+        "property_name": "Elevator 4th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "135": {
+        "id": "82",
+        "property_id": "135",
+        "property_flat": "4",
+        "property_level": "4",
+        "properties_order": "0",
+        "property_name": "Laundry 4th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "146": {
+        "id": "82",
+        "property_id": "146",
+        "property_flat": "28",
+        "property_level": "4",
+        "properties_order": "0",
+        "property_name": "Bedroom 1 (master bedroom) 4th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "152": {
+        "id": "82",
+        "property_id": "152",
+        "property_flat": "5",
+        "property_level": "4",
+        "properties_order": "0",
+        "property_name": "Wardrobe 1 4th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "153": {
+        "id": "82",
+        "property_id": "153",
+        "property_flat": "175",
+        "property_level": "5",
+        "properties_order": "0",
+        "property_name": "Floor area BRUTO 5th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "154": {
+        "id": "82",
+        "property_id": "154",
+        "property_flat": "70",
+        "property_level": "5",
+        "properties_order": "0",
+        "property_name": "NET area 5th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "155": {
+        "id": "82",
+        "property_id": "155",
+        "property_flat": "105",
+        "property_level": "5",
+        "properties_order": "0",
+        "property_name": "Terrace area 5th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "156": {
+        "id": "82",
+        "property_id": "156",
+        "property_flat": "1",
+        "property_level": "5",
+        "properties_order": "0",
+        "property_name": "Number of bedrooms on floor 5th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "164": {
+        "id": "82",
+        "property_id": "164",
+        "property_flat": "17",
+        "property_level": "5",
+        "properties_order": "0",
+        "property_name": "Hall 5th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "166": {
+        "id": "82",
+        "property_id": "166",
+        "property_flat": "2.5",
+        "property_level": "5",
+        "properties_order": "0",
+        "property_name": "Elevator 5th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "179": {
+        "id": "82",
+        "property_id": "179",
+        "property_flat": "20",
+        "property_level": "5",
+        "properties_order": "0",
+        "property_name": "Bedroom 1 (master bedroom) 5th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "185": {
+        "id": "82",
+        "property_id": "185",
+        "property_flat": "14",
+        "property_level": "5",
+        "properties_order": "0",
+        "property_name": "Wardrobe 1 5th level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "186": {
+        "id": "82",
+        "property_id": "186",
+        "property_flat": "4.5",
+        "property_level": "4",
+        "properties_order": "0",
+        "property_name": "Bathroom 5",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "187": {
+        "id": "82",
+        "property_id": "187",
+        "property_flat": "5",
+        "property_level": "5",
+        "properties_order": "0",
+        "property_name": "Bathroom 6",
+        "property_type": "1",
+        "properties_field_order": "0"
+      },
+      "188": {
+        "id": "82",
+        "property_id": "188",
+        "property_flat": "16",
+        "property_level": "1",
+        "properties_order": "0",
+        "property_name": "Hall 1st level",
+        "property_type": "1",
+        "properties_field_order": "0"
+      }
+    },
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv1V.png"
+			}
+		},
+		"option": {
+		"corner": true,
+		"terrace": false,
+		"two-level": false,
+		"atrium": false,
+		"panoramic": false
+			},
+			"3d_tour": "https://apartment-tours.smartorange.com.ua/tsentral-hills/?scene=0",
+			"sorts": "309,573,662,574,660,968,599,1012,546,1013,502,976,303,976"
+		},
+	{
+		"currency_label": "USD",
+		"id": "27191",
+		"gallery": [
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png"
+		],
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "2",
+		"rooms": "1",
+		"type": "1\u0412",
+    "_type": "1\u0412",
+		"number": "26637",
+		"sale": "1",
+		"img": "section_7-9_kv1V.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "43.99",
+		"life_room": "16.81",
+		"price": "350000",
+    "_price": 350000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V-400x85-100307.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv1V.png"
+			}
+		},
+		"option": {
+		"corner": true,
+		"terrace": false,
+		"two-level": false,
+		"atrium": false,
+		"panoramic": false
+			},
+			"3d_tour": null,
+			"sorts": "700,0,900,0,900,200,700,200"
+		},
+	{
+    "id": "26648",
+    "gallery": [
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+			"https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png"
+		],
+		"currency_label": "USD",
+    "price_history": [
+      {
+        "date": "2023-12-29 15:26:43",
+        "currency": {
+          "label": "$",
+          "id": "USD",
+          "symb": "$",
+          "name": "Доллар США",
+          "id_form": 4
+        },
+        "price_uah": 5524114.54,
+        "price_usd": 146610,
+        "price_m2_uah": 169555.39,
+        "price_m2_usd": 4500
+      },
+      {
+        "date": "2023-06-29 15:26:43",
+        "currency": {
+          "label": "$",
+          "id": "USD",
+          "symb": "$",
+          "name": "Доллар США",
+          "id_form": 4
+        },
+        "price_uah": 2524114.54,
+        "price_usd": 146610,
+        "price_m2_uah": 169555.39,
+        "price_m2_usd": 4500
+      },
+      {
+        "date": "2022-09-23 16:18:30",
+        "currency": {
+          "label": "грн",
+          "id": "UAH",
+          "symb": "₴",
+          "name": "Гривна",
+          "id_form": 0
+        },
+        "price_uah": 360114,
+        "price_usd": 9557.43,
+        "price_m2_uah": 11053.22,
+        "price_m2_usd": 293.35
+      }
+    ],
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "2",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "26648",
+		"sale": "1",
+		"img": "section7-9_kv_2A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "59.16",
+		"life_room": "27.38",
+		"price": "1200",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 350,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A-400x85-108829.png",
+    "flat_levels_photo": {"1":{"without":"https://terra-rossa.devbase.pro/img/projects/2/1/136_-_22_____3_LÜ_VİLLA_2_2-1700139470.png","with":"https://terra-rossa.devbase.pro/img/projects/2/1/1_ZODİAC__136_22___-2_BODRUM_KAT_PLANI-1700139429.png"},"2":{"without":"https://terra-rossa.devbase.pro/img/projects/2/1/136_-_22_____3_LÜ_VİLLA_2_3-1700139475.png","with":"https://terra-rossa.devbase.pro/img/projects/2/1/2_ZODİAC_136_22_-1_BODRUM_KAT_PLANI-1700139448.png"},"3":{"without":"https://terra-rossa.devbase.pro/img/projects/2/1/136_-_22_____3_LÜ_VİLLA_2_4-1700139480.png","with":"https://terra-rossa.devbase.pro/img/projects/2/1/3_ZODİAC_136__22__ZEMİN_KAT_PLANI-1700139452.png"},"4":{"without":"https://terra-rossa.devbase.pro/img/projects/2/1/136_-_22_____3_LÜ_VİLLA_2_5-1700139484.png","with":"https://terra-rossa.devbase.pro/img/projects/2/1/4_ZODİAC_136__22__1_KAT_PLANI-1700139455.png"},"5":{"without":"https://terra-rossa.devbase.pro/img/projects/2/1/136_-_22_____3_LÜ_VİLLA_2_6-1700139488.png","with":"https://terra-rossa.devbase.pro/img/projects/2/1/5_ZODİAC_136__22_ÇATI_KAT_PLANI-1700139459.png"}},
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section7-9_kv_2A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"view_from_window": "https://vrnet.io/view5.16a/?model=ua/linevichgroup/grandbourget/c8-2a",
+		"3d_tour": "https://apartment-tours.smartorange.com.ua/tsentral-hills/?scene=0",
+		"sorts": "1609,196,1788,195,1787,491,1630,494,1618,547,1503,545,1496,469,1248,462,1245,77,1447,76,1475.7142857143,48.571428571429,1534,46,1599,95"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26662",
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "2",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "26662",
+		"sale": "1",
+		"img": "section_7-9_kv_2B.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "65.07",
+		"life_room": "27.45",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B-400x85-108264.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_2B.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"view_from_window": "https://vrnet.io/view5.16a/?model=ua/linevichgroup/grandbourget/c8-2a",
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c8-2b",
+		"sorts": "1497,570,1246,578,1246,972,1282,974,1316,1011,1370,1009,1406,977,1597,979,1599,890,1788,889,1784,505,1634,505,1611,554,1507,552"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26928",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "2",
+		"rooms": "1",
+		"type": "1\u0410",
+    "_type": "1\u0410",
+		"number": "26928",
+		"sale": "3",
+		"img": "section_7-9_kv_1A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "30",
+		"life_room": "13.74",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_1A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_1A-400x85-83401.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_1A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "1168.5714285714,595.71428571429,910,622.85714285714,905.71428571429,1004.2857142857,1177.1428571429,1001.4285714286"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26942",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "2",
+		"rooms": "1",
+		"type": "1\u0411",
+    "_type": "1\u0411",
+		"number": "26942",
+		"sale": "3",
+		"img": "section_7-9_1b.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "30",
+		"life_room": "13.74",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_1b.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_1b-400x85-96858.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_1b.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "892.85714285714,618.57142857143,631.42857142857,600,630,997.14285714286,895.71428571429,998.57142857143"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26956",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "2",
+		"rooms": "1",
+		"type": "1\u0416",
+    "_type": "1\u0416",
+		"number": "26956",
+		"sale": "3",
+		"img": "section_7-8_kv_1j.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "39.64",
+		"life_room": "16.81",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1j.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1j-400x85-110545.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-8_kv_1j.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26970",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "2",
+		"rooms": "1",
+		"type": "1\u0415",
+    "_type": "1\u0415",
+		"number": "26970",
+		"sale": "3",
+		"img": "section_7-8_kv_1E.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "39.99",
+		"life_room": "11.4",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E-400x85-65766.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-8_kv_1E.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26984",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "2",
+		"rooms": "1",
+		"type": "1\u0412",
+    "_type": "1\u0412",
+		"number": "26984",
+		"sale": "3",
+		"img": "section_7-9_kv1V.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "43.99",
+		"life_room": "16.81",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V-400x85-100307.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv1V.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "618.57142857143,595.71428571429,272.85714285714,595.71428571429,261.42857142857,1001.4285714286,467.14285714286,1002.8571428571,507.14285714286,1034.2857142857,561.42857142857,1038.5714285714,618.57142857143,992.85714285714"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26223",
+		"build": "1",
+		"section": "3",
+		"sec_id": "3",
+		"floor": "2",
+		"rooms": "3",
+		"type": "3\u0410",
+    "_type": "3\u0410",
+		"number": "26223",
+		"sale": "1",
+		"img": "Section_3_kv.3A_1_3.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "80.73",
+		"life_room": "37.99",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/1\/Section_3_kv.3A_1_3.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/1\/Section_3_kv.3A_1_3.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"view_from_window": "https://vrnet.io/view5.16a/?model=ua/linevichgroup/grandbourget/c8-2a",
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c3-3a",
+		"sorts": "344,216,176,221,179,879,351,877,354,570,426,569,431,477,698,480,700,117,507,118,471,90,420,89,358,128"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26228",
+		"build": "1",
+		"section": "2",
+		"sec_id": "2",
+		"floor": "2",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "26228",
+		"sale": "1",
+		"img": "Section_2_kv.2A_1_4.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "60.02",
+		"life_room": "30.15",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/1\/Section_2_kv.2A_1_4.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/1\/Section_2_kv.2A_1_4.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "1125,89,1298,88,1303,116,1517,116,1519,203,1603,201,1599,385,1308,391,1287,455,960,459,958,85,1006,48,1061,48"
+	},
+	{
+		"currency_label": "USD",
+		"id": "27000",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "2",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "27000",
+		"sale": "3",
+		"img": "section7-9_kv_2A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "59.16",
+		"life_room": "27.38",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A-400x85-108829.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section7-9_kv_2A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"view_from_window": "https://vrnet.io/view5.16a/?model=ua/linevichgroup/grandbourget/c8-2a",
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c9-2a",
+		"sorts": "1557.1428571429,211.42857142857,1718.5714285714,214.28571428571,1720,514.28571428571,1561.4285714286,521.42857142857,1545.7142857143,564.28571428571,1441.4285714286,562.85714285714,1425.7142857143,477.14285714286,1185.7142857143,472.85714285714,1178.5714285714,87.142857142857,1375.7142857143,87.142857142857,1411.4285714286,57.142857142857,1472.8571428571,51.428571428571,1535.7142857143,100"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26234",
+		"build": "1",
+		"section": "2",
+		"sec_id": "2",
+		"floor": "2",
+		"rooms": "2",
+		"type": "2\u0412",
+    "_type": "2\u0412",
+		"number": "26234",
+		"sale": "1",
+		"img": "Section_2_kv.2V_1_4.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "58.2",
+		"life_room": "32.03",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/1\/Section_2_kv.2V_1_4.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/1\/Section_2_kv.2V_1_4.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "399,147,230,146,234,888,294,936,346,935,400,894"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26241",
+		"build": "1",
+		"section": "1",
+		"sec_id": "1",
+		"floor": "2",
+		"rooms": "3",
+		"type": "3\u0411",
+    "_type": "3\u0411",
+		"number": "26241",
+		"sale": "1",
+		"img": "Section_1_kv.3B_1_5.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "82",
+		"life_room": "43.66",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/1\/Section_1_kv.3B_1_5.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/1\/Section_1_kv.3B_1_5.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"view_from_window": "https://vrnet.io/view5.16a/?model=ua/linevichgroup/grandbourget/c8-2a",
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c1-3b",
+		"sorts": "326,196,157,197,158,844,335,845,336,593,423,592,427,472,687,466,691,109,496,107,455,74,401,73,341.42857142857,122.85714285714"
+	},
+	{
+		"currency_label": "USD",
+		"id": "27014",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "2",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "27014",
+		"sale": "3",
+		"img": "section_7-9_kv_2B.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "65.07",
+		"life_room": "27.45",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B-400x85-108264.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_2B.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"view_from_window": "https://vrnet.io/view5.16a/?model=ua/linevichgroup/grandbourget/c8-2a",
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c9-2b",
+		"sorts": "1425.7142857143,594.28571428571,1182.8571428571,594.28571428571,1185.7142857143,991.42857142857,1248.5714285714,1034.2857142857,1305.7142857143,1030,1355.7142857143,994.28571428571,1532.8571428571,1001.4285714286,1532.8571428571,911.42857142857,1718.5714285714,910,1720,524.28571428571,1561.4285714286,521.42857142857,1551.4285714286,571.42857142857,1434.2857142857,575.71428571429"
+	},
+	{
+		"currency_label": "USD",
+		"id": "27030",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "2",
+		"rooms": "1",
+		"type": "1\u0410",
+    "_type": "1\u0410",
+		"number": "27030",
+		"sale": "3",
+		"img": "section_10_kv1A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "43.6",
+		"life_room": "18.71",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv1A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv1A-400x85-116782.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_10_kv1A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26268",
+		"build": "2",
+		"section": "7",
+		"sec_id": "7",
+		"floor": "2",
+		"rooms": "1",
+		"type": "1\u0415",
+    "_type": "1\u0415",
+		"number": "26268",
+		"sale": "1",
+		"img": "section_7-8_kv_1E.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "39.99",
+		"life_room": "11.4",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E-400x85-65766.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-8_kv_1E.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "314,202,129,202,131,895,310,892"
+	},
+	{
+		"currency_label": "USD",
+		"id": "27044",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "2",
+		"rooms": "1",
+		"type": "1\u0411",
+    "_type": "1\u0411",
+		"number": "27044",
+		"sale": "3",
+		"img": "section10_kv_1b.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "38.3",
+		"life_room": "15.75",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_1b.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10_kv_1b.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27058",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "2",
+		"rooms": "1",
+		"type": "1\u0412",
+    "_type": "1\u0412",
+		"number": "27058",
+		"sale": "3",
+		"img": "section_10_kv_1v.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "45.57",
+		"life_room": "21.38",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv_1v.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_10_kv_1v.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27072",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "2",
+		"rooms": "1",
+		"type": "1\u0413",
+    "_type": "1\u0413",
+		"number": "27072",
+		"sale": "3",
+		"img": "section10_kv_1G.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "38.62",
+		"life_room": "15.76",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_1G.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_1G-400x85-94997.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10_kv_1G.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27086",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "2",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "27086",
+		"sale": "3",
+		"img": "section10kv2A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "62.99",
+		"life_room": "31.13",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10kv2A.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10kv2A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"view_from_window": "https://vrnet.io/view5.16a/?model=ua/linevichgroup/grandbourget/c8-2a",
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c10-2a",
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27100",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "2",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "27100",
+		"sale": "3",
+		"img": "section_10_kv2b.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "65.17",
+		"life_room": "34.35",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv2b.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv2b-400x85-92641.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_10_kv2b.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27114",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "2",
+		"rooms": "3",
+		"type": "3\u0410",
+    "_type": "3\u0410",
+		"number": "27114",
+		"sale": "3",
+		"img": "section10_kv_3A.PNG",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "75.7",
+		"life_room": "42.81",
+		"price": "0",
+    "_price": 95000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_3A.PNG",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10_kv_3A.PNG"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26649",
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "3",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "26649",
+		"sale": "1",
+		"img": "section7-9_kv_2A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "59.16",
+		"life_room": "27.38",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A-400x85-108829.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section7-9_kv_2A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c8-2a",
+		"sorts": "1609,195,1785,196,1790,498,1627,494,1619,544,1502,539,1496,463,1245,463,1243,77,1445,76,1477.1428571429,50,1533,48,1603,94"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26663",
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "3",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "26663",
+		"sale": "1",
+		"img": "section_7-9_kv_2B.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "65.07",
+		"life_room": "27.45",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B-400x85-108264.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_2B.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c8-2b",
+		"sorts": "1500,574,1245,575,1246,970,1278,976,1317,1013,1369,1010,1412,979,1600,981,1600,891,1788,886,1786,508,1633,505,1620,554,1508,552"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26929",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "3",
+		"rooms": "1",
+		"type": "1\u0410",
+    "_type": "1\u0410",
+		"number": "26929",
+		"sale": "3",
+		"img": "section_7-9_kv_1A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "30",
+		"life_room": "13.74",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_1A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_1A-400x85-83401.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_1A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "1167.1428571429,594.28571428571,910,621.42857142857,907.14285714286,1002.8571428571,1175.7142857143,1000"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26943",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "3",
+		"rooms": "1",
+		"type": "1\u0411",
+    "_type": "1\u0411",
+		"number": "26943",
+		"sale": "3",
+		"img": "section_7-9_1b.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "30",
+		"life_room": "13.74",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_1b.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_1b-400x85-96858.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_1b.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "895.71428571429,622.85714285714,627.14285714286,592.85714285714,630,998.57142857143,898.57142857143,1004.2857142857"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26957",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "3",
+		"rooms": "1",
+		"type": "1\u0416",
+    "_type": "1\u0416",
+		"number": "26957",
+		"sale": "3",
+		"img": "section_7-8_kv_1j.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "39.64",
+		"life_room": "16.81",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1j.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1j-400x85-110545.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-8_kv_1j.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26971",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "3",
+		"rooms": "1",
+		"type": "1\u0415",
+    "_type": "1\u0415",
+		"number": "26971",
+		"sale": "3",
+		"img": "section_7-8_kv_1E.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "39.99",
+		"life_room": "11.4",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E-400x85-65766.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-8_kv_1E.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26985",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "3",
+		"rooms": "1",
+		"type": "1\u0412",
+    "_type": "1\u0412",
+		"number": "26985",
+		"sale": "3",
+		"img": "section_7-9_kv1V.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "43.99",
+		"life_room": "16.81",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V-400x85-100307.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv1V.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "620,597.14285714286,275.71428571429,597.14285714286,265.71428571429,998.57142857143,462.85714285714,1000,510,1038.5714285714,560,1038.5714285714,618.57142857143,998.57142857143"
+	},
+	{
+		"currency_label": "USD",
+		"id": "27001",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "3",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "27001",
+		"sale": "3",
+		"img": "section7-9_kv_2A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "59.16",
+		"life_room": "27.38",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A-400x85-108829.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section7-9_kv_2A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c9-2a",
+		"sorts": "1550,212.85714285714,1720,211.42857142857,1712.8571428571,515.71428571429,1567.1428571429,517.14285714286,1550,558.57142857143,1432.8571428571,564.28571428571,1428.5714285714,468.57142857143,1178.5714285714,478.57142857143,1180,82.857142857143,1374.2857142857,82.857142857143,1417.1428571429,52.857142857143,1468.5714285714,54.285714285714,1530,91.428571428571"
+	},
+	{
+		"currency_label": "USD",
+		"id": "27015",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "3",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "27015",
+		"sale": "3",
+		"img": "section_7-9_kv_2B.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "65.07",
+		"life_room": "27.45",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B-400x85-108264.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_2B.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c9-2b",
+		"sorts": "1424.2857142857,588.57142857143,1180,601.42857142857,1182.8571428571,991.42857142857,1251.4285714286,1035.7142857143,1301.4285714286,1030,1357.1428571429,994.28571428571,1532.8571428571,994.28571428571,1531.4285714286,917.14285714286,1722.8571428571,912.85714285714,1720,527.14285714286,1568.5714285714,527.14285714286,1548.5714285714,578.57142857143,1441.4285714286,570"
+	},
+	{
+		"currency_label": "USD",
+		"id": "27031",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "3",
+		"rooms": "1",
+		"type": "1\u0410",
+    "_type": "1\u0410",
+		"number": "27031",
+		"sale": "3",
+		"img": "section_10_kv1A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "43.6",
+		"life_room": "18.71",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv1A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv1A-400x85-116782.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_10_kv1A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27045",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "3",
+		"rooms": "1",
+		"type": "1\u0411",
+    "_type": "1\u0411",
+		"number": "27045",
+		"sale": "3",
+		"img": "section10_kv_1b.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "38.3",
+		"life_room": "15.75",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_1b.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10_kv_1b.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27059",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "3",
+		"rooms": "1",
+		"type": "1\u0412",
+    "_type": "1\u0412",
+		"number": "27059",
+		"sale": "3",
+		"img": "section_10_kv_1v.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "45.57",
+		"life_room": "21.38",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv_1v.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_10_kv_1v.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27073",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "3",
+		"rooms": "1",
+		"type": "1\u0413",
+    "_type": "1\u0413",
+		"number": "27073",
+		"sale": "3",
+		"img": "section10_kv_1G.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "38.62",
+		"life_room": "15.76",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_1G.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_1G-400x85-94997.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10_kv_1G.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27087",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "3",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "27087",
+		"sale": "3",
+		"img": "section10kv2A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "62.99",
+		"life_room": "31.13",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10kv2A.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10kv2A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c10-2a",
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27101",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "3",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "27101",
+		"sale": "3",
+		"img": "section_10_kv2b.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "65.17",
+		"life_room": "34.35",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv2b.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv2b-400x85-92641.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_10_kv2b.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27115",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "3",
+		"rooms": "3",
+		"type": "3\u0410",
+    "_type": "3\u0410",
+		"number": "27115",
+		"sale": "3",
+		"img": "section10_kv_3A.PNG",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "75.7",
+		"life_room": "42.81",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_3A.PNG",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10_kv_3A.PNG"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26650",
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "4",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "26650",
+		"sale": "1",
+		"img": "section7-9_kv_2A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "59.16",
+		"life_room": "27.38",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A-400x85-108829.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section7-9_kv_2A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c8-2a",
+		"sorts": "1605,196,1787,198,1789,491,1627,492,1618,547,1502,545,1491,465,1244,458,1245,78,1448,74,1474.2857142857,51.428571428571,1534,48,1598,96"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26664",
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "4",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "26664",
+		"sale": "1",
+		"img": "section_7-9_kv_2B.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "65.07",
+		"life_room": "27.45",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B-400x85-108264.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_2B.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c8-2b",
+		"sorts": "1495,573,1242,577,1250,971,1282,980,1319,1011,1369,1011,1415,980,1599,978,1603,889,1787,887,1785,505,1632,502,1612,555,1509,552"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26930",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "4",
+		"rooms": "1",
+		"type": "1\u0410",
+    "_type": "1\u0410",
+		"number": "26930",
+		"sale": "3",
+		"img": "section_7-9_kv_1A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "30",
+		"life_room": "13.74",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_1A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_1A-400x85-83401.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_1A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "905.71428571429,620,1178.5714285714,594.28571428571,1171.4285714286,992.85714285714,905.71428571429,1002.8571428571"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26944",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "4",
+		"rooms": "1",
+		"type": "1\u0411",
+    "_type": "1\u0411",
+		"number": "26944",
+		"sale": "3",
+		"img": "section_7-9_1b.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "30",
+		"life_room": "13.74",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_1b.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_1b-400x85-96858.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_1b.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "894.28571428571,620,622.85714285714,594.28571428571,627.14285714286,998.57142857143,905.71428571429,1002.8571428571"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26958",
+		"build": "3",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "4",
+		"rooms": "1",
+		"type": "1\u0416",
+    "_type": "1\u0416",
+		"number": "26958",
+		"sale": "1",
+		"img": "section_7-8_kv_1j.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "39.64",
+		"life_room": "16.81",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 325,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1j.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1j-400x85-110545.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-8_kv_1j.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26972",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "4",
+		"rooms": "1",
+		"type": "1\u0415",
+    "_type": "1\u0415",
+		"number": "26972",
+		"sale": "3",
+		"img": "section_7-8_kv_1E.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "39.99",
+		"life_room": "11.4",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E-400x85-65766.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-8_kv_1E.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26986",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "4",
+		"rooms": "1",
+		"type": "1\u0412",
+    "_type": "1\u0412",
+		"number": "26986",
+		"sale": "3",
+		"img": "section_7-9_kv1V.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "43.99",
+		"life_room": "16.81",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V-400x85-100307.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv1V.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "622.85714285714,594.28571428571,270,601.42857142857,260,1000,464.28571428571,994.28571428571,505.71428571429,1040,557.14285714286,1034.2857142857,617.14285714286,995.71428571429"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26229",
+		"build": "1",
+		"section": "2",
+		"sec_id": "2",
+		"floor": "4",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "26229",
+		"sale": "1",
+		"img": "",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "62.76",
+		"life_room": "30.88",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": null,
+		"img_small": null,
+		"images": [],
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c2-2b",
+		"sorts": "1305,395,1653,400,1698,462,1694,515,1660,560,1650,578,1606,587,1610,1034,1337,1020"
+	},
+	{
+		"currency_label": "USD",
+		"id": "27002",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "4",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "27002",
+		"sale": "3",
+		"img": "section7-9_kv_2A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "59.16",
+		"life_room": "27.38",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A-400x85-108829.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section7-9_kv_2A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c9-2a",
+		"sorts": "1548.5714285714,211.42857142857,1718.5714285714,212.85714285714,1720,520,1562.8571428571,521.42857142857,1550,562.85714285714,1441.4285714286,568.57142857143,1431.4285714286,480,1178.5714285714,474.28571428571,1175.7142857143,85.714285714286,1371.4285714286,85.714285714286,1412.8571428571,52.857142857143,1468.5714285714,54.285714285714,1532.8571428571,91.428571428571"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26235",
+		"build": "1",
+		"section": "1",
+		"sec_id": "1",
+		"floor": "4",
+		"rooms": "3",
+		"type": "3\u0410",
+    "_type": "3\u0410",
+		"number": "26235",
+		"sale": "1",
+		"img": "Section_1_kv.3A_1_5.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "82.09",
+		"life_room": "43.66",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/1\/Section_1_kv.3A_1_5.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/1\/Section_1_kv.3A_1_5.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c1-3a",
+		"sorts": "1591,192,1759,192,1759,843,1589,842,1583,589,1499,586,1493,470,1233,463,1236,105,1419,105,1463,70,1521,69,1582,115"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26242",
+		"build": "1",
+		"section": "1",
+		"sec_id": "1",
+		"floor": "4",
+		"rooms": "3",
+		"type": "3\u0411",
+    "_type": "3\u0411",
+		"number": "26242",
+		"sale": "1",
+		"img": "Section_1_kv.3B_1_5.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "82",
+		"life_room": "43.66",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/1\/Section_1_kv.3B_1_5.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/1\/Section_1_kv.3B_1_5.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c1-3b",
+		"sorts": "320,194,157,199,163,845,333,843,338,593,423,589,425,471,686,473,684,110,500,110,452,72,400,74,337,116"
+	},
+	{
+		"currency_label": "USD",
+		"id": "27016",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "4",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "27016",
+		"sale": "3",
+		"img": "section_7-9_kv_2B.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "65.07",
+		"life_room": "27.45",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B-400x85-108264.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_2B.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c9-2b",
+		"sorts": "1425.7142857143,591.42857142857,1178.5714285714,594.28571428571,1181.4285714286,995.71428571429,1245.7142857143,1030,1301.4285714286,1031.4285714286,1361.4285714286,997.14285714286,1531.4285714286,1004.2857142857,1535.7142857143,912.85714285714,1721.4285714286,908.57142857143,1720,520,1562.8571428571,521.42857142857,1547.1428571429,577.14285714286,1441.4285714286,568.57142857143"
+	},
+	{
+		"currency_label": "USD",
+		"id": "27032",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "4",
+		"rooms": "1",
+		"type": "1\u0410",
+    "_type": "1\u0410",
+		"number": "27032",
+		"sale": "3",
+		"img": "section_10_kv1A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "43.6",
+		"life_room": "18.71",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv1A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv1A-400x85-116782.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_10_kv1A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27046",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "4",
+		"rooms": "1",
+		"type": "1\u0411",
+    "_type": "1\u0411",
+		"number": "27046",
+		"sale": "3",
+		"img": "section10_kv_1b.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "38.3",
+		"life_room": "15.75",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_1b.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10_kv_1b.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27060",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "4",
+		"rooms": "1",
+		"type": "1\u0412",
+    "_type": "1\u0412",
+		"number": "27060",
+		"sale": "3",
+		"img": "section_10_kv_1v.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "45.57",
+		"life_room": "21.38",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv_1v.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_10_kv_1v.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27074",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "4",
+		"rooms": "1",
+		"type": "1\u0413",
+    "_type": "1\u0413",
+		"number": "27074",
+		"sale": "3",
+		"img": "section10_kv_1G.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "38.62",
+		"life_room": "15.76",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_1G.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_1G-400x85-94997.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10_kv_1G.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27088",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "4",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "27088",
+		"sale": "3",
+		"img": "section10kv2A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "62.99",
+		"life_room": "31.13",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10kv2A.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10kv2A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c10-2a",
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27102",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "4",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "27102",
+		"sale": "3",
+		"img": "section_10_kv2b.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "65.17",
+		"life_room": "34.35",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv2b.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv2b-400x85-92641.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_10_kv2b.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27116",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "4",
+		"rooms": "3",
+		"type": "3\u0410",
+    "_type": "3\u0410",
+		"number": "27116",
+		"sale": "3",
+		"img": "section10_kv_3A.PNG",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "75.7",
+		"life_room": "42.81",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_3A.PNG",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10_kv_3A.PNG"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26651",
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "5",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "26651",
+		"sale": "1",
+		"img": "section7-9_kv_2A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "59.16",
+		"life_room": "27.38",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A-400x85-108829.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section7-9_kv_2A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c8-2a",
+		"sorts": "1552.8571428571,195.71428571429,1607,195,1784,197,1780,490,1630,496,1615,545,1506,547,1494,465,1248,460,1244,75,1444,76,1474.2857142857,48.571428571429,1535,45,1600,94,1611,192,1615,199"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26665",
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "5",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "26665",
+		"sale": "1",
+		"img": "section_7-9_kv_2B.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "65.07",
+		"life_room": "27.45",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B-400x85-108264.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_2B.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c8-2b",
+		"sorts": "1496,572,1244,578,1246,969,1277,973,1316,1011,1369,1011,1405,980,1596,982,1603,893,1788,890,1783,502,1638,503,1619,556,1506,547"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26931",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "5",
+		"rooms": "1",
+		"type": "1\u0410",
+    "_type": "1\u0410",
+		"number": "26931",
+		"sale": "3",
+		"img": "section_7-9_kv_1A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "30",
+		"life_room": "13.74",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_1A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_1A-400x85-83401.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_1A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "905.71428571429,617.14285714286,1170,591.42857142857,1174.2857142857,1000,904.28571428571,997.14285714286"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26945",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "5",
+		"rooms": "1",
+		"type": "1\u0411",
+    "_type": "1\u0411",
+		"number": "26945",
+		"sale": "3",
+		"img": "section_7-9_1b.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "30",
+		"life_room": "13.74",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_1b.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_1b-400x85-96858.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_1b.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "898.57142857143,620,904.28571428571,997.14285714286,615.71428571429,1001.4285714286,624.28571428571,594.28571428571"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26959",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "5",
+		"rooms": "1",
+		"type": "1\u0416",
+    "_type": "1\u0416",
+		"number": "26959",
+		"sale": "3",
+		"img": "section_7-8_kv_1j.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "39.64",
+		"life_room": "16.81",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1j.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1j-400x85-110545.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-8_kv_1j.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26973",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "5",
+		"rooms": "1",
+		"type": "1\u0415",
+    "_type": "1\u0415",
+		"number": "26973",
+		"sale": "3",
+		"img": "section_7-8_kv_1E.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "39.99",
+		"life_room": "11.4",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E-400x85-65766.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-8_kv_1E.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26987",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "5",
+		"rooms": "1",
+		"type": "1\u0412",
+    "_type": "1\u0412",
+		"number": "26987",
+		"sale": "3",
+		"img": "section_7-9_kv1V.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "43.99",
+		"life_room": "16.81",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V-400x85-100307.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv1V.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "614.28571428571,592.85714285714,615.71428571429,1001.4285714286,557.14285714286,1034.2857142857,501.42857142857,1031.4285714286,447.14285714286,995.71428571429,264.28571428571,1000,280,592.85714285714"
+	},
+	{
+		"currency_label": "USD",
+		"id": "27003",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "5",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "27003",
+		"sale": "3",
+		"img": "section7-9_kv_2A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "59.16",
+		"life_room": "27.38",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A-400x85-108829.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section7-9_kv_2A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c9-2a",
+		"sorts": "1548.5714285714,207.14285714286,1717.1428571429,212.85714285714,1714.2857142857,518.57142857143,1562.8571428571,521.42857142857,1547.1428571429,567.14285714286,1432.8571428571,565.71428571429,1430,478.57142857143,1178.5714285714,478.57142857143,1178.5714285714,85.714285714286,1377.1428571429,81.428571428571,1411.4285714286,55.714285714286,1468.5714285714,57.142857142857,1527.1428571429,91.428571428571"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26243",
+		"build": "1",
+		"section": "1",
+		"sec_id": "1",
+		"floor": "5",
+		"rooms": "3",
+		"type": "3\u0411",
+    "_type": "3\u0411",
+		"number": "26243",
+		"sale": "0",
+		"img": "Section_1_kv.3B_1_5.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "82",
+		"life_room": "43.66",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/1\/Section_1_kv.3B_1_5.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/1\/Section_1_kv.3B_1_5.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c1-3b",
+		"sorts": "328,191,156,196,160,843,337,843,338,600,420,592,427,474,685,471,687,106,493,107,454,73,401,75,332.85714285714,125.71428571429"
+	},
+	{
+		"currency_label": "USD",
+		"id": "27017",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "5",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "27017",
+		"sale": "3",
+		"img": "section_7-9_kv_2B.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "65.07",
+		"life_room": "27.45",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B-400x85-108264.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_2B.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c9-2b",
+		"sorts": "1430,594.28571428571,1181.4285714286,600,1187.1428571429,995.71428571429,1244.2857142857,1030,1298.5714285714,1031.4285714286,1364.2857142857,995.71428571429,1531.4285714286,1004.2857142857,1531.4285714286,911.42857142857,1724.2857142857,915.71428571429,1714.2857142857,518.57142857143,1567.1428571429,530,1544.2857142857,578.57142857143,1442.8571428571,574.28571428571"
+	},
+	{
+		"currency_label": "USD",
+		"id": "27033",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "5",
+		"rooms": "1",
+		"type": "1\u0410",
+    "_type": "1\u0410",
+		"number": "27033",
+		"sale": "3",
+		"img": "section_10_kv1A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "43.6",
+		"life_room": "18.71",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv1A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv1A-400x85-116782.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_10_kv1A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27047",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "5",
+		"rooms": "1",
+		"type": "1\u0411",
+    "_type": "1\u0411",
+		"number": "27047",
+		"sale": "3",
+		"img": "section10_kv_1b.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "38.3",
+		"life_room": "15.75",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_1b.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10_kv_1b.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27061",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "5",
+		"rooms": "1",
+		"type": "1\u0412",
+    "_type": "1\u0412",
+		"number": "27061",
+		"sale": "3",
+		"img": "section_10_kv_1v.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "45.57",
+		"life_room": "21.38",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv_1v.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_10_kv_1v.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27075",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "5",
+		"rooms": "1",
+		"type": "1\u0413",
+    "_type": "1\u0413",
+		"number": "27075",
+		"sale": "3",
+		"img": "section10_kv_1G.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "38.62",
+		"life_room": "15.76",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_1G.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_1G-400x85-94997.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10_kv_1G.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27089",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "5",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "27089",
+		"sale": "3",
+		"img": "section10kv2A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "62.99",
+		"life_room": "31.13",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10kv2A.png",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10kv2A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c10-2a",
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27103",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "5",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "27103",
+		"sale": "3",
+		"img": "section_10_kv2b.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "65.17",
+		"life_room": "34.35",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv2b.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_10_kv2b-400x85-92641.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_10_kv2b.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "27117",
+		"build": "2",
+		"section": "10",
+		"sec_id": "10",
+		"floor": "5",
+		"rooms": "3",
+		"type": "3\u0410",
+    "_type": "3\u0410",
+		"number": "27117",
+		"sale": "3",
+		"img": "section10_kv_3A.PNG",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "75.7",
+		"life_room": "42.81",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section10_kv_3A.PNG",
+		"img_small": null,
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section10_kv_3A.PNG"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26629",
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "6",
+		"rooms": "1",
+		"type": "1\u0415",
+    "_type": "1\u0415",
+		"number": "26629",
+		"sale": "1",
+		"img": "section_7-8_kv_1E.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "39.99",
+		"life_room": "11.4",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E-400x85-65766.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-8_kv_1E.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "315,205,133,205,133,894,304,892"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26652",
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "6",
+		"rooms": "2",
+		"type": "2\u0410",
+    "_type": "2\u0410",
+		"number": "26652",
+		"sale": "1",
+		"img": "section7-9_kv_2A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "59.16",
+		"life_room": "27.38",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section7-9_kv_2A-400x85-108829.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section7-9_kv_2A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c8-2a",
+		"sorts": "1609,195,1785,196,1787,495,1630,499,1616,544,1495,550,1491,461,1244,461,1242,78,1444,77,1474.2857142857,50,1535,49,1599,90"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26666",
+		"build": "2",
+		"section": "8",
+		"sec_id": "8",
+		"floor": "6",
+		"rooms": "2",
+		"type": "2\u0411",
+    "_type": "2\u0411",
+		"number": "26666",
+		"sale": "1",
+		"img": "section_7-9_kv_2B.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "65.07",
+		"life_room": "27.45",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_2B-400x85-108264.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_2B.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": "https:\/\/vrnet.io\/view5.16a\/?model=ua\/linevichgroup\/grandbourget\/c8-2b",
+		"sorts": "1633,506,1786,503,1788,889,1605,894,1597,981,1438,980,1407,977,1373,1011,1316,1009,1280,980,1244,965,1243,574,1497,571,1504,551,1613,550"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26932",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "6",
+		"rooms": "1",
+		"type": "1\u0410",
+    "_type": "1\u0410",
+		"number": "26932",
+		"sale": "3",
+		"img": "section_7-9_kv_1A.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "30",
+		"life_room": "13.74",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_1A.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv_1A-400x85-83401.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv_1A.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "907.14285714286,624.28571428571,1170,590,1167.1428571429,995.71428571429,900,995.71428571429"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26946",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "6",
+		"rooms": "1",
+		"type": "1\u0411",
+    "_type": "1\u0411",
+		"number": "26946",
+		"sale": "3",
+		"img": "section_7-9_1b.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "30",
+		"life_room": "13.74",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_1b.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_1b-400x85-96858.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_1b.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "900,618.57142857143,900,995.71428571429,618.57142857143,991.42857142857,631.42857142857,592.85714285714"
+	},
+	{
+		"currency_label": "USD",
+		"id": "26960",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "6",
+		"rooms": "1",
+		"type": "1\u0416",
+    "_type": "1\u0416",
+		"number": "26960",
+		"sale": "3",
+		"img": "section_7-8_kv_1j.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "39.64",
+		"life_room": "16.81",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1j.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1j-400x85-110545.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-8_kv_1j.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26974",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "6",
+		"rooms": "1",
+		"type": "1\u0415",
+    "_type": "1\u0415",
+		"number": "26974",
+		"sale": "3",
+		"img": "section_7-8_kv_1E.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "39.99",
+		"life_room": "11.4",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-8_kv_1E-400x85-65766.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-8_kv_1E.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": null
+	},
+	{
+		"currency_label": "USD",
+		"id": "26988",
+		"build": "2",
+		"section": "9",
+		"sec_id": "9",
+		"floor": "6",
+		"rooms": "1",
+		"type": "1\u0412",
+    "_type": "1\u0412",
+		"number": "26988",
+		"sale": "3",
+		"img": "section_7-9_kv1V.png",
+		"compas": "50",
+		"action_price": "0",
+		"visible": "1",
+		"area": "43.99",
+		"life_room": "16.81",
+		"price": "0",
+    "_price": 12000,
+		"type_object": "1",
+		"price_m2": 0,
+		"img_big": "https:\/\/grand-byrze-wp.smarto.agency\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V.png",
+		"img_small": "\/wp-content\/themes\/grand-byrze\/assets\/img\/projects\/36\/2\/section_7-9_kv1V-400x85-100307.png",
+		"images": {
+			"without": {
+				"2d": "\/img\/projects\/36\/2\/section_7-9_kv1V.png"
+			}
+		},
+		"option": {
+			 "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+		},
+		"3d_tour": null,
+		"sorts": "620,595.71428571429,270,588.57142857143,262.85714285714,1001.4285714286,458.57142857143,998.57142857143,504.28571428571,1032.8571428571,562.85714285714,1037.1428571429,618.57142857143,991.42857142857"
+	}
+]

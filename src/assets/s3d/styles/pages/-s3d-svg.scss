@@ -1,0 +1,252 @@
+.s3d {
+  &__svgWrap {
+    z-index: 51;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      fill: transparent;
+      margin: 0 auto;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+    &.s3d__svg__active {
+      z-index: 55;
+      svg {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: painted;
+      }
+    }
+  }
+  &__svg-container {
+    z-index: 55;
+    display: block !important;
+  }
+}
+.s3d-svg__build {
+  cursor: pointer;
+  transition: .25s ease-out;
+  
+  &[data-type="sold"] {
+    cursor: no-drop;
+  }
+  &[data-type="slider_popup"] {
+    cursor: pointer;
+    fill: $svg-active;
+  }
+  // &[data-type="flyby"] {
+  //   stroke: transparent;
+  //   stroke-width: 2px;
+  //   transition: fill .25s ease-out, stroke .25s ease-in-out;
+  // }
+  &:hover:not(.polygon__flat-svg) {
+    // stroke: #fff;
+    // fill: $svg-hover;
+  }
+}
+.s3d-svg__house {
+  cursor: pointer;
+  transition: .25s ease-out;
+  &[data-type="infrastructure"],
+  &[data-type="sold"] {
+    cursor: no-drop;
+  }
+  &[data-type="slider_popup"] {
+    cursor: pointer;
+    fill: $svg-active;
+  }
+  &[data-type="flyby"] {
+    stroke: #fff;
+    stroke-width: 4px;
+    transition: fill .25s ease-out;
+  }
+  &:hover:not(.polygon__flat-svg) {
+    fill: $svg-hover;
+  }
+  &:hover[data-type='floor'],
+  &:hover[data-type='flat'] {
+    stroke-width: 2;
+    stroke: $wc;
+  }
+}
+
+.polygon__filter-select {
+  fill: $svg-active;
+}
+.polygon__flat-svg {
+  fill: $svg-select;
+}
+.polygon__flat-svg {
+  fill: rgba(255,255,255,0.75) !important;
+  stroke: #d3b551;
+}
+.polygon__active-flat:not(.s3d__active) {
+  fill: var(--active-element-transparent-72);
+}
+
+.polygon__filter-select {
+  fill: $svg-active;
+  transition: .25s ease-out;
+}
+
+svg {
+  polygon.preview,
+  polygon.active,
+  .polygon__flat-svg {
+    stroke: rgba(255,255,255, 1);
+    stroke-width: 6;
+    opacity: 1;
+    animation: stroke-pulsation 1.6s infinite cubic-bezier(0, 0, 0.12, 1.02);
+  }
+}
+
+.safari {
+  svg {
+      polygon.preview,
+    polygon.active,
+    .polygon__flat-svg {
+      animation: none;
+    }
+
+  }
+}
+
+@keyframes stroke-pulsation {
+  0% {
+    stroke-width: 2;
+  }
+
+  20% {
+    stroke-width: 6;
+  }
+
+  100% {
+    stroke-width: 2;
+  }
+}
+
+
+[data-type="pin"] {
+
+  cursor: initial;
+  &[data-href] {
+    cursor: pointer;
+  }
+  &[data-href] polygon {
+    cursor: pointer;
+  }
+  polygon {
+    opacity: 0;
+    // pointer-events: none;
+    fill: rgba(181, 159, 86, 0.7);
+    transition: opacity .25s ease-out;
+    cursor: inherit;
+  }
+  .text-background,
+  text {
+    transform-origin: center;
+    transform-box: fill-box;
+    transform: translateY(-52px) translateX(-30px);
+  }
+
+  .text-background {
+    fill: #0e0e0e;
+    transition: .25s ease-out;
+    opacity: 0;
+  }
+
+  text {
+    transition: .25s ease-out;
+    opacity: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    fill: #fff;
+  }
+  rect:not(.text-background) {
+    transform-origin: center;
+    transform-box: fill-box;
+    transition: .25s ease-out;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  &:hover {
+    polygon {
+      opacity: 1;
+    }
+    rect:not(.text-background) {
+      transform: translate(-50%, -50%) scale(1.2);
+    }
+    .text-background,
+    text {
+      opacity: 1;
+      animation: fadeInBottom .25s ease-out 1;
+    }
+  }
+}
+
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(-35px) translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-52px) translateX(-30px);
+  }
+}
+
+
+foreignObject {
+  pointer-events: none;
+  transform-origin: center;
+  transform-box: fill-box;
+  transform: translate(-50%, -50%);
+}
+
+.s3d-flyby-tooltip {
+  display: flex;
+  flex-direction: column;
+  column-gap: 4px;
+  pointer-events: none;
+
+  &__title {
+    background-color: #ca3c32;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 26px */
+    padding: 4px 8px;
+    color: white;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 6px;
+    font-family: Proxima Nova;
+  }
+  &> svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16px;
+    height: 16px;
+  }
+
+  &__result {
+    background-color: white;
+    color: #000;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 6px;
+  }
+
+
+}

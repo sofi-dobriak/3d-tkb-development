@@ -1,0 +1,96 @@
+.slider-popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: Min(100vw, 1200px);
+    height: 80%;
+    background-color: $card-btn-background;
+    border-radius: 6px;
+    z-index: 56;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeInPopup .3s ease-in-out;
+    &__navigation {
+        position: absolute;
+        width: max-content;
+        left: 50%;
+        bottom: 0;
+        transform: translateY(-50%) translateX(-50%);
+        display: flex;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        z-index: 4;
+    }
+    .swiper-container {
+        overflow: hidden;
+        width: 100%;
+        flex-grow: 1;
+        // height: 100%;
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+    &__title {
+        color: $card-background;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        height: 40px;
+        display: flex;
+        justify-content: center;align-items: center;
+    }
+    &__content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__close {
+        position: absolute;
+        right: 12px;
+        top:  12px;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+        z-index: 4;
+
+        circle {
+            fill: $title-dark;
+            transition: .3s ease-in-out;
+        }
+        path {
+            stroke: $wc;
+            transition: .3s ease-in-out;
+        }
+        @media screen and (min-width: 1023px){
+            &:hover circle {
+                fill: $mc;
+            }
+            &:hover path {
+                stroke: $wc;
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+[data-demo_view] {
+    .s3d-ctr__nav,
+    .s3d__compass,
+    .s3d-ctr__helper,
+    .s3d__svg-container,
+    polygon,
+    header {
+        pointer-events: none !important;
+        opacity: 0 !important;
+    }
+}

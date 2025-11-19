@@ -1,0 +1,358 @@
+$default-font: "Avenir LT Pro 55 Roman", sans-serif;
+
+
+/*OLD variables, dont use it in new version*/
+$wc: #F4F8FD;
+$bc: #000000;
+$mc: #E0C7AA;
+
+$sale-text: var(--text-gray-200);
+$sale-0: var(--color-semantic-danger);
+$sale-1: var(--color-surface-semantic-success);
+$sale-2: #6d6805;
+$sale-3: #000000;
+
+$bg-color: #D9D9D9;
+
+$title-dark: #000000;
+$description-text-color: #000000;
+
+$loader-bg: rgba(0, 0, 0, 0.5);
+$loader-icon-color: #F4F8FD;
+$loader-text-color: #F4F8FD;
+
+$preloader-bg: #fff;
+
+$close-btn-color: #000000;
+$close-btn-color-hover: #000000;
+
+$menu-bg: #000000;
+$menu-text-color: #F4F8FD;
+$menu-close-bg: #E0C7AA;
+$menu-close-icon: #000000;
+$menu-text-color-hover: #F4F8FD;
+$menu-close-bg-hover: #E3C29B;
+$menu-close-icon-hover: #000000;
+
+$popup-bg: rgba(0, 0, 0, 0.95);
+$popup-content-color: #F4F8FD;
+$popup-text-color: #000000;
+$popup-close-btn-bg: #E0C7AA;
+$popup-close-btn-icon: #000000;
+$popup-close-btn-bg-hover: #E3C29B;
+$popup-close-btn-icon-hover: #000000;
+$popup-text-color: #000000;
+$popup-invalidate-text-color: red;
+
+$info-box-background: #F4F8FD;
+$info-box-text: #000000;
+$info-box-link: #000000;
+$info-box-link-text: #F4F8FD;
+
+$info-box-flat-background: rgba(0, 0, 0, 0.8);
+$info-box-flat-background2: #F4F8FD;
+$info-box-flat-text-color: #000000;
+$info-box-flat-label-border-color: #000000;
+$info-box-flat-link: red;
+$info-box-flat-link: #000000;
+$info-box-flat-link-text: #F4F8FD;
+
+$svg-active: rgba(0, 0, 0, 0.6);
+$svg-not-active: rgba(0, 0, 0, 0.1);
+$svg-hover: rgba(0, 0, 0, 0.7);
+$svg-select: rgba(0, 0, 0, 0.8);
+
+$flat-rooms-1: rgba(0, 0, 0, 0.1);
+$flat-rooms-2: rgb(0, 0, 0, 0.1);
+$flat-rooms-3: rgba(0, 0, 0, 0.1);
+$flat-rooms-4: rgba(0, 0, 0, 0.1);
+$flat-rooms-1-btn: #000000;
+$flat-rooms-2-btn: #000000;
+$flat-rooms-3-btn: #000000;
+$flat-rooms-4-btn: #000000;
+$flat-sold: rgba(0, 0, 0, 0);
+
+$fav-border: #E0C7AA;
+$fav-count: #000000;
+$fav-count-text: #FFFFFF;
+$fav-icon: #000000;
+$fav-icon-fill: rgba(255, 255, 255, 0);
+$fav-bg: #E0C7AA;
+
+$fav-border-hover: #E0C7AA;
+$fav-icon-hover: #000000;
+$fav-icon-fill-hover: #E3C29B;
+$fav-bg-hover: #E0C7AA;
+
+$fav-border-active: #E0C7AA;
+$fav-count-active: #000000;
+$fav-count-text-active: #FFFFFF;
+$fav-icon-active: #000000;
+$fav-icon-fill-active: #000000;
+$fav-bg-active: #E0C7AA;
+
+$add-to-fav-bg: transparent;
+$add-to-fav-stroke: #000000; // svg stroke color
+$add-to-fav-fill: transparent; // svg fill color
+$add-to-fav-stroke-hover: #000000; // svg stroke color
+$add-to-fav-fill-hover: #000000; // svg fill color
+$add-to-fav-stroke-active: #000000; // svg stroke color
+$add-to-fav-fill-active: #000000; // svg fill color
+
+$menu-background: #E0C7AA;
+$menu-elem-color: #000000;
+
+$header-title: #000000;
+$header-before-bg: linear-gradient(180deg, rgba(244, 248, 253, 0.8) 0%, rgba(244, 248, 253, 0) 100%);
+
+$controller-border-radius: 12px;
+$controller-background: #F4F8FD;
+$controller-border: 1px solid #CBD0DB;
+$controller-title-color: #000000;
+
+$controller-btn-border: 1px solid #E3EBF3;
+$controller-btn-background: #E3EBF3;
+$controller-text-color: #000000;
+
+$controller-btn-border-active: 1px solid #E0C7AA;
+$controller-btn-background-active: #E0C7AA;
+$controller-text-color-active: #000000;
+
+$controller-btn-border-hover: 1px solid #C0D1E1;
+$controller-btn-background-hover: #C0D1E1;
+$controller-text-color-hover: #000000;
+
+$controller-btn-border-disabled: 1px solid #ECF2F8;
+$controller-btn-background-disabled: #ECF2F8;
+$controller-text-color-disabled: #C0D1E1;
+
+$btn-wrapper: #F4F8FD;
+$btn-icon: #000000;
+$btn-border-radius: 8px;
+$btn-text: #000000;
+
+$navigation-bg: transparent;
+$navigation-btn-bg: #E0C7AA;
+$navigation-btn-icon: #000000;
+$navigation-btn-bg-hover: #E3C29B;
+$navigation-btn-icon-hover: #000000;
+
+$compass-bg: #F4F8FD;
+$compass-padding: 6px;
+$compass-text-big: #000000;
+$compass-text-small: #6C7A88;
+
+$menu-3d-border-btn: 1px solid #C0D1E1;
+$menu-3d-text-color-btn: #000000;
+$menu-3d-text-color-btn-checked: #000000;
+$menu-3d-background-btn: #F4F8FD;
+$menu-3d-main-color: #E0C7AA;
+$menu-3d-main-color-hover: #E3C29B;
+
+$menu-3d-border-btn-hover: 1px solid #C0D1E1;
+$menu-3d-background-btn-hover: #E3EBF3;
+$menu-3d-text-color-btn-hover: #000000;
+
+$filter-bg: #E3EBF3;
+$filter-bg-2: #F4F8FD;
+$filter-text-color: #000000;
+
+$filter-range-bg: #000000;
+$filter-range-color: #000000;
+
+$filter-close-btn-color: #000000;
+$filter-close-btn-hover: #E0C7AA;
+
+$filter-checkbox-border-color: #C0D1E1;
+$filter-checkbox-bg: #F4F8FD;
+$filter-checkbox-text: #000000;
+
+$filter-checkbox-border-color-hover: #C0D1E1;
+$filter-checkbox-bg-hover: #E3EBF3;
+$filter-checkbox-text-hover: #000000;
+
+$filter-checkbox-border-color-active: #E0C7AA;
+$filter-checkbox-bg-active: #E0C7AA;
+$filter-checkbox-text-active: #000000;
+
+$filter-reset-text-color: #000000;
+$filter-reset-border-color: #C0D1E1;
+$filter-reset-bg: #F4F8FD;
+
+$filter-reset-text-color-hover: #000000;
+$filter-reset-border-color-hover: #C0D1E1;
+$filter-reset-bg-hover: #E3EBF3;
+
+$filter-hide-bg: #E3EBF3;
+$filter-hide-text: #000000;
+
+$filter-type-icon: #000000;
+$filter-type-bg: #C0D1E1;
+$filter-type-bg-2: #E3EBF3;
+
+$filter-amount-bg: #C0D1E1;
+$filter-amount-text-color: #000000;
+
+$flat-list-bg: #F4F8FD;
+$flat-list-bg-2: #ECF2F8;
+$flat-list-text-color: #000000;
+
+$filter-hover-color: #C0D1E1;
+
+$card-border-radius: var(--border-space-2);
+$card-text-color: #000000;
+$card-background: #F4F8FD;
+$card-border-color: #C0D1E1;
+$card-border-color-hover: #C0D1E1;
+$card-after-line-color: #B2AA9C;
+
+$card-btn-background: #E0C7AA;
+$card-btn-text-color: #000000;
+$card-btn-background-hover: #E3C29B;
+$card-btn-text-color-hover: #000000;
+
+$flat-menu-background: #F4F8FD;
+$flat-menu-border: 1px solid #CBD0DB;
+$flat-menu-text-color: #000000;
+
+
+$flat-menu-btn-border: #C0D1E1;
+$flat-menu-btn-bg: #F4F8FD;
+$flat-menu-btn-text: #000000;
+$flat-menu-btn-border-hover: #C0D1E1;
+$flat-menu-btn-bg-hover: #E3EBF3;
+$flat-menu-btn-text-hover: #000000;
+
+$flat-menu-2d-3d-text-сolor-active: #000000;
+
+$flat-menu-btn-2-border: #E0C7AA;
+$flat-menu-btn-2-bg: #E0C7AA;
+$flat-menu-btn-2-text: #000000;
+$flat-menu-btn-2-border-hover: #E3C29B;
+$flat-menu-btn-2-bg-hover: #E3C29B;
+$flat-menu-btn-2-text-hover: #000000;
+
+$flat-menu-btn-3-border: #000000;
+$flat-menu-btn-3-bg: #000000;
+$flat-menu-btn-3-text: #F4F8FD;
+$flat-menu-btn-3-border-hover: #000000;
+$flat-menu-btn-3-bg-hover: rgba(255, 255, 255, 0);
+$flat-menu-btn-3-text-hover: #000000;
+
+$flat-menu-hover: #000000; //???
+
+$flat-info-border: #E0C7AA;
+$flat-info-bg: #E0C7AA;
+
+
+
+
+
+
+
+$button-desktop-text-mobile-icon-svg-color: #000000;
+
+$name-project: '3d';
+
+:root {
+  --icon16: 16px;
+  --icon24: 24px;
+
+  --font12: 12px;
+  --font14: 14px;
+  --font20: 20px;
+  --font32: 32px;
+
+  --s3d-title: 28px;
+  --s3d-header: 88px;
+
+  --offset: 12px;
+  --controller-w: 198px;
+  --controller-h: 203px;
+  --controller-btn: 28px;
+  --controller-padding: 20px;
+
+  --table-row-height: 50px;
+  --link-fz-flat: 19px;
+
+  --info-offset-buttom: 20px;
+  --filter-width: 520px;
+  --filter-offset-hor: 50px;
+  --filter-offset-ver: 30px;
+  --size-btn-circle: 60px;
+
+  --menu-h: 82px;
+
+  --btn: 36px;
+
+  --smarto-logo-w: 56px;
+  --smarto-logo-h: 60px;
+
+  --flyby-flats-count-bg: yellow;
+  --flyby-flats-count-color: blue;
+}
+
+.tablet.landscape,
+.tablet.portrait {
+  --s3d-header: calc(var(--space-4) + 42px);
+
+  [data-type="floor"],
+  [data-type="flat"] {
+    --controller-w: 100%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  :root {
+    --table-row-height: 44px;
+
+    --filter-width: 520px;
+    --filter-offset-hor: 30px;
+  }
+}
+
+@media screen and (max-width:1280px) {
+  :root {
+    --offset-controller-hor: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --controller-w: 100%;
+    --controller-h: 76px;
+    --controller-btn: 40px;
+
+    --filter-width: 70%;
+
+    --menu-h: 78px;
+
+    --smarto-logo-w: 36px;
+    --smarto-logo-h: 40px;
+    ;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  :root {
+    --s3d-title: 18px;
+    --s3d-header: 60px;
+
+    --controller-w: 100%;
+    --controller-h: 60px;
+
+    --filter-width: 100%;
+    --filter-offset-hor: 20px;
+    --filter-offset-ver: 30px;
+    --size-btn-circle: 36px;
+
+    --menu-h: 58px;
+  }
+}
+
+.mobile.landscape {
+  --controller-h: 36px;
+  --s3d-header: 40px;
+  --s3d-title: 18px;
+  --btn: 30px;
+}

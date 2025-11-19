@@ -1,0 +1,195 @@
+.s3d-filter__table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: $flat-list-bg;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    background: $wc;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $filter-bg;
+    -webkit-box-shadow: none;
+  }
+  &::-webkit-scrollbar-thumb:window-inactive {
+    background: $filter-bg;
+  }
+  .s3d-filter__head {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    @at-root [data-view-type="card"] .s3d-filter__head {
+      display: none;
+    }
+    .s3d-filter__tr:not(.hide) {
+      height: calc(var(--table-row-height) + var(--filter-table-offset-top));
+      background-color: $wc;
+    }
+  }
+  table {
+    border-collapse: collapse;
+  }
+  [data-view-type="card"],
+  .card-view {
+    --gap: var(--filter-offset-ver);
+    padding:  var(--gap);
+    padding-top:  calc(var(--gap) * 1.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: calc(var(--gap) / 2);
+    &>* {
+      width: calc(100% - (var(--gap) / 4));
+    }
+    @media screen and (max-width: 680px) {
+      padding:  calc(var(--gap) * 1.5) 20px 20px;
+    }
+  }
+  .s3d-filter__tr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: var(--table-row-height);
+    transition: background-color 0.4s ease-in-out;
+    cursor: pointer;
+    &:nth-child(2n + 1) {
+      background-color: $flat-list-bg-2;
+      @media screen and (min-width: 1023px){
+        &:hover {
+          background-color: #FFFFFF;
+          transition: background-color 0.4s ease-in-out;
+        }
+      }
+    }
+    @media screen and (min-width: 1023px){
+      &:hover {
+        background-color: #FFFFFF;
+        transition: background-color 0.4s ease-in-out;
+      }
+    }
+  }
+  .s3d-filter__th {
+    @include text-style-3-d-fonts-1920-body-medium;
+    color: $flat-list-text-color;
+    vertical-align: bottom;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    transition: color 0.4s ease-in-out;
+    text-align: center;
+    width: 90%;
+    padding-top: 50px;
+    &--offset {
+      width: var(--space-1);
+    }
+    .s3d-sort__arrow {
+      height: var(--icon16);
+      // margin-left: 8px;
+      transform-origin: center;
+      transition: transform 0.4s ease-in-out, fill 0.4s ease-in-out;
+      fill: $flat-list-text-color;
+      stroke: none;
+    }
+    &.s3d-sort-active {
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .s3d-filter__td {
+    font-size: var(--font14);
+    @include font-default;
+    color: $flat-list-text-color;
+    align-self: center;
+    vertical-align: middle;
+    transition: color 0.4s ease-in-out;
+    text-align: center;
+    width: 90%;
+    white-space: nowrap;
+    &-status-label {
+      width: var(--space-2);
+      height: var(--space-2);
+      border-radius: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &--offset {
+      width: 20px;
+    }
+    .s3d__favourite {
+      // height: var(--icon24);
+      // width: var(--icon24);
+      border-radius: none;
+      border: none;
+      background: transparent;
+      margin: 0 auto;
+      svg {
+        fill: transparent;
+        // stroke: $fav-icon;
+        fill: var(--icon-gray-900);
+        transition: stroke 0.3s ease-in-out, fill 0.3s ease-in-out;
+      }
+      input:checked + svg {
+        // fill: $filter-range-color;
+        fill: var(--color-semantic-success);
+        // stroke: $filter-range-color;
+      }
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    .s3d-sort__arrow {
+      margin-left: 4px;
+    }
+  }
+}
+
+.s3d-filter__grid {
+  display: none;
+  flex-wrap: center;
+  width: 100%;
+  height: 100%;
+  background-color: $flat-list-bg;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    background: $wc;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $filter-bg;
+    -webkit-box-shadow: none;
+  }
+  &::-webkit-scrollbar-thumb:window-inactive {
+    background: $filter-bg;
+  }
+}
+
+.s3d-filter__table, .s3d-filter__grid {
+  .s3d-filter-active {
+
+  }
+}
+
+.s3d-ctr[data-type="plannings"] ~ .s3d-filter-wrap {
+  .s3d-filter__table {
+    display: none;
+  }
+}
+
+
+.tablet {
+  .s3d-filter__table {
+    table {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.ButtonIconLeft {
+  border-radius: var(--border-space-2);
+  padding: var(--space-2) var(--space-3);
+  color: var(--text-gray-900);
+  background-color: var(--color-surface-gray-200);
+  border: 1px solid var(--border-gray-400);
+  cursor: pointer;
+  @include text-style-3-d-fonts-1920-body-medium;
+  display: flex;
+  align-items: center;
+  transition: .25s ease-out;
+
+  span {
+    @include text-style-3-d-fonts-1920-body-medium;
+  }
+
+  svg {
+    fill: var(--icon-gray-900);
+    width: 24px;
+    height: 24px;
+    margin-right: var(--space-1);
+  }
+
+  &--secondary {
+    background-color: var(--color-surface-brand-800);
+    border: 1px solid var(--border-gray-400);
+    color: var(--text-gray-900);
+
+    svg {
+      fill: var(--icon-gray-900);
+    }
+  }
+
+  &:disabled {
+    background-color: var(--color-surface-gray-100);
+    border: 1px solid var(--border-gray-400);
+    color: var(--text-gray-600);
+    cursor: not-allowed;
+
+    svg {
+      fill: var(--icon-gray-600);
+    }
+  }
+
+  &[data-filter-not-empty]::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-semantic-warning);
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+  }
+}
+
+@include onHover {
+  .ButtonIconLeft:hover {
+    background-color: var(--color-surface-gray-300);
+  }
+}

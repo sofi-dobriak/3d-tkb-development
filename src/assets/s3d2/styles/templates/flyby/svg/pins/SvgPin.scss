@@ -1,0 +1,33 @@
+.SvgPin {
+  pointer-events: all;
+
+  &>* {
+    pointer-events: none;
+  }
+
+  &__title {
+    padding: var(--space-1) var(--space-3);
+    color: var(--text-gray-200);
+    border-radius: var(--border-space-2);
+    background-color: var(--color-surface-gray-900);
+    text-align: center;
+  }
+
+  &__icon {
+    &>* {
+      pointer-events: none;
+    }
+
+    &-large {
+      width: 44px !important;
+      height: 74px !important;
+      pointer-events: none !important;
+    }
+
+    &-small {
+      width: 16px !important;
+      height: 16px !important;
+      pointer-events: none !important;
+    }
+  }
+}

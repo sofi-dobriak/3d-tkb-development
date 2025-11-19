@@ -1,0 +1,17 @@
+.mobile.landscape {
+    .s3d-pl__amount-flat {
+        display: none;
+    }
+
+    .s3d-fv__container .s3d-fv__list,
+    .s3d-fv__container .s3d-pl__list,
+    .s3d-pl__container .s3d-fv__list,
+    .s3d-pl__container .s3d-pl__list {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        height: 100%;
+        margin-top: 0;
+        overscroll-behavior: none;
+    }
+
+    .s3d-pl {}
+}

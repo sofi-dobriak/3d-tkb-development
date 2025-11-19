@@ -1,0 +1,410 @@
+{
+  "translation": {
+    "area_unit": "м²",
+    "currency_label": "$",
+    "currency_label_m2": "$t(currency_label) за $t(area_unit)",
+    "unit_statuses": {
+      "0": "Продано",
+      "1": "Вільно",
+      "2": "Резерв",
+      "3": "Заброньовано",
+      "4": "Недоступно",
+      "6": "Заблоковано"
+    },
+    "error": {
+      "pdf": "Для перегляду вмісту PDF, будь ласка, змініть ваші налаштування конфіденційності: Перейдіть до Налаштувань -> Safari -> Блокувати спливні вікна та вимкніть їх.",
+      "open_pdf": "Відкрити PDF"
+    },
+    "infoBox": {
+      "sold": "Всі апартаменти продані",
+      "sold_short": "Продано",
+      "flatSold": "Апартаменти продані",
+      "flatClosed": "Продажі не відкриті",
+      "freeObjects": "В наявності",
+      "price_m2_from": "Ціна за $t(area_unit):",
+      "from_price": "від {{currency}} {{text}}",
+      "price_from": "Загальна ціна:",
+      "reviewFlat": "Дивитися апартамент",
+      "buildReview": "Дивитись чергу",
+      "review": "Дивитись",
+      "finishDate": "Дата завершення будівництва:",
+      "filter_results": "Відфільтровано {{count}} апартаментів",
+      "general": {
+        "button_titles": {
+          "queue": "Дивитись чергу",
+          "villa": "Дивитись віллу",
+          "house": "Дивитись будинок"
+        }
+      }
+    },
+
+    "title": {
+      "genplan": "Генплан",
+      "flyby_1_outside": "Будинок 1",
+      "favourites": "Порівняння",
+      "plannings": "Планування"
+    },
+
+    "load": {
+      "loading-text": "Завантаження",
+      "loading-text-wait": "Зачекайте трохи..."
+    },
+
+    "menu": {
+      "menu-title": "Menu",
+      "nav": {
+        "1": {
+          "nav-title": "Name",
+          "nav-subtitle": {
+            "1": "Name",
+            "2": "Name",
+            "3": "Name",
+            "4": "Name",
+            "5": "Name"
+          }
+        },
+        "2": {
+          "nav-title": "Name",
+          "nav-subtitle": {
+            "1": "Name",
+            "2": "Name",
+            "3": "Name",
+            "4": "Name",
+            "5": "Name"
+          }
+        }
+      }
+    },
+
+    "ctr": {
+      "nav": {
+        "title": "Меню 3D",
+        "back": "Назад",
+        "genplan": "Генплан",
+        "flyby": "Будинки",
+        "flyby_1_outside": "Черга 1",
+        "flyby_1_inside": "Будинок 1",
+        "plannings": "Планування",
+        "floor": "План поверху",
+        "flat": "Квартира",
+        "flat_shot": "Квартир",
+        "menu": "Меню",
+        "navigation": "Навігація",
+        "functions": "Функції",
+        "callback": "Зворотній дзвінок",
+        "floor_plans": "Плани поверхів",
+        "property": "Об'єкт"
+      },
+      "share": {
+        "link-copied": "Посилання скопійовано"
+      },
+      "flybysidechooser": {
+        "outside": "Внутрішній",
+        "inside": "Зовнішній"
+      },
+      "menu": {
+        "compass": {
+          "south": "S",
+          "west": "W",
+          "east": "E",
+          "north": "N"
+        },
+        "btn": {
+          "infrastructure": "Інфраструктура",
+          "filter": "Фільтр",
+          "chooseOfApartment": "Апартамент",
+          "chooseOfFloor": "Поверх",
+          "repeatHelp": "?"
+        },
+        "hightlightInfrastructure": "Підсвітити інфраструктуру",
+        "callbackFormCall": "Зв`язатися з менеджером",
+        "build_progress": "Хід будівництва",
+        "on_the_map": "Розташування на карті"
+      }
+    },
+
+    "Helper": {
+      "slide-0--title": "Hold and rotate",
+      "slide-1--title": "Filter",
+      "slide-2--title": "Floors or apartments",
+      "slide-3--title": "Use navigation",
+      "close": "Skip training",
+      "title1": "Navigation",
+      "description1": "You can rotate 3D model",
+      "title2": "Instrumens",
+      "description2": "Tools for interacting with the 3D model",
+      "title3": "Filter",
+      "description3": "You can filtered for your parameters",
+      "title4": "Порівняння",
+      "description5": "You can add plannings to compare"
+    },
+
+    "Filter": {
+      "title": "Filter",
+      "list": {
+        "type": "Тип",
+        "rooms": "Кімнат",
+        "area": "Площа",
+        "area_unit": "$t(area_unit)",
+        "favourite--add": "Обрати",
+        "status": "Статус",
+        "floor": "Поверх",
+        "price": "Ціна"
+      },
+      "range": {
+        "floor": "Поверх",
+        "area": "Площа",
+        "area_unit": "$t(area_unit)",
+        "price": "Ціна",
+        "price_unit": "$t(currency_label)",
+
+        "price_unit_m2": "$t(currency_label_m2)"
+      },
+      "checkboxes": {
+        "rooms": "Кімнат",
+        "build": "Будинок",
+        "type": "Тип"
+      },
+      "reset": "Скинути фільтри",
+      "apply": "Застосувати",
+
+      "hide": "Скрити фільтри",
+      "show": "Показати фільтри",
+
+      "found": "Знайдено",
+      "from": "з",
+
+      "to": "to",
+      "not-marked-message": "Приміщення не позначено на плані",
+      "openFilter": "Open filter",
+      "enterUnitNumber": "Введіть номер апартаменту",
+      "Search by number": "Пошук за номером"
+    },
+
+    "Flat": {
+      "name": "Юніт",
+      "explication": "Експлікація",
+      "gallery": "Галерея",
+      "floor_plan": "План поверху",
+      "other_flats_title": "Ці апартаменти на інших поверхах",
+      "doc_title": "Документація",
+      "financial_terms_title": "Умови фінансування",
+      "construction_title": "Хід будівництва",
+      "explication_data": {
+        "floor_1": "1ий поверх",
+        "floor_2": "2ий поверх",
+        "floor_3": "3ій поверх",
+        "floor_4": "4ий поверх",
+        "floor_5": "5ий поверх"
+      },
+      "buttons": {
+        "with": "3D",
+        "without": "2D",
+        "gallery_btn": "Gallery",
+        "showIn3d": "На 3D моделі",
+        "view": "Ракурс",
+        "windowView": "З вікна",
+        "pdf": "PDF",
+        "3dTour": "3D tour",
+        "compare": "Порівняння",
+        "addedToCompare": "Додано до порівняння",
+        "callback--1": "Зв'язатись з менеджером",
+        "callback--2": "Забронювати",
+        "planning2d": "2D планування",
+        "planning3d": "3D планування",
+        "furnished": "З меблями",
+        "video": "Дивитися відеозвіт з будівництва"
+      },
+      "timer": {
+        "timer-text": "There is still time to book at this price"
+      },
+      "information": {
+        "title": "Information",
+        "sale": "Статус",
+        "build": "Будинок",
+        "number": "Номер",
+        "area": "Площа",
+        "allArea": "Загальна площа",
+        "life_area": "Житлова площа",
+        "area_unit": "$t(area_unit)",
+        "rooms": "К-ть кімнат",
+        "floor": "Поверх",
+        "price": "Ціна",
+        "price_m2": "Ціна за $t(area_unit)",
+        "priceText": " $t(currency_label)",
+        "per": "за",
+        "type": "Тип",
+        "section": "Секція",
+        "priceHistory": "Історія цін",
+        "floor_n_desktop": "Номер поверху",
+        "floor_n_mobile": "Поверх №",
+        "viewPlanning": "Планування"
+      },
+      "goToFloor": "План поверху",
+      "goToFlat": "Детальніше"
+    },
+
+    "Floor": {
+      "title-1": "",
+      "title-2": "план поверху",
+      "changeFloor--": "Змінити поверх:",
+      "number_rooms": "Кількість кімнат",
+      "apps_from": "Апартаменти від",
+      "information": {
+        "title": "Інформація",
+        "build": "Будинок",
+        "floor": "Поверх",
+        "section": "Секція",
+        "all-flats": "Всього апартаментів",
+        "free-flats": "Доступні",
+        "free-flats--": "Доступні:",
+        "price_m2_from": "Від $t(currency_label) за $t(area_unit)",
+        "from": "від",
+        "reviewFloor": "Дивитися план поверху"
+      },
+      "filter": {
+        "1": "1 кіімната",
+        "2": "2 кімнати",
+        "3": "3 кімнати",
+        "4": "4 кімнати",
+        "5": "5 кімнат",
+        "all": "Показати все",
+        "title-mob": "Кімнат"
+      },
+      "floor-list": "повверхи",
+      "goToFloor": "Перейти на поверх"
+    },
+
+    "Plannings": {
+      "found": "Знайдено",
+      "found--from": "від",
+      "found-flats": "Апартаментів",
+      "notFound": "Але подивіться на ці апартаменти"
+    },
+
+    "favourite--title": "Порівняння",
+    "favourite--added": "Додано до порівняння",
+    "favourite--apartments": "апартаментів",
+    "favourite--add": "Обрати",
+    "favourite--empty-title": "Нічого не додано до обраного",
+    "favourite--empty-text": "Виберіть апартаменти та додайте їх до списку порівняння",
+    "favourite--empty-button": "Дивитися планування",
+    "favourite--show-differences": "Показати тільки відмінності",
+    "card--link": "Детальніше",
+
+    "PopupFlyby": {
+      "title": "Sq.",
+      "description": "Планування знаходиться в іншому будинку.Щоб переглянути його на 3D -моделі, вам потрібно перейти на інший будинок.",
+      "btn": "Змінити кут"
+    },
+
+    "Error-popup": {
+      "title": "An error has occurred",
+      "translate-info": "You will be redirected to the 3D master plan via",
+      "link": "to the main",
+      "messages": {
+        "not-find-data": "expected data not received",
+        "not-all-required-data-received": "not received all the necessary data",
+        "invalid-url": "incorrect data in url",
+        "failed-request": "failed to load data",
+        "network-error": "network error",
+        "application-error": "application error",
+        "unknown-error": "Unknown error"
+      }
+    },
+
+    "Send-error-popup": {
+      "success": "error data successfully sent to technical support specialists",
+      "failed": "error data not saved, please notify technical support"
+    },
+
+    "slider_popup": {
+      "227": "Type MasterFly",
+      "default": "Villa"
+    },
+
+    "builds": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "D",
+      "5": "E"
+    },
+
+    "rooms": {
+      "1": "1 bedroom",
+      "2": "2 bedrooms",
+      "3": "3 bedrooms",
+      "4": "4 bedrooms",
+      "5": "5 bedrooms"
+    },
+
+    "rooms-abbreviation": {
+      "1": "1 BR",
+      "2": "2 BR",
+      "3": "3 BR",
+      "4": "4 BR",
+      "5": "5 BR"
+    },
+
+    "sales": {
+      "0": "продано",
+      "1": "доступно",
+      "2": "резерв",
+      "3": "недоступно"
+    },
+
+    "pins": {
+      "park_trc": "Shop",
+      "parking_2": "Guest parking",
+      "walking_zone": "Walking area",
+      "shop_1": "Food store",
+      "playground_playground1": "Playground",
+      "shop_coffee": "Coffee shop",
+      "parking_underground": "Underground parking",
+      "commercial_zone": "Commercial premises",
+      "street_zamarstynivska": "str. Zamarstynivska",
+      "street_shidna": "str. Shidna",
+      "street_kvitova": "str. Kvitova"
+    },
+
+    "loader": {
+      "load": "Йде завантаження",
+      "wait_a_little": "Зачекайте трохи...",
+      "rotate_warning": "Тримайте телефон у вертикальному положені."
+    },
+    "Dropdown": {
+      "title": "Навігація"
+    },
+    "currencies": {
+      "USD": "$",
+      "UAH": "₴",
+      "EUR": "€"
+    },
+    "tutorial": {
+      "step_nav": "Навігація",
+      "step_nav_description": "Ви можете обертати 3D модель",
+      "step_interact": "Інструменти",
+      "step_interact_description": "Інструменти для взаємодії з 3D моделлю",
+      "ster_filter": "Фільтр",
+      "ster_filter_description": "Ви можете фільтрувати планування за своїми параметрами",
+      "step_compare": "Порівняння",
+      "step_compare_description": "Ви можете порівнювати планування між собою"
+    },
+    "monthes": {
+      "January": "Січень",
+      "February": "Лютий",
+      "March": "Марш",
+      "April": "Квітень",
+      "May": "Може",
+      "June": "Червень",
+      "July": "Липень",
+      "August": "Серпень",
+      "September": "Вересень",
+      "October": "Жовтень",
+      "November": "Листопад",
+      "December": "Грудень"
+    },
+    "from": "від"
+  }
+}

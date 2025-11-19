@@ -1,0 +1,76 @@
+.FlatDocCard {
+  display: grid;
+  border-radius: var(--border-space-2);
+  border: 1px solid var(--border-gray-400);
+  padding: var(--space-8);
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-areas: 
+    'img date download'
+    'img title .'
+    'img description .'
+  ;
+
+  grid-template-columns: calc(90px + var(--space-8)) 1fr 24px;
+  grid-template-rows: auto auto auto;
+  &__date {
+    @include text-style-3-d-fonts-1920-body-medium;
+    color: var(--text-gray-800);
+    grid-area: date;
+    margin-bottom: var(--space-2);
+  }
+  &__title {
+    @include text-style-3-d-fonts-1920-h-2-semi-bold;
+    color: var(--text-gray-900);
+    grid-area: title;
+    margin-bottom: var(--space-2);
+  }
+  &__img {
+    grid-area: img;
+    padding-right: var(--space-8);
+    &-wrap {
+      padding-bottom: 137%;
+      position: relative;
+    }
+    img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &__description {
+    @include text-style-3-d-fonts-1920-body-medium;
+    color: var(--text-gray-800);
+    grid-area: description;
+  }
+  &__download {
+    width: 24px;
+    height: 24px;
+    grid-area: download;
+    svg {
+      width: 100%;
+      height: 100%;
+      fill: var(--icon-gray-700);
+    }
+  }
+}
+
+.mobile {
+  .FlatDocCard {
+    padding: var(--space-4);
+    grid-template-areas: 
+      'img date download'
+      'img title title'
+      'img description description'
+    ;
+    &__download {
+      margin-bottom: var(--space-2);
+    }
+    &__img {
+      padding-right: var(--space-4);
+    }
+  }
+}

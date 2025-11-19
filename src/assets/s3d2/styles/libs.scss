@@ -1,0 +1,28 @@
+@import '../scripts/libs/ion.rangeSlider/css/ion.rangeSlider';
+@import '../scripts/libs/magnific-popup/magnific-popup';
+@import '../scripts/libs/tippy/tippy';
+@import '../../../../node_modules/swiper/swiper';
+@import '../../../../node_modules/swiper/modules/effect-fade/effect-fade';
+@import '../../../../node_modules/toastify-js/src/toastify';
+@import '../../../../node_modules/driver.js/dist/driver';
+@import '../../../../node_modules/intl-tel-input/build/css/intlTelInput.min';
+@import '../../../../node_modules/c3/c3.min';
+
+
+.toastify {
+    border-radius: var(--border-space-2);
+    @include font-default;
+    background: var(--text-gray-900);
+    color: #ffffff;
+}
+
+
+.iti {
+  width: 100%;
+  overscroll-behavior: contain;
+}
+.iti__flag {background-image: url("../images/libs/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+.iti__flag {background-image: url("../images/libs/flags@2x.png");}
+}

@@ -1,0 +1,26 @@
+.MobileFlybyController {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: var(--space-2);
+  width: 100%;
+  display: flex;
+  height: var(--mobile-controller-height);
+  justify-content: center;
+  z-index: 101;
+  transition: .25s ease-out;
+  pointer-events: all;
+
+  &>:nth-child(n+2) {
+    margin-left: var(--space-1);
+  }
+
+  &.open-some-modal>*:not(.me-open-some-element) {
+    opacity: 0.5;
+  }
+}
+
+.desktop {
+  .MobileFlybyController {
+    display: none;
+  }
+}

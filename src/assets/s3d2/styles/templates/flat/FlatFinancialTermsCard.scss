@@ -1,0 +1,48 @@
+.FlatFinancialTermsCard {
+  display: grid;
+  border-radius: var(--border-space-2);
+  border: 1px solid var(--border-gray-400);
+  padding: var(--space-8);
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-rows: auto max-content auto; 
+  row-gap: var(--space-2);
+  grid-template-areas: 
+    'icons icons'
+    'title title'
+    'description description'
+  ;
+  &__title {
+    @include text-style-3-d-fonts-1920-h-2-semi-bold;
+    color: var(--text-gray-900);
+    grid-area: title;
+    margin-bottom: var(--space-2);
+  }
+  &__description {
+    @include text-style-3-d-fonts-1920-body-medium;
+    color: var(--text-gray-800);
+    grid-area: description;
+  }
+
+  &__icons {
+    display: flex;
+    grid-template-columns: max-content max-content;
+    justify-items: start;
+    gap: var(--space-1);
+    flex-wrap: wrap;
+    grid-area: icons;
+    margin-bottom: var(--space-2);
+    align-items: start;
+    img {
+      height: 30px;
+      width: auto;
+    }
+  }
+}
+
+.mobile {
+  .FlatFinancialTermsCard {
+    padding: var(--space-4);
+    padding: var(--space-5);
+  }
+}

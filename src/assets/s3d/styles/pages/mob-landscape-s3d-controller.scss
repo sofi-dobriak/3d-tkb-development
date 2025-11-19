@@ -1,0 +1,39 @@
+.mobile.landscape {
+    .s3d-ctr__option__buttons--floors {
+        column-count: 2;
+    }
+
+    .s3d-ctr__menu-3d {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .s3d-ctr__nav {
+        .s3d-nav__btn span {
+            background: white;
+            height: 149%;
+            width: auto;
+            display: flex;
+            align-items: center;
+            padding-right: 4px;
+        }
+    }
+
+    .s3d-ctr__menu-3d {
+        background: none;
+
+        .s3d-ctr__menu-3d-compass-nav {
+            transform-origin: center;
+            transform: scale(0.85);
+            background-color: #fff;
+            border-radius: 12px;
+        }
+
+        .s3d-ctr__menu-3d-top {
+            &>button {
+                // transform: scale(0.75);
+                // transform-origin: center;
+            }
+        }
+    }
+}

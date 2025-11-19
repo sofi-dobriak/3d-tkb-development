@@ -1,0 +1,18 @@
+.mobile.landscape {
+    .s3d-card {
+        min-height: auto;
+
+        .s3d-card__info-wrapper {
+            padding: 12px;
+
+            .s3d-card__title {
+                --font20: 14px
+            }
+        }
+
+        .s3d-card__image {
+            height: 30vh;
+            min-height: 30vh;
+        }
+    }
+}

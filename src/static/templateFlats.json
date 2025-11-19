@@ -1,0 +1,1086 @@
+[
+  {
+    "id": "30",
+    "build": "1",
+    "section": "1",
+    "floor": "3",
+    "rooms": "2",
+    "type": "2\u0410",
+    "number": "1",
+    "sale": "1",
+    "img": "Id1_Zh_2K_001.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "69.76",
+    "life_room": "35.16",
+    "price": "4 517 183",
+    "type_object": "1",
+    "price_m2": "64 753",
+    "sorts": "26,8,25,1647,449,1647,450,990,688,991,682,770,539,770,540,13,537,11",
+    "option": {
+      "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "img_small": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      },
+      "re-planning": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "31",
+    "build": "1",
+    "section": "1",
+    "floor": "3",
+    "rooms": "1",
+    "type": "1\u0410",
+    "number": "2",
+    "sale": "1",
+    "img": "Id1_Zh_1K_002.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "38.18",
+    "life_room": "13.11",
+    "price": "2 575 289",
+    "type_object": "1",
+    "price_m2": "67 451",
+    "sorts": "541,10,537,773,1344,771,1343,4",
+    "option": {
+      "corner": false,
+      "terrace": true,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/cube.jpg",
+    "img_small": "assets/s3d/images/examples/flats/cube.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "32",
+    "build": "1",
+    "section": "1",
+    "floor": "3",
+    "rooms": "1",
+    "type": "1\u0411",
+    "number": "3",
+    "sale": "1",
+    "img": "Id1_Zh_1K_003.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "46.01",
+    "life_room": "17.73",
+    "price": "3 103 432",
+    "type_object": "1",
+    "price_m2": "67 451",
+    "sorts": "1343,8,1348,781,2214,778,2211,11",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": true,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/vertical.jpg",
+    "img_small": "assets/s3d/images/examples/flats/vertical.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "33",
+    "build": "1",
+    "section": "1",
+    "floor": "3",
+    "rooms": "2",
+    "type": "2\u0411",
+    "number": "4",
+    "sale": "3",
+    "img": "Id1_Zh_2K_004.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "88.06",
+    "life_room": "39.57",
+    "price": "5 702 167",
+    "type_object": "1",
+    "price_m2": "64 753",
+    "sorts": "2212,8,2214,779,3058,777,3057,10",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": true,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/vertical.jpg",
+    "img_small": "assets/s3d/images/examples/flats/vertical.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "34",
+    "build": "1",
+    "section": "1",
+    "floor": "4",
+    "rooms": "2",
+    "type": "2\u0410",
+    "number": "5",
+    "sale": "1",
+    "img": "Id1_Zh_2K_001.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "69.76",
+    "life_room": "35.16",
+    "price": "4 517 183",
+    "type_object": "1",
+    "price_m2": "64 753",
+    "sorts": "1343,8,1348,781,2214,778,2211,11",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": true
+    },
+    "img_big": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "img_small": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "35",
+    "build": "1",
+    "section": "1",
+    "floor": "4",
+    "rooms": "1",
+    "type": "1\u0410",
+    "number": "6",
+    "sale": "3",
+    "img": "Id1_Zh_1K_002.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "38.18",
+    "life_room": "13.11",
+    "price": "2 575 289",
+    "type_object": "1",
+    "price_m2": "67 451",
+    "sorts": "3058,12,3058,778,3256,778,3256,974,3423,975,3420,1649,3822,1648,3820,9",
+    "option": {
+      "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "img_small": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "36",
+    "build": "1",
+    "section": "1",
+    "floor": "4",
+    "rooms": "1",
+    "type": "1\u0411",
+    "number": "7",
+    "sale": "1",
+    "img": "Id1_Zh_1K_003.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "46.01",
+    "life_room": "17.73",
+    "price": "3 103 432",
+    "type_object": "1",
+    "price_m2": "67 451",
+    "sorts": "2375,977,3255,975,3422,977,3419,1651,2403,1650,2404,1680,2108,1679,2108,1448,2263,1449,2264,1330,2375,1322",
+    "option": {
+      "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/cube.jpg",
+    "img_small": "assets/s3d/images/examples/flats/cube.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "37",
+    "build": "1",
+    "section": "1",
+    "floor": "4",
+    "rooms": "2",
+    "type": "2\u0411",
+    "number": "8",
+    "sale": "1",
+    "img": "Id1_Zh_2K_004.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "88.06",
+    "life_room": "39.57",
+    "price": "5 702 167",
+    "type_object": "1",
+    "price_m2": "64 753",
+    "sorts": "451,990,451,1649,1361,1649,1360,1681,1749,1681,1751,975,688,976,688,994",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": true,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/cube.jpg",
+    "img_small": "assets/s3d/images/examples/flats/cube.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "38",
+    "build": "1",
+    "section": "1",
+    "floor": "5",
+    "rooms": "2",
+    "type": "2\u0410",
+    "number": "9",
+    "sale": "1",
+    "img": "Id1_Zh_2K_001.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "69.76",
+    "life_room": "35.16",
+    "price": "4 893 615",
+    "type_object": "1",
+    "price_m2": "70 149",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": true,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/cube.jpg",
+    "img_small": "assets/s3d/images/examples/flats/cube.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "39",
+    "build": "1",
+    "section": "1",
+    "floor": "5",
+    "rooms": "1",
+    "type": "1\u0410",
+    "number": "10",
+    "sale": "1",
+    "img": "Id1_Zh_1K_002.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "38.18",
+    "life_room": "13.11",
+    "price": "2 781 312",
+    "type_object": "1",
+    "price_m2": "72 847",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": true,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "img_small": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "40",
+    "build": "1",
+    "section": "1",
+    "floor": "5",
+    "rooms": "1",
+    "type": "1\u0411",
+    "number": "11",
+    "sale": "1",
+    "img": "Id1_Zh_1K_003.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "46.01",
+    "life_room": "17.73",
+    "price": "3 351 707",
+    "type_object": "1",
+    "price_m2": "72 847",
+    "option": {
+      "corner": false,
+      "terrace": true,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "img_small": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "41",
+    "build": "1",
+    "section": "1",
+    "floor": "5",
+    "rooms": "2",
+    "type": "2\u0411",
+    "number": "12",
+    "sale": "1",
+    "img": "Id1_Zh_2K_004.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "88.06",
+    "life_room": "39.57",
+    "price": "6 177 347",
+    "type_object": "1",
+    "price_m2": "70 149",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": true
+    },
+    "img_big": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "img_small": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "42",
+    "build": "1",
+    "section": "1",
+    "floor": "6",
+    "rooms": "2",
+    "type": "2\u0410",
+    "number": "13",
+    "sale": "1",
+    "img": "Id1_Zh_2K_001.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "69.76",
+    "life_room": "35.16",
+    "price": "4 893 615",
+    "type_object": "1",
+    "price_m2": "70 149",
+    "option": {
+      "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/vertical.jpg",
+    "img_small": "assets/s3d/images/examples/flats/vertical.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "43",
+    "build": "1",
+    "section": "1",
+    "floor": "6",
+    "rooms": "1",
+    "type": "1\u0410",
+    "number": "14",
+    "sale": "0",
+    "img": "Id1_Zh_1K_002.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "38.18",
+    "life_room": "13.11",
+    "price": "2 796 793",
+    "type_object": "1",
+    "price_m2": "73 253",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": true,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/vertical.jpg",
+    "img_small": "assets/s3d/images/examples/flats/vertical.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "44",
+    "build": "1",
+    "section": "1",
+    "floor": "6",
+    "rooms": "1",
+    "type": "1\u0411",
+    "number": "15",
+    "sale": "1",
+    "img": "Id1_Zh_1K_003.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "46.01",
+    "life_room": "17.73",
+    "price": "3 351 707",
+    "type_object": "1",
+    "price_m2": "72 847",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": true,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/vertical.jpg",
+    "img_small": "assets/s3d/images/examples/flats/vertical.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "45",
+    "build": "1",
+    "section": "1",
+    "floor": "6",
+    "rooms": "2",
+    "type": "2\u0411",
+    "number": "16",
+    "sale": "1",
+    "img": "Id1_Zh_2K_004.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "88.06",
+    "life_room": "39.57",
+    "price": "6 177 347",
+    "type_object": "1",
+    "price_m2": "70 149",
+    "option": {
+      "corner": false,
+      "terrace": true,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/vertical.jpg",
+    "img_small": "assets/s3d/images/examples/flats/vertical.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "46",
+    "build": "1",
+    "section": "1",
+    "floor": "7",
+    "rooms": "2",
+    "type": "2\u0410",
+    "number": "17",
+    "sale": "1",
+    "img": "Id1_Zh_2K_001.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "69.76",
+    "life_room": "35.16",
+    "price": "5 081 831",
+    "type_object": "1",
+    "price_m2": "72 847",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": true,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/vertical.jpg",
+    "img_small": "assets/s3d/images/examples/flats/vertical.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "47",
+    "build": "1",
+    "section": "1",
+    "floor": "7",
+    "rooms": "1",
+    "type": "1\u0410",
+    "number": "18",
+    "sale": "1",
+    "img": "Id1_Zh_1K_002.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "38.18",
+    "life_room": "13.11",
+    "price": "2 884 323",
+    "type_object": "1",
+    "price_m2": "75 545",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": true
+    },
+    "img_big": "assets/s3d/images/examples/flats/vertical.jpg",
+    "img_small": "assets/s3d/images/examples/flats/vertical.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "48",
+    "build": "1",
+    "section": "1",
+    "floor": "7",
+    "rooms": "1",
+    "type": "1\u0411",
+    "number": "19",
+    "sale": "1",
+    "img": "Id1_Zh_1K_003.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "46.01",
+    "life_room": "17.73",
+    "price": "3 475 844",
+    "type_object": "1",
+    "price_m2": "75 545",
+    "option": {
+      "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/cube.jpg",
+    "img_small": "assets/s3d/images/examples/flats/cube.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "49",
+    "build": "1",
+    "section": "1",
+    "floor": "7",
+    "rooms": "2",
+    "type": "2\u0411",
+    "number": "20",
+    "sale": "1",
+    "img": "Id1_Zh_2K_004.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "88.06",
+    "life_room": "39.57",
+    "price": "6 414 938",
+    "type_object": "1",
+    "price_m2": "72 847",
+    "option": {
+      "corner": true,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/cube.jpg",
+    "img_small": "assets/s3d/images/examples/flats/cube.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "50",
+    "build": "1",
+    "section": "1",
+    "floor": "8",
+    "rooms": "2",
+    "type": "2\u0410",
+    "number": "21",
+    "sale": "0",
+    "img": "Id1_Zh_2K_001.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "69.76",
+    "life_room": "35.16",
+    "price": "5 306 847",
+    "type_object": "1",
+    "price_m2": "76 073",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": true,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/cube.jpg",
+    "img_small": "assets/s3d/images/examples/flats/cube.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "51",
+    "build": "1",
+    "section": "1",
+    "floor": "8",
+    "rooms": "1",
+    "type": "1\u0410",
+    "number": "22",
+    "sale": "1",
+    "img": "Id1_Zh_1K_002.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "38.18",
+    "life_room": "13.11",
+    "price": "2 884 323",
+    "type_object": "1",
+    "price_m2": "75 545",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": true,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/cube.jpg",
+    "img_small": "assets/s3d/images/examples/flats/cube.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "52",
+    "build": "1",
+    "section": "1",
+    "floor": "8",
+    "rooms": "1",
+    "type": "1\u0411",
+    "number": "23",
+    "sale": "1",
+    "img": "Id1_Zh_1K_003.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "46.01",
+    "life_room": "17.73",
+    "price": "3 475 844",
+    "type_object": "1",
+    "price_m2": "75 545",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": true
+    },
+    "img_big": "assets/s3d/images/examples/flats/cube.jpg",
+    "img_small": "assets/s3d/images/examples/flats/cube.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "53",
+    "build": "1",
+    "section": "1",
+    "floor": "8",
+    "rooms": "2",
+    "type": "2\u0411",
+    "number": "24",
+    "sale": "1",
+    "img": "Id1_Zh_2K_004.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "88.06",
+    "life_room": "39.57",
+    "price": "6 414 938",
+    "type_object": "1",
+    "price_m2": "72 847",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/cube.jpg",
+    "img_small": "assets/s3d/images/examples/flats/cube.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "15138",
+    "build": "1",
+    "section": "1",
+    "floor": "9",
+    "rooms": "1",
+    "type": "1\u0410",
+    "number": "26",
+    "sale": "1",
+    "img": "Id1_Zh_1K_003.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "46.01",
+    "life_room": "17.73",
+    "price": "3 475 844",
+    "type_object": "1",
+    "price_m2": "75 545",
+    "option": {
+      "corner": false,
+      "terrace": true,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "img_small": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "15139",
+    "build": "1",
+    "section": "1",
+    "floor": "9",
+    "rooms": "2",
+    "type": "2\u0410",
+    "number": "27",
+    "sale": "1",
+    "img": "Id1_Zh_2K_004.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "88.06",
+    "life_room": "39.57",
+    "price": "6 533 733",
+    "type_object": "1",
+    "price_m2": "74 196",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "img_small": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "54",
+    "build": "1",
+    "section": "1",
+    "floor": "9",
+    "rooms": "3",
+    "type": "3\u0410",
+    "number": "25",
+    "sale": "1",
+    "img": "Id1_Zh_3K_005.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "110.02",
+    "life_room": "50.42",
+    "price": "8 014 665",
+    "type_object": "1",
+    "price_m2": "72 847",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "img_small": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "15141",
+    "build": "1",
+    "section": "1",
+    "floor": "10",
+    "rooms": "3",
+    "type": "3\u0411",
+    "number": "29",
+    "sale": "1",
+    "img": "Id1_Zh_3K_007.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "119.88",
+    "life_room": "60.65",
+    "price": "9 703 267",
+    "type_object": "1",
+    "price_m2": "80 941",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "img_small": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  },
+  {
+    "id": "56",
+    "build": "1",
+    "section": "1",
+    "floor": "10",
+    "rooms": "3",
+    "type": "3\u0410",
+    "number": "28",
+    "sale": "1",
+    "img": "Id1_Zh_3K_006.jpg",
+    "compas": "0",
+    "action_price": "0",
+    "visible": "1",
+    "area": "98.45",
+    "life_room": "50.42",
+    "price": "7 968 691",
+    "type_object": "1",
+    "price_m2": "80 942",
+    "option": {
+      "corner": false,
+      "terrace": false,
+      "two-level": false,
+      "atrium": false,
+      "panoramic": false
+    },
+    "img_big": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "img_small": "assets/s3d/images/examples/flats/horizontal.jpg",
+    "images": {
+      "without": {
+        "2d": "assets/s3d/images/examples/re-planning-2d.png",
+        "3d": "assets/s3d/images/examples/without-2d.png"
+      },
+      "with": {
+        "3d": "assets/s3d/images/examples/re-planning-3d.png"
+      }
+    }
+  }
+]

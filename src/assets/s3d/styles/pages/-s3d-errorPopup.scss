@@ -1,0 +1,138 @@
+$error-popup-width: 425px;
+$color-error: $mc;
+$color-success: #2F9930;
+
+.errorPopup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  max-width: 70%;
+  width: $error-popup-width;
+  z-index: 2;
+  background: $wc;
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: var(--color-surface-gray-200);
+  }
+  &__head {
+    width: 100%;
+    padding: 0;
+  }
+  &__body {
+    width: 100%;
+    flex : 1 1 100%;
+    padding: 0;
+    margin-top: 20px;
+  }
+  &__footer {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin-top: 30px;
+  }
+  &__title {
+    font-size: var(--font20);
+    line-height: 1em;
+    text-transform: uppercase;
+    font-family: $default-font;
+    color: $mc;
+  }
+  &__description {
+    font-size: var(--font14);
+    line-height: 1.3em;
+    margin-top: 10px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 220px;
+    text-decoration: none;
+    border-radius: 50px;
+    background: $title-dark;
+    color: $wc;
+    font-size: var(--font14);
+    letter-spacing: 0.1em;
+    font-family: $default-font;
+    text-transform: uppercase;
+  }
+  &__time {
+    color: $mc;
+  }
+  @media screen and (max-width: 680px) {
+    padding: 30px;
+    max-width: 100%;
+    &__body {
+      margin-top: 15px;
+    }
+    &__footer {
+      margin-top: 15px;
+    }
+    &__link {
+      height: 40px;
+      width: 155px;
+    }
+  }
+}
+
+.send-error-popup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(-100%);
+  padding: 18px 50px;
+  z-index: -1;
+  &__wrap {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    overflow: hidden;
+  }
+  &__message {
+    color: $wc;
+    font-size: var(--font14);
+    line-height: 1.3em;
+  }
+  &__icon {
+    display: inline-block;
+    flex: 0 0 16px;
+    height: 16px;
+    width: 16px;
+    fill: $wc;
+    margin-left: 30px;
+  }
+  @media screen and (max-width: 680px) {
+    .send-error-popup {
+      padding: 13px 30px;
+    }
+    .send-error-popup__icon {
+      margin-left: 15px;
+    }
+  }
+}
+
+.error-progress {
+  width: 100%;
+  height: 2px;
+  background: $description-text-color;
+  overflow: hidden;
+}
+
+.bg--success {
+  background-color: $color-success;
+}
+.bg--error {
+  background-color: $color-error;
+}

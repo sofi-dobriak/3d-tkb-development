@@ -1,0 +1,332 @@
+{
+  "genplan": {
+    "id": "genplan",
+    "generalWrapId": "#js-s3d__wrapper",
+    "imageUrl": "images/flyby/genplan/",
+    "sd_imageUrl": "images/flyby/genplan/",
+    "enableParalax": true,
+    "enableClouds": true,
+    "image_format": "jpg",
+    "class": "js-s3d__wrapper",
+    "numberSlide": {
+      "min": 0,
+      "max": 119
+    },
+    "controlPoint": [
+      4,
+      42,
+      65,
+      99
+    ],
+    "activeSlide": 4,
+    "rotateSpeedDefault": 20,
+    "rotateSpeed": [],
+    "frameWithNorthDirection": 100,
+    "mouseSpeed": 0.5,
+    "startDegCompass": 60
+  },
+  "flyby": {
+    "1": {
+      "outside": {
+        "id": "flyby_1_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/1/",
+        "sd_imageUrl": "images/flyby/1/",
+        "image_format": "jpg",
+        "class": "js-s3d__wrapper",
+        "numberSlide": {
+          "min": 0,
+          "max": 119
+        },
+        "controlPoint": [
+          18,
+          41,
+          77,
+          101
+        ],
+        "activeSlide": 77,
+        "rotateSpeedDefault": 20,
+        "rotateSpeed": [],
+        "mouseSpeed": 0.5,
+        "startDegCompass": 90,
+        "frameWithNorthDirection": 89
+      }
+    },
+    "2": {
+      "outside": {
+        "id": "flyby_2_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/2/",
+        "sd_imageUrl": "images/flyby/2/",
+        "image_format": "jpg",
+        "class": "js-s3d__wrapper",
+        "numberSlide": {
+          "min": 0,
+          "max": 119
+        },
+        "controlPoint": [
+          15,
+          40,
+          74,
+          100
+        ],
+        "activeSlide": 100,
+        "rotateSpeedDefault": 20,
+        "rotateSpeed": [],
+        "mouseSpeed": 0.5,
+        "startDegCompass": 90,
+        "frameWithNorthDirection": 89
+      }
+    },
+    "3": {
+      "outside": {
+        "id": "flyby_3_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/3/",
+        "sd_imageUrl": "images/flyby/3/",
+        "image_format": "jpg",
+        "class": "js-s3d__wrapper",
+        "numberSlide": {
+          "min": 0,
+          "max": 119
+        },
+        "controlPoint": [
+          8,
+          32,
+          67,
+          92
+        ],
+        "activeSlide": 92,
+        "rotateSpeedDefault": 20,
+        "rotateSpeed": [],
+        "mouseSpeed": 0.5,
+        "startDegCompass": 90,
+        "frameWithNorthDirection": 89
+      }
+    }
+  },
+  "favourites": {
+    "id": "favourites",
+    "generalWrapId": ".js-s3d__slideModule"
+  },
+  "floor": {
+    "id": "floor",
+    "generalWrapId": ".js-s3d__slideModule",
+    "flatPropertiesToShowInFloor": [
+      {
+        "prefix": "currency_label",
+        "key": "_price",
+        "postfix": "",
+        "type": "number",
+        "size": "large"
+      },
+      {
+        "prefix": "currency_label_m2",
+        "key": "price_m2",
+        "type": "number",
+        "postfix": ""
+      }
+    ]
+  },
+  "flat": {
+    "id": "flat",
+    "generalWrapId": ".js-s3d__slideModule",
+    "labelsToShowInInfoBlock": [
+      {
+        "key": "area",
+        "postfix_key": "area_unit",
+        "label": "Flat.information.area"
+      },
+      {
+        "key": "build",
+        "postfix_key": "",
+        "label": "Flat.information.build"
+      },
+      {
+        "key": "floor",
+        "postfix_key": "",
+        "label": "Flat.information.floor"
+      },
+      {
+        "key": "rooms",
+        "postfix_key": "",
+        "label": "Flat.information.rooms"
+      },
+      {
+        "key": "type",
+        "postfix_key": "",
+        "label": "Flat.information.type"
+      }
+    ]
+  },
+  "plannings": {
+    "id": "plannings",
+    "generalWrapId": ".js-s3d__slideModule"
+  },
+  "pin": {
+    "images": {
+      "parking_2": "images/infrastructure/pool.jpg",
+      "footbal-field": "images/infrastructure/footbal-field.jpg"
+    },
+    "genplan": {
+      "parking_2": "https://360.visengine.com/portfolio/sobha_vrt3/villa/#pano31/100.6/1.1/65.2"
+    },
+    "flyby": {
+      "1": {
+        "outside": {
+          "pin_1": "https://360.visengine.com/portfolio/sobha_vrt3/villa/#pano31/100.6/1.1/65.2"
+        }
+      },
+      "2": {
+        "outside": {
+          "vila_vr": "https://360.visengine.com/portfolio/sobha_vrt3/villa/#pano31/100.6/1.1/65.2"
+        }
+      }
+    }
+  },
+  "sliderPopup": {
+    "227": {
+      "5BR AB.jpg": "/wp-content/themes/3d/assets/s3d/images/plans/5BR AB Option/5BED ROOM VILLA.jpg",
+      "Ground Floor Plan.jpg": "/wp-content/themes/3d/assets/s3d/images/plans/5BR AB Option/Ground Floor Plan.jpg",
+      "First Floor Plan.jpg": "/wp-content/themes/3d/assets/s3d/images/plans/5BR AB Option/First Floor Plan.jpg"
+    }
+  },
+  "filter": {
+    "viewType": "list",
+    "ranges": [
+      {
+        "title_i18n": "Filter.range.area",
+        "title_postfix_i18n": "Filter.range.area_unit",
+        "title_prefix_i18n": false,
+        "name": "area",
+        "type": "range"
+      },
+      {
+        "title_i18n": "Filter.range.floor",
+        "title_postfix_i18n": "",
+        "title_prefix_i18n": false,
+        "name": "floor",
+        "type": "range"
+      },
+      {
+        "title_i18n": "Filter.list.price",
+        "title_postfix_i18n": "Filter.range.price_unit",
+        "title_prefix_i18n": false,
+        "name": "_price",
+        "type": "range"
+      }
+    ],
+    "checkboxes": [
+      {
+        "title": "Filter.list.rooms",
+        "type": "checkbox",
+        "needTranslation": false,
+        "translationNS": "",
+        "paramaterByWhatWillBeFilter": "rooms"
+      }
+    ]
+  },
+  "pinsInfo": {
+    "parking_3": {
+      "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
+      "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
+      "type": "zone",
+      "position": "center",
+      "title_i18n": "pins.tennis_court",
+      "img": "/wp-content/themes/3d/assets/s3d/images/flyby/masterplan/113.jpg",
+      "filter_type": "arrow"
+    },
+    "parking_2": {
+      "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
+      "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
+      "iframe": "https://google.com",
+      "type": "zone",
+      "position": "center",
+      "title_i18n": "pins.tennis_court",
+      "description_i18n": "pins.tennis_court_description",
+      "img": "/wp-content/themes/3d/assets/s3d/images/flyby/masterplan/113.jpg",
+      "filter_type": "playground"
+    }
+  },
+  "hide_s3dFlybySideChooser": false,
+  "markers": [
+    "commercial.svg",
+    "marker.svg",
+    "marker2.svg",
+    "parking.svg",
+    "playground.svg",
+    "shop.svg",
+    "street.svg",
+    "underground.svg",
+    "walking.svg"
+  ],
+  "unit_statuses": {
+    "0": {
+      "label": "Продано",
+      "color": "var(--text-gray-200)",
+      "background": "var(--color-semantic-warning)"
+    },
+    "1": {
+      "label": "Свободно",
+      "color": "var(--text-gray-200)",
+      "background": "var(--color-semantic-success)"
+    },
+    "2": {
+      "label": "Резерв",
+      "color": "var(--text-gray-200)",
+      "background": "var(--color-semantic-warning)"
+    },
+    "3": {
+      "label": "Бронь",
+      "color": "var(--text-gray-200)",
+      "background": "var(--color-semantic-warning)"
+    },
+    "4": {
+      "label": "Недоступно",
+      "color": "var(--text-gray-200)",
+      "background": "var(--color-semantic-danger)"
+    },
+    "6": {
+      "label": "Заблокировано",
+      "color": "var(--text-gray-200)",
+      "background": "var(--color-semantic-danger)"
+    }
+  },
+  "form": {
+    "prefered_countries": [
+      "ua",
+      "us"
+    ]
+  },
+  "flyby_finish_dates": {
+    "1-outside": "31.12.2028",
+    "2-outside": "31.12.2027",
+    "3-outside": "31.12.2025"
+  },
+  "assotiated_flat_builds_with_flybys": {
+    "1-outside": [
+      "1",
+      "2",
+      "3"
+    ],
+    "1-inside": [
+      "4",
+      "5"
+    ]
+  },
+  "project_google_map_location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325519.57556806813!2d30.203056370248245!3d50.401569787880334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1714654468086!5m2!1suk!2sua",
+  "infoBoxes": {
+    "general_flyby_button_titles": {
+      "faq": "Можливі підписи для кнопок у інфобоксі обльоту : queue ,villa, house",
+      "1_outside": "queue",
+      "3_outside": "villa",
+      "1_inside": "house"
+    }
+  },
+  "header": {
+    "logo": "/wp-content/themes/3d/assets/s3d/images/icon/logo.svg",
+    "menu_selector": "data-custom-menu-selector"
+  },
+  "currency_label": "$",
+  "show_prices": true
+}

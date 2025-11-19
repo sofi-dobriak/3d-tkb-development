@@ -1,0 +1,36 @@
+.smarto_logo {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -4px;
+  z-index: 100;
+  pointer-events: all;
+  height: auto;
+
+  img {
+    object-fit: cover;
+    width: var(--smarto-logo-w);
+    height: var(--smarto-logo-h);
+    transform: translate(20px, 20px);
+    transition: transform .4s ease-in-out;
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 1023px) {
+    &:hover {
+      img {
+        transform: translate(0,0);
+        transition: transform .4s ease-in-out;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    bottom: auto;
+    top: calc((-1)*var(--smarto-logo-h));
+
+    img {
+      transform: translate(0,0);
+    }
+  }
+}

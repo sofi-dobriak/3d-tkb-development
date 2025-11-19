@@ -1,0 +1,915 @@
+.s3d {
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    width: var(--btn);
+    height: var(--btn);
+    border-radius: var(--border-space-2);
+    background: $navigation-btn-bg;
+    border: none;
+    overflow: hidden;
+    padding: 0;
+    transition: background .3s ease-in;
+    cursor: pointer;
+
+    svg {
+      display: flex;
+      height: var(--icon24);
+      width: var(--icon24);
+      pointer-events: none;
+      fill: $navigation-btn-icon;
+    }
+
+    &[disabled] {
+      cursor: no-drop;
+    }
+
+    @media screen and (min-width: 1023px) {
+      &:hover {
+        background: $navigation-btn-bg-hover;
+
+        svg {
+          fill: $navigation-btn-icon-hover;
+        }
+      }
+    }
+  }
+
+  &-ctr {
+    z-index: 120;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    pointer-events: none;
+
+    &__nav {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      justify-content: flex-start;
+      flex-direction: column;
+      height: var(--controller-h);
+      width: var(--controller-w);
+      padding: var(--controller-padding);
+      align-items: flex-start;
+      pointer-events: painted;
+      display: none;
+      border-radius: $controller-border-radius $controller-border-radius 0 0;
+      z-index: 101;
+      background: $controller-background;
+      border: $controller-border;
+
+      &.s3d-display {
+        display: none !important;
+      }
+
+      @media screen and (max-width: 1024px) {
+        flex-direction: row;
+        align-items: center;
+        padding: 0 var(--offset);
+        gap: 5px;
+        border-radius: 0;
+        display: none !important;
+        opacity: 0;
+        pointer-events: none;
+
+        .s3d-nav {
+          padding: 0;
+          margin: 0;
+          min-width: 100px;
+        }
+
+        .s3d-ctr__option.active {
+          &:after {
+            border-top: 1px solid $controller-text-color-active;
+            border-right: 1px solid $controller-text-color-active;
+          }
+        }
+      }
+
+      @media screen and (max-width: 680px) {
+        padding: 0 4px;
+        gap: 2px;
+      }
+
+      &__title {
+        margin: 0 auto 10px 0;
+        font-family: $default-font;
+        font-weight: 400;
+        font-size: var(--font20);
+        line-height: 130%;
+        text-align: left;
+        color: $controller-title-color;
+
+        @media screen and (max-width: 1024px) {
+          display: none;
+        }
+      }
+
+      .s3d-nav__btn {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        min-width: 128px;
+        height: var(--controller-btn);
+        margin: 1px 0;
+        padding: 0 8px;
+        border: $controller-btn-border;
+        background: $controller-btn-background;
+        border-radius: var(--border-space-2);
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+        font-family: $default-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: var(--font14);
+        line-height: 130%;
+        text-align: left;
+        color: $controller-text-color;
+        white-space: nowrap;
+
+        @media screen and (max-width: 1024px) {
+          text-align: center;
+          justify-content: center;
+        }
+
+        @media screen and (max-width: 680px) {
+          min-width: fit-content;
+          width: 100%;
+          padding: 0 3px;
+        }
+
+        &:hover:not(.active):not([ disabled]) {
+          background: $controller-btn-background-hover;
+          border: $controller-btn-border-hover;
+          color: $controller-text-color-hover;
+        }
+
+        &.active {
+          cursor: no-drop;
+          background: $controller-btn-background-active;
+          border: $controller-btn-border-active;
+          color: $controller-text-color-active;
+        }
+
+        &[disabled] {
+          cursor: no-drop;
+          background: $controller-btn-background-disabled;
+          border: $controller-btn-border-disabled;
+          color: $controller-text-color-disabled;
+        }
+      }
+
+      .s3d-ctr__option {
+        position: relative;
+
+        @media screen and (max-width: 1024px) {
+          flex-direction: column;
+          flex-wrap: nowrap;
+        }
+
+        &__buttons {
+          position: absolute;
+          top: 0;
+          right: 0;
+          transform: translate(100%, -50%);
+          visibility: hidden;
+          opacity: 0;
+          pointer-events: none;
+          padding: 0 0 0 var(--controller-padding);
+          transition: opacity 0.5s ease-in-out;
+          max-height: 250px;
+          overflow-y: auto;
+          width: 125px;
+
+          @media screen and (max-width: 1024px) {
+            left: 0;
+            transform: translate(0, -105%);
+            padding: 0;
+            height: fit-content;
+
+            .s3d-nav__btn {
+              background-color: $controller-btn-background-active;
+              color: $controller-text-color-active;
+            }
+          }
+
+          .active {
+            display: none;
+          }
+        }
+
+        &:after {
+          content: '';
+          border-top: 1px solid $controller-text-color;
+          border-right: 1px solid $controller-text-color;
+          position: absolute;
+          top: 50%;
+          right: 10px;
+          transform: translateY(-50%) rotate(135deg);
+          transition: all 0.4s ease-in-out;
+          height: 6px;
+          width: 6px;
+
+          @media screen and (max-width: 1024px) {
+            transform: translate(0, -50%)rotate(135deg);
+          }
+
+          @media screen and (max-width: 680px) {
+            content: none;
+          }
+        }
+
+        &:focus,
+        &:hover {
+          .s3d-ctr__option__buttons {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: painted;
+          }
+
+          &:after {
+            transform: rotate(45deg) translateY(-50%);
+            border-top: 1px solid $controller-text-color-active;
+            border-right: 1px solid $controller-text-color-active;
+
+            @media screen and (max-width: 1024px) {
+              transform: translate(0, -50%)rotate(-45deg);
+            }
+          }
+        }
+      }
+    }
+
+    &__menu-3d {
+      bottom: 0;
+      height: auto;
+      background: $navigation-bg;
+      padding: 12px calc(var(--smarto-logo-w) + 12px) 12px calc(var(--controller-w) + 12px);
+      visibility: hidden;
+      position: fixed;
+      left: 0;
+      right: 0;
+      pointer-events: none;
+      width: 100%;
+      z-index: 99;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: space-between;
+
+      @media screen and (max-width: 1024px) {
+        padding: var(--offset);
+        bottom: calc(var(--controller-h) - 1px);
+      }
+
+      @media screen and (max-width: 680px) {
+        padding: 4px;
+        flex-direction: column;
+      }
+
+      &-compass-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        pointer-events: none;
+        background: $compass-bg;
+        padding: $compass-padding;
+        border-radius: var(--border-space-2);
+        margin: auto;
+        display: none;
+
+        @at-root .tablet & {
+          position: fixed;
+          left: 0;
+          top: 50%;
+          width: 100%;
+          justify-content: space-between;
+          background: transparent;
+          transform: translateY(-50%);
+        }
+
+        @at-root .desktop & {
+          position: fixed;
+          left: 0;
+          top: 50%;
+          width: 100%;
+          justify-content: space-between;
+          background: transparent;
+          transform: translateY(-50%);
+        }
+
+        &>* {
+          pointer-events: all;
+        }
+
+        .s3d-ctr__menu-3d__compass-wrapper {
+          position: relative;
+          pointer-events: none;
+          display: none;
+
+          .s3d-ctr__menu-3d__compass {
+            position: relative;
+            width: 300px;
+            height: 39px;
+            overflow: hidden;
+
+            &:before {
+              content: '';
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 30%;
+              height: 100%;
+              background: linear-gradient(90deg, $compass-bg 0%, rgba(255, 255, 255, 0.5466561624649859) 50%, rgba(255, 255, 255, 0) 100%);
+              z-index: 2;
+            }
+
+            &:after {
+              content: '';
+              position: absolute;
+              right: 0;
+              top: 0;
+              width: 30%;
+              height: 100%;
+              background: linear-gradient(270deg, $compass-bg 0%, rgba(255, 255, 255, 0.5466561624649859) 50%, rgba(255, 255, 255, 0) 100%);
+              z-index: 2;
+            }
+
+            @media screen and (max-width: 1024px) {
+              width: 200px;
+            }
+
+            @media screen and (max-width: 680px) {
+              width: 200px;
+            }
+
+            &__inner {
+              position: absolute;
+              width: auto;
+              top: 0;
+              right: 0;
+              overflow: visible;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: flex-start;
+              will-change: transform;
+
+              .compass-text {
+                @include font-default;
+                font-size: 30px;
+                text-transform: uppercase;
+                color: $compass-text-big;
+                transition: transform .1s ease;
+                align-self: center;
+                padding: 0 3px;
+
+                @media screen and (max-width: 680px) {
+                  font-size: 28px;
+                }
+              }
+
+              .compass-line-big {
+                @include font-default;
+                font-size: 28px;
+                text-transform: uppercase;
+                color: $compass-text-big;
+                transition: transform .1s ease;
+                align-self: center;
+                padding: 0 3px;
+              }
+
+              .compass-line-small {
+                @include font-default;
+                font-size: 20px;
+                text-transform: uppercase;
+                color: $compass-text-small;
+                padding: 0 3px;
+                transition: transform .1s ease;
+                align-self: center;
+              }
+            }
+          }
+        }
+      }
+
+      &-buttons {
+        display: none;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        margin-top: 8px;
+
+        &__mobile-opener {
+          display: none;
+        }
+
+        .s3d-ctr__filter {
+          z-index: 1;
+          display: none;
+          gap: 8px;
+
+          @media screen and (min-width: 1023px) {
+            &:hover {
+              .s3d-ctr__filter__icon circle:nth-of-type(1) {
+                cx: 5.5;
+              }
+
+              .s3d-ctr__filter__icon circle:nth-of-type(2) {
+                cx: 5.5;
+              }
+
+              .s3d-ctr__filter__icon circle:nth-of-type(3) {
+                cx: 20.5;
+              }
+            }
+          }
+
+          &__icon {
+            height: var(--icon16);
+            width: var(--icon16);
+
+            @media screen and (max-width: 680px) {
+              display: none;
+            }
+
+            svg {
+              width: 100%;
+              height: 100%;
+              fill: $menu-3d-text-color-btn;
+              stroke: $menu-3d-text-color-btn;
+            }
+
+            circle {
+              transition: cx 0.5s ease-in-out;
+            }
+          }
+        }
+
+
+
+
+
+        .s3d-ctr__infra-button {
+          position: relative;
+          pointer-events: painted;
+          z-index: 1;
+          display: none;
+
+          &__select {
+            background: $menu-3d-text-color-btn;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 33px;
+            height: 16px;
+            margin-left: 8px;
+            border-radius: 43px;
+            padding: 2px;
+            overflow: hidden;
+            cursor: pointer;
+
+            &-circle {
+              height: 14px;
+              width: 14px;
+              border-radius: 50%;
+              background: $menu-3d-main-color;
+            }
+
+            i {
+              transform: translateX(100%);
+              transition: transform 0.4s ease-in-out;
+            }
+
+            input:checked+i {
+              transform: translateX(0);
+            }
+          }
+        }
+
+        .s3d-ctr__helper {
+          z-index: 1;
+          display: none;
+          width: var(--btn);
+        }
+
+        input {
+          display: none;
+        }
+      }
+
+      &-btn-style {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+
+        align-items: center;
+        padding: var(--space-2) var(--space-3);
+        // height: var(--btn);
+        border: 1px solid var(--border-gray-400);
+        border-radius: var(--border-space-2);
+        background: $menu-3d-background-btn;
+        font-size: 13px;
+        color: $menu-3d-text-color-btn;
+        pointer-events: painted;
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+        cursor: pointer;
+        @include text-style-3-d-fonts-1920-body-medium;
+
+        .checkbox-wrapper-6 {
+          margin-left: 8px;
+        }
+
+        &.btn-style-hover {
+          @media screen and (min-width: 1023px) {
+            &:hover {
+              border: $menu-3d-border-btn-hover;
+              background: $menu-3d-background-btn-hover;
+              color: $menu-3d-text-color-btn-hover;
+            }
+          }
+        }
+
+        &[disabled] {
+          opacity: 0.5;
+          pointer-events: none;
+
+          .checkbox-wrapper-6 {
+            pointer-events: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.desktop {
+
+  // 
+  .s3d-ctr__option {
+    &__buttons {
+      max-height: 250px;
+      overflow-y: auto;
+      scrollbar-width: none;
+      --webkit-scrollbar: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      &--floors {
+        top: auto;
+        bottom: 0;
+        transform: translate(100%, 0%);
+      }
+    }
+  }
+}
+
+.tablet {
+  .s3d-ctr__option {
+    &__buttons {
+      width: 175px;
+    }
+
+  }
+
+  .s3d {
+
+    &-ctr {
+      &__nav {
+        .s3d-nav__btn {
+          @media screen and (max-width:1024px) {
+            width: max-content;
+          }
+
+          min-width: auto;
+          flex-grow: 1;
+
+        }
+      }
+
+      &__menu-3d-buttons {
+        &>:nth-child(n+2) {
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+}
+
+.mobile {
+
+  .s3d {
+    &-ctr {
+      &__menu-3d-buttons {
+        transition: .25s ease-in-out;
+        transform: translateY(100%);
+        display: none !important;
+        width: 42px;
+        height: 42px;
+        pointer-events: all;
+        position: absolute;
+        right: 0;
+        bottom: calc(100% + 8px);
+
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        padding: 4px;
+
+        &.s3d-show {
+          transform: translateY(0%);
+        }
+
+        &__mobile-opener {
+          [data-when-opened] {
+            display: none;
+          }
+
+          [data-when-closed],
+          [data-when-opened] {
+            animation: fadeInPopup .5s ease-in-out forwards;
+          }
+
+
+
+
+          svg {
+            width: 100%;
+            height: 100%;
+
+            [fill] {
+              fill: red;
+            }
+
+            [stroke] {
+              stroke: red;
+            }
+          }
+
+          input {
+            display: none;
+          }
+        }
+
+        &.s3d-show {
+          [data-when-closed] {
+            display: none;
+          }
+
+          [data-when-opened] {
+            display: block;
+          }
+        }
+
+        position: relative;
+        z-index: 100;
+        justify-content: flex-start;
+
+        position: fixed;
+        right: 0;
+        left: auto;
+        top: auto;
+        bottom: var(--menu-h);
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        height: auto;
+        background: white;
+        padding: 8px;
+
+
+        &>* {
+          flex-shrink: 0;
+          flex-grow: 1;
+        }
+      }
+
+      &__option {
+        &__buttons {
+          scrollbar-width: none;
+          --webkit-scrollbar: none;
+
+          &--floors {
+            left: auto;
+            right: 0;
+          }
+
+          &>* {
+            width: 125px !important;
+          }
+        }
+      }
+
+      .s3d-nav__btn {
+        font-size: 10.5px;
+        width: 10.28%;
+      }
+    }
+  }
+}
+
+
+.s3d__choose--flat {
+  position: relative;
+  z-index: 1;
+  display: none;
+  padding: 0;
+
+  border: none;
+  background-color: var(--color-surface-gray-400);
+
+  input {
+    display: none;
+  }
+
+
+
+  &--button {
+    z-index: 1;
+    transition: background-color 0.6s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    width: 97px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-3);
+    border-radius: var(--border-space-2);
+    border: 1px solid var(--border-gray-400);
+    background-color: var(--color-surface-gray-200);
+
+    &.current {
+      border: 1px solid var(--border-brand-900);
+      background-color: var(--color-surface-brand-800);
+
+      span {
+        color: var(--text-gray-900);
+      }
+    }
+
+    &-bg {
+      border-radius: var(--border-space-2);
+      // background-color: ;
+    }
+
+    @media screen and (max-width: 680px) {
+      width: auto;
+      flex-grow: 1;
+    }
+
+    input:checked {
+      &+span {
+        color: var(--text-gray-900);
+      }
+
+      @media screen and (min-width: 1023px) {
+        &:hover {
+          &+span {
+            cursor: no-drop;
+          }
+        }
+      }
+    }
+
+    input:not(checked) {
+      &+span {
+        color: $menu-3d-text-color-btn;
+      }
+
+      @media screen and (min-width: 1023px) {
+        &:hover {
+          background: $menu-3d-background-btn-hover;
+        }
+      }
+    }
+
+    span {
+      transition: color 0.3s ease-in-out;
+    }
+
+    &-bg {
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 97px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 0;
+
+      @media screen and (max-width: 680px) {
+        width: 87px;
+      }
+
+      svg {
+        height: 100%;
+        width: 200%;
+        flex: 1 0 200%;
+        fill: var(--color-surface-brand-800)
+      }
+    }
+  }
+}
+
+.s3d-ctr__theme {
+  visibility: visible;
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+  display: none;
+  padding: 0;
+  background-color: var(--color-surface-gray-400);
+  width: 84px;
+
+  input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  label {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-space-2);
+
+    svg {
+      width: 40px;
+      height: 40px;
+      padding: var(--space-2);
+      fill: $menu-3d-text-color-btn;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+      cursor: pointer;
+      background-color: var(--color-surface-gray-200);
+    }
+
+    svg:first-child {
+      margin-right: var(--space-1);
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(0, -50%);
+      width: 40px;
+      height: 40px;
+      background: var(--color-surface-brand-800);
+      border-radius: var(--border-space-2);
+      border: 1px solid var(--border-brand-900);
+      transition: all 0.3s ease-in-out;
+      z-index: -1;
+    }
+  }
+
+  input:not(:checked)+label {
+    svg:first-child {
+      background-color: transparent;
+    }
+
+    svg:first-child {
+      fill: var(--icon-gray-900);
+    }
+  }
+
+  input:checked+label {
+    svg:last-child {
+      background-color: transparent;
+      fill: var(--icon-gray-900);
+    }
+
+    &:after {
+      left: 100%;
+      transform: translate(-100%, -50%);
+    }
+  }
+}

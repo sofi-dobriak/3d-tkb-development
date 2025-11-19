@@ -1,0 +1,22 @@
+.Textarea {
+  padding: var(--space-4);
+  @include text-style-3-d-fonts-1920-body-medium;
+  background-color: var(--color-surface-gray-100);
+  border: 1px solid var(--border-gray-600-transparent-40);
+  border-radius: var(--border-space-1);
+  
+  color: var(--text-gray-900);
+  flex-grow: 1;
+  width: 100%;
+  min-height: 60px;
+  max-width: 100%;
+  max-height: 250px;
+
+  &::placeholder {
+    color: var(--text-gray-600);
+  }
+  &:focus {
+    outline: none;
+    border-color: var(--border-gray-600);
+  }
+}

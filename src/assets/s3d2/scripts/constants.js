@@ -1,0 +1,1 @@
+export const SEARCH_PARAMS_FILTER_PREFIX = 'fil_';

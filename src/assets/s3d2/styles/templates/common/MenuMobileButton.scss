@@ -1,0 +1,70 @@
+.MenuMobileButton {
+  
+  padding: var(--space-2);
+  background-color: var(--color-surface-gray-200-transperent-88);
+  border-radius: var(--border-space-2);
+  border: 1px solid var(--border-gray-600-transparent-40);
+  display: flex;
+  align-items: center;
+  &>span {
+    color: var(--text-gray-900);
+  }
+  
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--icon-gray-900);
+    transform-origin: center;
+    transform-box: fill-box;
+    transition: .25s ease-out;
+  }
+  span~svg {
+    margin-left: var(--space-1);
+    width: 16px;
+    height: 16px;
+    fill: var(--icon-gray-700);
+  }
+
+  &.me-open-some-element span~svg {
+    transform: rotate(180deg);
+  }
+
+  &--secondary {
+    background: var(--color-special-accent-sold-overlays-transparent-72);
+    
+    border-color: var(--border-accent-900);
+    color: var(--text-gray-200);
+    span {
+      color: var(--text-gray-200);
+    }
+    span~svg {
+      fill: var(--icon-gray-200);
+    }
+  }
+
+  &--primary.active {
+    background-color: var(--color-surface-brand-800);
+    border-color: var(--border-brand-800);
+    svg {
+      fill: var(--icon-gray-200)
+    }
+  }
+
+  &--withBirdy {
+
+  }
+  &[data-filter-not-empty] {
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background-color: var(--color-semantic-warning);
+      border-radius: 50%;
+      top: 0;
+      right: 0;
+      transform: translate(50%, -50%);
+    }
+  }
+}

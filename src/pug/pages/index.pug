@@ -1,0 +1,24 @@
+
+extends ../layout/main
+block variable
+  -
+    var nameProject = '3d'
+    var title_page = '3d'
+    var id_page = 'flat-page'
+    var class_page = 'flat-page'
+
+block meta
+  title= title_page
+  meta(name='description', content='')
+block head
+    link(rel='stylesheet', href='./assets/s3d/styles/s3d.min.css')
+    link(rel='stylesheet', href='./assets/s3d/styles/s3d2.min.css')
+block scripts
+  script(defer src=`./assets/s3d/scripts/vendors.bundle.js`)
+  script(defer src=`./assets/s3d/scripts/index.bundle.js`)
+
+block content
+  .js-s3d__slideModule.s3d__slideModule.scroll
+    div#js-s3d__wrapper.s3d__flyby-container
+
+block header

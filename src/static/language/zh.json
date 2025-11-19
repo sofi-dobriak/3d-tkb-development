@@ -1,0 +1,449 @@
+{
+  "translation": {
+    "currency_label": "￥",
+    "currency_label_m2": "￥t(currency_label) 每 $t(area_unit)",
+    "area_unit": "平方米",
+    "unit_statuses": {
+      "0": "已售",
+      "1": "可售",
+      "2": "预定",
+      "3": "已预订",
+      "4": "无法进入",
+      "6": "无权查看"
+    },
+    "error": {
+      "pdf": "要查看PDF内容，请更改隐私设置：转到 设置 -> Safari -> 阻止弹窗 并将其关闭。",
+      "open_pdf": "打开PDF"
+    },
+    "floor_list": {
+      "build": "楼栋 {{build}}",
+      "section": "楼号 {{section}}"
+    },
+    "infoBox": {
+      "parking": "停车位：有",
+      "storage": "储藏室：有",
+      "coming-soon": "即将发售",
+      "sold": "所有公寓已售罄",
+      "sold_short": "已售",
+      "flatSold": "此公寓已售",
+      "flatReserved": "已预定",
+      "flatClosed": "暂未开售",
+      "freeObjects": "可售",
+      "price_m2_from": "每 $t(area_unit) 价格：",
+      "from_price": "从 {{currency}} {{text}} 起",
+      "price_from": "价格：",
+      "reviewFlat": "探索房产",
+      "buildReview": "查看房型",
+      "review": "查看",
+      "finishDate": "交付时间：",
+      "filter_results": "筛选到 {{count}} 个公寓",
+      "general": {
+        "button_titles": {
+          "queue": "探索",
+          "villa": "探索别墅",
+          "house": "探索房子"
+        }
+      }
+    },
+
+    "title": {
+      "genplan": "总平面图",
+      "flyby_1_outside": "楼栋 1",
+      "favourites": "收藏夹",
+      "plannings": "户型图"
+    },
+
+    "load": {
+      "loading-text": "加载中",
+      "loading-text-wait": "稍等片刻..."
+    },
+
+    "menu": {
+      "menu-title": "菜单",
+      "nav": {
+        "1": {
+          "nav-title": "名称",
+          "nav-subtitle": {
+            "1": "名称",
+            "2": "名称",
+            "3": "名称",
+            "4": "名称",
+            "5": "名称"
+          }
+        },
+        "2": {
+          "nav-title": "名称",
+          "nav-subtitle": {
+            "1": "名称",
+            "2": "名称",
+            "3": "名称",
+            "4": "名称",
+            "5": "名称"
+          }
+        }
+      }
+    },
+
+    "ctr": {
+      "nav": {
+        "title": "3D菜单",
+        "genplan": "总平面图",
+        "navigation": "导航",
+        "flyby": "楼栋",
+        "flyby_1_outside": "A栋",
+        "flyby_1_inside": "1栋内部",
+        "flyby_2_outside": "B栋",
+        "flyby_2_inside": "2栋内部",
+        "flyby_3_outside": "C栋",
+        "flyby_3_inside": "3栋内部",
+        "flyby_4_outside": "4栋",
+        "flyby_4_inside": "4栋内部",
+        "flyby_5_outside": "5栋",
+        "flyby_5_inside": "5栋内部",
+        "plannings": "户型图",
+        "floor": "楼层平面图",
+        "floor_plans": "楼层平面图",
+        "flat": "公寓",
+        "functions": "功能",
+        "property": "房产",
+        "flat_shot": "公寓",
+        "back": "返回",
+        "menu": "菜单",
+        "callback": "回电"
+      },
+      "share": {
+        "link-copied": "链接已复制"
+      },
+      "flybysidechooser": {
+        "outside": "外部立体图",
+        "inside": "内部立体图"
+      },
+      "menu": {
+        "compass": {
+          "south": "南",
+          "west": "西",
+          "east": "东",
+          "north": "北"
+        },
+        "btn": {
+          "infrastructure": "基础设施",
+          "filter": "筛选",
+          "chooseOfApartment": "公寓",
+          "chooseOfFloor": "楼层",
+          "repeatHelp": "?"
+        },
+        "hightlightInfrastructure": "隐藏文字",
+        "build_progress": "施工进度",
+        "on_the_map": "位置及附近的设施",
+        "callbackFormCall": "联系经理"
+      }
+    },
+
+    "Helper": {
+      "slide-0--title": "按住并旋转",
+      "slide-1--title": "筛选",
+      "slide-2--title": "楼层或公寓",
+      "slide-3--title": "使用导航",
+      "title1": "导航",
+      "description1": "您可以旋转3D模型",
+      "title2": "工具",
+      "description2": "3D模型演示工具",
+      "title3": "筛选",
+      "description3": "您可以按参数筛选",
+      "title4": "比较",
+      "description5": "您可以将户型图添加到比较列表",
+      "close": "跳过培训"
+    },
+
+    "Filter": {
+      "title": "按参数筛选",
+      "list": {
+        "type": "类型",
+        "rooms": "房间数",
+        "area": "面积",
+        "area_unit": "$t(area_unit)",
+        "price": "价格",
+        "status": "状态",
+        "floor": "楼层",
+        "favourite--add": "选择"
+      },
+      "range": {
+        "floor": "楼层",
+        "area": "面积",
+        "area_unit": "$t(area_unit)",
+        "price_unit": "€"
+      },
+      "checkboxes": {
+        "rooms": "卧室",
+        "build": "楼栋",
+        "type": "类型"
+      },
+      "reset": "清除",
+      "apply": "应用",
+
+      "hide": "隐藏筛选条件",
+      "show": "显示筛选条件",
+
+      "found": "找到",
+      "from": "从",
+
+      "to": "到",
+      "not-marked-message": "该房产未标记",
+      "openFilter": "打开筛选器",
+      "enterUnitNumber": "输入单元号",
+      "Search by number": "按号码搜索"
+    },
+
+    "Flat": {
+      "name": "单元",
+      "explication": "说明",
+      "gallery": "图库",
+      "floor_plan": "楼层平面图",
+      "other_flats_title": "查看其他楼层的公寓",
+      "doc_title": "文档",
+      "financial_terms_title": "财务条款",
+      "construction_title": "施工进度",
+      "parking": "您的停车位编号",
+      "explication_data": {
+        "floor_1": "1楼",
+        "floor_2": "2楼",
+        "floor_3": "3楼",
+        "floor_4": "4楼",
+        "floor_5": "5楼"
+      },
+      "buttons": {
+        "with": "3D",
+        "without": "2D",
+        "gallery_btn": "图库",
+        "showIn3d": "3D视图",
+        "view": "查看",
+        "windowView": "窗景",
+        "compare": "我的喜欢",
+        "addedToCompare": "已添加我的喜欢",
+        "pdf": "PDF",
+        "3dTour": "3D导览",
+        "callback--1": "联系经理",
+        "callback--2": "预订公寓",
+        "planning2d": "2D户型图",
+        "planning3d": "3D户型图",
+        "furnished": "家具配置",
+        "video": "观看视频"
+      },
+      "timer": {
+        "timer-text": "以此价格仍可预定"
+      },
+
+      "information": {
+        "title": "信息",
+        "sale": "状态",
+        "build": "楼栋",
+        "number": "编号",
+        "area": "面积",
+        "allArea": "总面积",
+        "life_area": "生活面积",
+        "area_unit": "$t(area_unit)",
+        "rooms": "房间",
+        "floor": "楼层",
+        "price": "价格",
+        "priceText": " $t(currency_label)",
+        "type": "类型",
+        "section": "楼号",
+        "price_m2": "每 $t(area_unit) 价格",
+        "per": "每",
+        "priceHistory": "价格动态",
+        "floor_n_desktop": "楼层编号",
+        "floor_n_mobile": "楼层编号",
+        "viewPlanning": "查看户型图"
+      },
+      "goToFloor": "楼层平面图",
+      "goToFlat": "搜索房产"
+    },
+
+    "Floor": {
+      "title-1": "",
+      "changeFloor--": "更换楼层：",
+      "title-2": "楼层平面图",
+      "number_rooms": "房间数",
+      "apps_from": "公寓从",
+      "information": {
+        "title": "信息",
+        "build": "楼栋",
+        "floor": "楼层",
+        "section": "楼号",
+        "price_m2_from": "每 $t(currency_label) 从 $t(area_unit) 起",
+        "all-flats": "总公寓数",
+        "free-flats": "可用",
+        "free-flats--": "可用：",
+        "from": "从",
+        "reviewFloor": "查看楼层平面图"
+      },
+      "filter": {
+        "1": "1房间",
+        "2": "2房间",
+        "3": "3房间",
+        "4": "4房间",
+        "5": "5房间",
+        "all": "所有房间",
+        "title-mob": "卧室"
+      },
+      "floor-list": "楼层",
+      "goToFloor": "前往楼层"
+    },
+
+    "Plannings": {
+      "found": "找到",
+      "found--from": "从",
+      "found-flats": "公寓",
+      "notFound": "但请查看这些公寓"
+    },
+
+    "favourite--title": "比较",
+    "favourite--added": "比较（已添加 <span class=\"js-s3d__fv-count\"></span> 个公寓）",
+    "favourite--apartments": "公寓",
+    "favourite--add": "选择",
+    "favourite--empty-title": "没有找到可比较的项目",
+    "favourite--empty-text": "选择布局并将其添加到比较列表中",
+    "favourite--empty-button": "查看户型图",
+    "favourite--show-differences": "仅显示差异",
+
+    "card--link": "阅读更多",
+
+    "PopupFlyby": {
+      "title": "公寓 ",
+      "description": "户型图在另一个建筑中。要在3D模型中查看它，您需要切换到另一个区块。",
+      "btn": "更改角度"
+    },
+
+    "Error-popup": {
+      "title": "发生错误",
+      "translate-info": "您将通过以下方式被重定向到3D总平面图",
+      "link": "到主页",
+      "messages": {
+        "not-find-data": "未收到预期数据",
+        "not-all-required-data-received": "未收到所有必要数据",
+        "invalid-url": "URL中数据不正确",
+        "failed-request": "数据加载失败",
+        "network-error": "网络错误",
+        "application-error": "应用程序错误",
+        "unknown-error": "未知错误"
+      }
+    },
+
+    "Send-error-popup": {
+      "success": "错误数据已成功发送给技术支持人员",
+      "failed": "错误数据未保存，请通知技术支持"
+    },
+
+    "slider_popup": {
+      "227": "类型 MasterFly",
+      "228": "类型 5BR AB",
+      "229": "类型 4BR AB",
+      "230": "类型 4BR AB",
+      "231": "类型 4BR KS",
+      "232": "类型 4BR KS",
+      "233": "类型 4BR SJ",
+      "234": "类型 4BR SJ",
+      "235": "类型 5BR JM",
+      "236": "类型 5BR JM",
+      "239": "类型 5BR KS",
+      "240": "类型 5BR KS",
+      "241": "类型 5BR SJ",
+      "242": "类型 5BR SJ",
+      "default": "别墅"
+    },
+
+    "builds": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "D",
+      "5": "E"
+    },
+
+    "rooms": {
+      "1": "1个卧室",
+      "2": "2个卧室",
+      "3": "3个卧室",
+      "4": "4个卧室",
+      "5": "5个卧室"
+    },
+
+    "rooms-abbreviation": {
+      "1": "1 BR",
+      "2": "2 BR",
+      "3": "3 BR",
+      "4": "4 BR",
+      "5": "5 BR"
+    },
+
+    "sales": {
+      "0": "已售",
+      "1": "可售",
+      "2": "预定",
+      "3": "不可售"
+    },
+
+    "pins": {
+      "park_trc": "商店",
+      "tennis_court": "访客停车",
+      "walking_zone": "步行区",
+      "shop_1": "食品商店",
+      "playground_playground1": "游乐场",
+      "shop_coffee": "咖啡店",
+      "parking_underground": "地下停车场",
+      "commercial_zone": "商业区",
+      "street_zamarstynivska": "扎玛斯提夫斯卡街",
+      "street_shidna": "希德纳街",
+      "street_kvitova": "基维托娃街",
+      "tennis_court_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum ligula at, malesuada magna. Nulla nec purus feugiat, vestibulum ligula at, malesuada magna.",
+      "children_playground": "儿童游乐场",
+      "gated_entrance": "封闭入口",
+      "open_gym_machines": "开放式健身房",
+      "multisport": "多功能户外场地，篮球、网球、小型足球",
+      "bbq_area": "开放式休息区",
+      "swimming_pool": "游泳池",
+      "open_cinema": "露天电影院",
+      "sphere_360": "全景烧烤区",
+      "sphere_360_descr": "带淋浴的公共游泳池区，周围环绕着园景花园、烧烤区和休息区"
+    },
+
+    "loader": {
+      "load": "加载预览",
+      "wait_a_little": "稍等片刻...",
+      "rotate_warning": "请保持手机竖直。"
+    },
+    "currencies": {
+      "USD": "$",
+      "UAH": "₴",
+      "EUR": "€"
+    },
+    "Dropdown": {
+      "title": "导航"
+    },
+    "tutorial": {
+      "step_nav": "导航",
+      "step_nav_description": "您可以旋转3D模型",
+      "step_interact": "工具",
+      "step_interact_description": "3D模型演示工具",
+      "ster_filter": "筛选",
+      "ster_filter_description": "您可以按参数筛选",
+      "step_compare": "我的喜欢",
+      "step_compare_description": "您可以将户型图添加到我的喜欢列表"
+    },
+    "monthes": {
+      "January": "一月",
+      "February": "二月",
+      "March": "三月",
+      "April": "四月",
+      "May": "五月",
+      "June": "六月",
+      "July": "七月",
+      "August": "八月",
+      "September": "九月",
+      "October": "十月",
+      "November": "十一月",
+      "December": "十二月"
+    },
+    "from": "从"
+  }
+}

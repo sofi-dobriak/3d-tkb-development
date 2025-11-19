@@ -1,0 +1,163 @@
+{
+	"structure": {
+		"1": {
+			"outside": {
+				"20": {
+					"floor": [26219],
+					"flat": [
+						26219,
+						27190,
+						27182,
+						27183,
+						27174,
+						27175,
+						27168,
+						27169,
+						27164,
+						27163,
+						27189,
+						27181,
+						27173,
+						27167,
+						27188,
+						27180,
+						27172,
+						27166,
+						27179
+					]
+				},
+				"30": {
+					"floor": [],
+					"flat": [
+						27190,
+						27191,
+						27182,
+						27174,
+						27168,
+						27163,
+						27175,
+						27183,
+						27169,
+						27164,
+						27189,
+						27181,
+						27173,
+						27167,
+						27188,
+						27180,
+						27172,
+						27166,
+						27187,
+						27179
+					]
+				},
+				"80": {
+					"floor": [],
+					"flat": [
+						27190,
+						27191,
+						27178,
+						27186,
+						27187,
+						27185,
+						27184,
+						27175,
+						27179,
+						27177,
+						27176,
+						27183,
+						27171,
+						27170,
+						27169,
+						27162,
+						27165,
+						27164
+					]
+				},
+				"117": {
+					"floor": [],
+					"flat": [
+						27191,
+						27190,
+						27187,
+						27188,
+						27189,
+						27182,
+						27186,
+						27179,
+						27178,
+						27180,
+						27181,
+						27174,
+						27172,
+						27173,
+						27168,
+						27166,
+						27167,
+						27163
+					]
+				}
+			}
+		},
+		"2": {
+			"outside": {
+				"14": {
+					"floor": [],
+					"flat": []
+				},
+				"40": {
+					"floor": [],
+					"flat": []
+				},
+				"78": {
+					"floor": [],
+					"flat": []
+				},
+				"110": {
+					"floor": [],
+					"flat": []
+				}
+			}
+		}
+	},
+	"linksSvg": {
+		"genplan": {
+			"9": "/wp-content/themes/3d/assets/s3d/images/svg/flat/flyby/1/outside/9.svg",
+			"50": "/wp-content/themes/3d/assets/s3d/images/svg/flat/flyby/1/outside/9.svg",
+			"69": "/wp-content/themes/3d/assets/s3d/images/svg/flat/flyby/1/outside/9.svg",
+			"108": "/wp-content/themes/3d/assets/s3d/images/svg/flat/flyby/1/outside/9.svg"
+		},
+		"flyby": {
+			"1": {
+				"outside": {
+					"flat": {
+						"9": "/wp-content/themes/3d/assets/s3d/images/svg/flat/flyby/1/outside/9.svg",
+						"50": "/wp-content/themes/3d/assets/s3d/images/svg/flat/flyby/1/outside/9.svg",
+						"69": "/wp-content/themes/3d/assets/s3d/images/svg/flat/flyby/1/outside/9.svg",
+						"108": "/wp-content/themes/3d/assets/s3d/images/svg/flat/flyby/1/outside/9.svg"
+					},
+					"floor": {
+						"20": "/wp-content/themes/3d/assets/s3d/images/svg/floor/flyby/1/outside/9.svg",
+						"35": "/wp-content/themes/3d/assets/s3d/images/svg/floor/flyby/1/outside/35.svg",
+						"69": "/wp-content/themes/3d/assets/s3d/images/svg/floor/flyby/1/outside/9.svg",
+						"96": "/wp-content/themes/3d/assets/s3d/images/svg/floor/flyby/1/outside/96.svg"
+					}
+				}
+			},
+			"2": {
+				"floor": {
+					"4": "/wp-content/themes/3d/assets/s3d/images/svg/flat/flyby/2/outside/4.svg",
+					"37": "/wp-content/themes/3d/assets/s3d/images/svg/flat/flyby/2/outside/37.svg",
+					"66": "/wp-content/themes/3d/assets/s3d/images/svg/flat/flyby/2/outside/66.svg",
+					"96": "/wp-content/themes/3d/assets/s3d/images/svg/flat/flyby/2/outside/96.svg"
+				},
+				"flat": {
+					"4": "/wp-content/themes/3d/assets/s3d/images/svg/floor/flyby/2/outside/4.svg",
+					"37": "/wp-content/themes/3d/assets/s3d/images/svg/floor/flyby/2/outside/37.svg",
+					"66": "/wp-content/themes/3d/assets/s3d/images/svg/floor/flyby/2/outside/66.svg",
+					"96": "/wp-content/themes/3d/assets/s3d/images/svg/floor/flyby/2/outside/96.svg"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,444 @@
+{
+  "translation": {
+    "currency_label": "₪",
+    "currency_label_m2": "$t(currency_label) ל-$t(area_unit)",
+    "area_unit": "מ\"ר",
+    "unit_statuses": {
+      "0": "נמכר",
+      "1": "זמין",
+      "2": "במילואים",
+      "3": "שמור",
+      "4": "לא נגיש",
+      "6": "חסום"
+    },
+    "error": {
+      "pdf": "כדי לצפות בתוכן ה-PDF, שנה את הגדרות הפרטיות שלך: עבור להגדרות -> Safari -> חסום חלונות קופצים וכבה את זה.",
+      "open_pdf": "פתח PDF"
+    },
+    "floor_list": {
+      "build": "בניין {{build}}",
+      "section": "קטע {{section}}"
+    },
+    "infoBox": {
+      "parking": "חנייה: כן",
+      "storage": "אחסון: כן",
+      "coming-soon": "בקרוב",
+      "sold": "כל הדירות נמכרו",
+      "sold_short": "נמכר",
+      "flatSold": "דירה נמכרה",
+      "flatReserved": "שמור",
+      "flatClosed": "המכירות לא פתוחות",
+      "freeObjects": "זמין",
+      "price_m2_from": "מחיר ל-$t(area_unit):",
+      "from_price": "מ-{{currency}} {{text}}",
+      "price_from": "מחיר:",
+      "reviewFlat": "חקור נכס",
+      "buildReview": "צפה בבית",
+      "review": "סקירה",
+      "finishDate": "תאריך אספקה:",
+      "filter_results": "מסונן {{count}} דירות",
+      "general": {
+        "button_titles": {
+          "queue": "חקור",
+          "villa": "חקור וילה",
+          "house": "חקור בית"
+        }
+      }
+    },
+    "title": {
+      "genplan": "תוכנית אב",
+      "flyby_1_outside": "בניין 1",
+      "favourites": "מועדפים",
+      "plannings": "תכניות"
+    },
+    "load": {
+      "loading-text": "טוען",
+      "loading-text-wait": "חכה קצת..."
+    },
+    "menu": {
+      "menu-title": "תפריט",
+      "nav": {
+        "1": {
+          "nav-title": "שם",
+          "nav-subtitle": {
+            "1": "שם",
+            "2": "שם",
+            "3": "שם",
+            "4": "שם",
+            "5": "שם"
+          }
+        },
+        "2": {
+          "nav-title": "שם",
+          "nav-subtitle": {
+            "1": "שם",
+            "2": "שם",
+            "3": "שם",
+            "4": "שם",
+            "5": "שם"
+          }
+        }
+      }
+    },
+    "ctr": {
+      "nav": {
+        "title": "תפריט 3D",
+        "genplan": "תוכנית אב",
+        "navigation": "ניווט",
+        "flyby": "בניינים",
+        "flyby_1_outside": "גוש א'",
+        "flyby_1_inside": "בניין 1 בפנים",
+        "flyby_2_outside": "גוש ב'",
+        "flyby_2_inside": "בניין 2 בפנים",
+        "flyby_3_outside": "גוש ג'",
+        "flyby_3_inside": "בניין 3 בפנים",
+        "flyby_4_outside": "בניין 4",
+        "flyby_4_inside": "בניין 4 בפנים",
+        "flyby_5_outside": "בניין 5",
+        "flyby_5_inside": "בניין 5 בפנים",
+        "plannings": "תכניות",
+        "floor": "תוכנית קומה",
+        "floor_plans": "תוכניות קומה",
+        "flat": "דירה",
+        "functions": "פונקציות",
+        "property": "נכס",
+        "flat_shot": "דירות",
+        "back": "חזרה",
+        "menu": "תפריט",
+        "callback": "שיחה חוזרת"
+      },
+      "share": {
+        "link-copied": "קישור הועתק"
+      },
+      "flybysidechooser": {
+        "outside": "חזית חיצונית",
+        "inside": "חזית פנימית"
+      },
+      "menu": {
+        "compass": {
+          "south": "ד",
+          "west": "מ",
+          "east": "מז",
+          "north": "צ"
+        },
+        "btn": {
+          "infrastructure": "תשתית",
+          "filter": "פילטר",
+          "chooseOfApartment": "דירה",
+          "chooseOfFloor": "קומה",
+          "repeatHelp": "?"
+        },
+        "hightlightInfrastructure": "הסתר שכבה",
+        "build_progress": "התקדמות הבנייה",
+        "on_the_map": "מיקום ושירותים בקרבת מקום",
+        "callbackFormCall": "צור קשר עם המנהל"
+      }
+    },
+    "Helper": {
+      "slide-0--title": "החזק וסובב",
+      "slide-1--title": "פילטר",
+      "slide-2--title": "קומות או דירות",
+      "slide-3--title": "השתמש בניווט",
+      "title1": "ניווט",
+      "description1": "ניתן לסובב את המודל ב-3D",
+      "title2": "כלים",
+      "description2": "כלים לאינטראקציה עם מודל ה-3D",
+      "title3": "פילטר",
+      "description3": "ניתן לסנן לפי הפרמטרים שלך",
+      "title4": "השווה",
+      "description5": "ניתן להוסיף תכניות להשוואה",
+      "close": "דלג על הדרכה"
+    },
+    "Filter": {
+      "title": "בחירה לפי פרמטרים",
+      "list": {
+        "type": "סוג",
+        "rooms": "חדרים",
+        "area": "שטח",
+        "area_unit": "$t(area_unit)",
+        "price": "מחיר",
+        "status": "סטטוס",
+        "floor": "קומה",
+        "favourite--add": "בחר"
+      },
+      "range": {
+        "floor": "קומה",
+        "area": "גודל",
+        "area_unit": "$t(area_unit)",
+        "price_unit": "€"
+      },
+      "checkboxes": {
+        "rooms": "חדרי שינה",
+        "build": "בניין",
+        "type": "סוג"
+      },
+      "reset": "נקה",
+      "apply": "החל",
+      "hide": "פילטרים מוסתרים",
+      "show": "הצג פילטרים",
+      "found": "נמצאו",
+      "from": "עם",
+      "to": "עד",
+      "not-marked-message": "נכס זה אינו מסומן",
+      "openFilter": "פתח פילטר",
+      "enterUnitNumber": "הזן מספר יחידה",
+      "Search by number": "חפש לפי מספר"
+    },
+    "Flat": {
+      "name": "יחידה",
+      "explication": "הסבר",
+      "gallery": "גלריה",
+      "floor_plan": "תוכנית קומה",
+      "other_flats_title": "דירה זו, אך בקומות אחרות",
+      "doc_title": "תיעוד",
+      "financial_terms_title": "תנאים פיננסיים",
+      "construction_title": "התקדמות הבנייה",
+      "parking": "החנייה שלך №",
+      "explication_data": {
+        "floor_1": "קומה 1",
+        "floor_2": "קומה 2",
+        "floor_3": "קומה 3",
+        "floor_4": "קומה 4",
+        "floor_5": "קומה 5"
+      },
+      "buttons": {
+        "with": "3D",
+        "without": "2D",
+        "gallery_btn": "גלריה",
+        "showIn3d": "בתצוגת 3D",
+        "view": "צפה",
+        "windowView": "מהחלון",
+        "compare": "השווה",
+        "addedToCompare": "נוסף להשוואה",
+        "pdf": "PDF",
+        "3dTour": "סיור 3D",
+        "callback--1": "צור קשר עם המנהל",
+        "callback--2": "הזמן דירה",
+        "planning2d": "תכנון 2D",
+        "planning3d": "תכנון 3D",
+        "furnished": "מרוהט",
+        "video": "צפה בדוח וידאו"
+      },
+      "timer": {
+        "timer-text": "עדיין יש זמן להזמין במחיר זה"
+      },
+
+      "information": {
+        "title": "מידע",
+        "sale": "סטטוס",
+        "build": "בניין",
+        "number": "מספר",
+        "area": "שטח",
+        "allArea": "שטח כולל",
+        "life_area": "שטח מגורים",
+        "area_unit": "$t(area_unit)",
+        "rooms": "חדרים",
+        "floor": "קומה",
+        "price": "מחיר",
+        "priceText": "$t(currency_label)",
+        "type": "סוג",
+        "section": "קטע",
+        "price_m2": "מחיר $t(area_unit)",
+        "per": "ל",
+        "priceHistory": "דינמיקת מחיר",
+        "floor_n_desktop": "מספר קומה",
+        "floor_n_mobile": "קומה №",
+        "viewPlanning": "צפה בתוכנית"
+      },
+      "goToFloor": "תוכנית קומה",
+      "goToFlat": "חקור נכס"
+    },
+
+    "Floor": {
+      "title-1": "",
+      "changeFloor--": "שנה קומה:",
+      "title-2": "תוכנית קומה",
+      "number_rooms": "מספר חדרים",
+      "apps_from": "דירות מ-",
+      "information": {
+        "title": "מידע",
+        "build": "בניין",
+        "floor": "קומה",
+        "section": "קטע",
+        "price_m2_from": "מ-$t(currency_label) ל-$t(area_unit)",
+        "all-flats": "כלל הדירות",
+        "free-flats": "זמינות",
+        "free-flats--": "זמינות:",
+        "from": "מ-",
+        "reviewFloor": "חקור תוכנית קומה"
+      },
+      "filter": {
+        "1": "חדר 1",
+        "2": "2 חדרים",
+        "3": "3 חדרים",
+        "4": "4 חדרים",
+        "5": "5 חדרים",
+        "all": "כל החדרים",
+        "title-mob": "חדרי שינה"
+      },
+      "floor-list": "קומות",
+      "goToFloor": "עבור לקומה"
+    },
+
+    "Plannings": {
+      "found": "נמצאו",
+      "found--from": "מ-",
+      "found-flats": "דירות",
+      "notFound": "אבל הסתכל על דירות אלה"
+    },
+
+    "favourite--title": "השוואה",
+    "favourite--added": "השוואה (נוספו <span class=\"js-s3d__fv-count\"></span> דירות)",
+    "favourite--apartments": "דירות",
+    "favourite--add": "בחר",
+    "favourite--empty-title": "לא נמצאו פריטים להשוואה",
+    "favourite--empty-text": "בחר תוכניות והוסף אותן לרשימת ההשוואה",
+    "favourite--empty-button": "צפה בתוכניות",
+    "favourite--show-differences": "הצג רק את ההבדלים",
+
+    "card--link": "קרא עוד",
+
+    "PopupFlyby": {
+      "title": "דירה",
+      "description": "התוכנית בבניין אחר. כדי לצפות בה במודל 3D, יש לעבור לבלוק אחר.",
+      "btn": "שנה זווית"
+    },
+
+    "Error-popup": {
+      "title": "אירעה שגיאה",
+      "translate-info": "תופנה לתוכנית האב התלת-ממדית בעוד",
+      "link": "לדף הראשי",
+      "messages": {
+        "not-find-data": "המידע הצפוי לא התקבל",
+        "not-all-required-data-received": "לא התקבלו כל הנתונים הנדרשים",
+        "invalid-url": "נתונים לא נכונים בכתובת URL",
+        "failed-request": "שגיאה בטעינת נתונים",
+        "network-error": "שגיאת רשת",
+        "application-error": "שגיאת יישום",
+        "unknown-error": "שגיאה לא ידועה"
+      }
+    },
+
+    "Send-error-popup": {
+      "success": "הנתונים נשלחו בהצלחה למומחי התמיכה הטכנית",
+      "failed": "הנתונים לא נשמרו, אנא דווח לתמיכה הטכנית"
+    },
+
+    "slider_popup": {
+      "227": "סוג MasterFly",
+      "228": "סוג 5BR AB",
+      "229": "סוג 4BR AB",
+      "230": "סוג 4BR AB",
+      "231": "סוג 4BR KS",
+      "232": "סוג 4BR KS",
+      "233": "סוג 4BR SJ",
+      "234": "סוג 4BR SJ",
+      "235": "סוג 5BR JM",
+      "236": "סוג 5BR JM",
+      "239": "סוג 5BR KS",
+      "240": "סוג 5BR KS",
+      "241": "סוג 5BR SJ",
+      "242": "סוג 5BR SJ",
+      "default": "וילה"
+    },
+
+    "builds": {
+      "1": "א",
+      "2": "ב",
+      "3": "ג",
+      "4": "ד",
+      "5": "ה"
+    },
+
+    "rooms": {
+      "1": "חדר שינה אחד",
+      "2": "2 חדרי שינה",
+      "3": "3 חדרי שינה",
+      "4": "4 חדרי שינה",
+      "5": "5 חדרי שינה"
+    },
+
+    "rooms-abbreviation": {
+      "1": "1 BR",
+      "2": "2 BR",
+      "3": "3 BR",
+      "4": "4 BR",
+      "5": "5 BR"
+    },
+
+    "sales": {
+      "0": "נמכר",
+      "1": "זמין",
+      "2": "שמורה",
+      "3": "לא זמין"
+    },
+
+    "pins": {
+      "park_trc": "חנות",
+      "tennis_court": "חניית אורחים",
+      "walking_zone": "אזור הליכה",
+      "shop_1": "חנות מזון",
+      "playground_playground1": "מגרש משחקים",
+      "shop_coffee": "בית קפה",
+      "parking_underground": "חניה תת קרקעית",
+      "commercial_zone": "שטח מסחרי",
+      "street_zamarstynivska": "רח' זמרסטיניבסקה",
+      "street_shidna": "רח' שידנה",
+      "street_kvitova": "רח' קויטובה",
+      "tennis_court_description": "לורם איפסום דולור סיט אמט, קונסקטטור אדיפיסינג אליט. נולה נק פורוס פויגייט, וסטיבולום ליגולה אט, מאלהסואדה מגנה.",
+      "children_playground": "מגרש משחקים לילדים",
+      "gated_entrance": "כניסה מוגנת",
+      "open_gym_machines": "חדר כושר פתוח",
+      "multisport": "מגרש ספורט חיצוני, כדורסל, טניס, מיני כדורגל",
+      "bbq_area": "אזור מנגל, אזור ישיבה פתוח",
+      "swimming_pool": "בריכת שחיה",
+      "open_cinema": "קולנוע פתוח",
+      "sphere_360": " פנורמה אזור ברביקי",
+      "sphere_360_descr": "אזור בריכת שחייה משותפת עם מקלחות, מוקף בגנים מטופחים, אזור ברביקיו ואזור ישיבה"
+    },
+
+    "loader": {
+      "load": "טוען תצוגה מקדימה",
+      "wait_a_little": "חכה קצת...",
+      "rotate_warning": "נא לשמור את הטלפון במצב אנכי."
+    },
+
+    "currencies": {
+      "USD": "$",
+      "UAH": "₴",
+      "EUR": "€"
+    },
+
+    "Dropdown": {
+      "title": "ניווט"
+    },
+
+    "tutorial": {
+      "step_nav": "ניווט",
+      "step_nav_description": "ניתן לסובב את המודל ב-3D",
+      "step_interact": "כלים",
+      "step_interact_description": "כלים לאינטראקציה עם מודל ה-3D",
+      "ster_filter": "פילטר",
+      "ster_filter_description": "ניתן לסנן לפי הפרמטרים שלך",
+      "step_compare": "השוואה",
+      "step_compare_description": "ניתן להוסיף תוכניות להשוואה"
+    },
+
+    "monthes": {
+      "January": "ינואר",
+      "February": "פברואר",
+      "March": "מרץ",
+      "April": "אפריל",
+      "May": "מאי",
+      "June": "יוני",
+      "July": "יולי",
+      "August": "אוגוסט",
+      "September": "ספטמבר",
+      "October": "אוקטובר",
+      "November": "נובמבר",
+      "December": "דצמבר"
+    },
+
+    "from": "מ-"
+  }
+}

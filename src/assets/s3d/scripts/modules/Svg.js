@@ -89,7 +89,12 @@ class Svg {
               if (this.setting.type === 'genplan' || this.setting.type === 'flyby') {
                 this.mutateGenplanInfrastructure(
                   svgWrap,
-                  this.assignFlatPolygonsWithFlatData(data.replace('preserveAspectRatio="xMidYMid slice"', 'preserveAspectRatio="xMidYMin slice"')),
+                  this.assignFlatPolygonsWithFlatData(
+                    data.replace(
+                      'preserveAspectRatio="xMidYMid slice"',
+                      'preserveAspectRatio="xMidYMin slice"',
+                    ),
+                  ),
                 );
                 resolve();
                 return;
@@ -120,8 +125,14 @@ class Svg {
   }
   putFlatIdInFloorPolygon(svgWrap, data) {
     const parser = new DOMParser();
+    data = data.replace(
+      'preserveAspectRatio="xMidYMid slice"',
+      'preserveAspectRatio="xMidYMin slice"',
+    );
     const $svg = parser.parseFromString(data, 'text/html');
+
     const $floors = $svg.querySelectorAll('[data-type="floor"]');
+
     $floors.forEach(floorPolygon => {
       const { build, section, floor } = floorPolygon.dataset;
       const floorDataOfPolygon =
@@ -396,7 +407,7 @@ class Svg {
         <g ${transformPin}  style="
           transform-origin: center center;
           transform-box: fill-box;
-        ">          
+        ">
           <text style="fill: white; font-weight: 400" x="${x}" y="${y}">${this.i18n.t(
               `infoBox.flyby--${el.dataset.flyby}--${el.dataset.side}`,
             )}</text>

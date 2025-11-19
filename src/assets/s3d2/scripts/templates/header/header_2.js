@@ -53,27 +53,34 @@ export default function header_2(i18n, { logo, menuSelector }) {
               '/3d/' +
               window.location.search +
               window.location.hash}" >EN</a>
-          </li>  
+          </li>
           <li data-lang="ru">
             <a href="${window.location.origin +
               '/ru' +
               '/3d/' +
               window.location.search +
               window.location.hash}" >РУ</a>
-          </li>  
+          </li>
           <li data-lang="zh">
             <a href="${window.location.origin +
               '/zh' +
               '/3d/' +
               window.location.search +
               window.location.hash}" >中文</a>
-          </li>  
+          </li>
           <li data-lang="he">
             <a href="${window.location.origin +
               '/he' +
               '/3d/' +
               window.location.search +
               window.location.hash}" >עִברִית</a>
+          </li>
+          <li data-lang="vi">
+            <a href="${window.location.origin +
+              '/vi' +
+              '/3d/' +
+              window.location.search +
+              window.location.hash}" >VI</a>
           </li>
         </ul></div>
         ${IconButton('', 'data-s3d-share', 'Copy')}

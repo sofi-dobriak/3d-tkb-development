@@ -37,11 +37,11 @@
     border-radius: var(--border-space-8);
     border: 1px solid var(--border-gray-400);
     background-color: var(--color-surface-gray-300);
-    cursor: pointer; 
-    
+    cursor: pointer;
+
     position: relative;
     z-index: 1;
-    transition: .25s ease-out;
+    transition: 0.25s ease-out;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,7 +55,7 @@
 .desktop {
   .SpinNav {
     svg {
-      transition: .25s ease-out;
+      transition: 0.25s ease-out;
     }
     &__arrow:hover {
       background-color: var(--color-surface-gray-400);
@@ -79,7 +79,7 @@
       align-items: center;
       justify-content: center;
       padding: 0;
-      transition: .25s ease-out;
+      transition: 0.25s ease-out;
     }
     &__arrow:active {
       transform: scale(1.05);
@@ -88,7 +88,7 @@
 }
 
 .mobile {
-  .SpinNav { 
+  .SpinNav {
     bottom: calc(var(--mobile-controller-height) + var(--space-1));
   }
 }

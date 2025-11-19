@@ -22,7 +22,7 @@
     align-items: center;
     margin-left: auto;
 
-    &>:nth-child(n+2) {
+    & > :nth-child(n + 2) {
       margin-left: var(--space-1);
     }
   }
@@ -52,7 +52,7 @@
     transition: max-height 0.3s ease-in-out;
 
     &:hover {
-      max-height: 160px;
+      max-height: 260px;
     }
 
     a {
@@ -74,8 +74,8 @@
   }
 }
 
-html[lang="en"] {
-  .language-list li[data-lang="en"] {
+html[lang='en'] {
+  .language-list li[data-lang='en'] {
     order: -1;
     pointer-events: none;
 
@@ -85,22 +85,22 @@ html[lang="en"] {
   }
 }
 
-html[lang="ru"] {
-  .language-list li[data-lang="ru"] {
+html[lang='ru'] {
+  .language-list li[data-lang='ru'] {
     order: -1;
     pointer-events: none;
   }
 }
 
-html[lang="zh"] {
-  .language-list li[data-lang="zh"] {
+html[lang='zh'] {
+  .language-list li[data-lang='zh'] {
     order: -1;
     pointer-events: none;
   }
 }
 
-html[lang="he"] {
-  .language-list li[data-lang="he"] {
+html[lang='he'] {
+  .language-list li[data-lang='he'] {
     order: -1;
     pointer-events: none;
   }
@@ -115,7 +115,7 @@ html[lang="he"] {
     padding: var(--space-2) var(--space-2) 0 var(--space-2);
   }
 
-  .js-s3d-filter-open:not([data-type="plannings"]) .header {
+  .js-s3d-filter-open:not([data-type='plannings']) .header {
     opacity: 0;
     visibility: hidden;
   }

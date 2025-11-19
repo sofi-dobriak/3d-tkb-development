@@ -164,12 +164,12 @@ function Flat(
             ['mobile'],
             'text-style-3-d-fonts-1920-body-bold',
           )} ${showOn(['desktop', 'tablet'], 'text-style-3-d-fonts-1920-h-1')}">
-            ${i18n.t('currency_label')} ${numberWithCommas(floor.price)} 
+            ${i18n.t('currency_label')} ${numberWithCommas(floor.price)}
             </td>
             <!--<td class="whitespace-nowrap ${showOn(
               ['mobile'],
               'text-style-3-d-fonts-1920-body-bold',
-            )} ${showOn(['desktop', 'tablet'], 'text-style-3-d-fonts-1920-h-2-bold')}"> 
+            )} ${showOn(['desktop', 'tablet'], 'text-style-3-d-fonts-1920-h-2-bold')}">
               ${i18n.t('currency_label')} ${numberWithCommas(floor.price_m2)}
             </td>-->
           `
@@ -202,7 +202,7 @@ function Flat(
         ${i18n.t('currency_label')} ${flat['price']}
       </div>
       <!--<div class="text-gray-900 text-style-3-d-fonts-1920-body-bold">
-        ${i18n.t('currency_label')} ${flat['price_m2']} ${i18n.t('area_unit')} 
+        ${i18n.t('currency_label')} ${flat['price_m2']} ${i18n.t('area_unit')}
       </div>-->
     </div>
   `
@@ -215,7 +215,7 @@ function Flat(
         <div class="text-style-3-d-fonts-1920-h-2-bold text-gray-900">
           ${i18n.t('Flat.information.number')} ${flat['number']}
         </div>
-        <div 
+        <div
           class="s3d-flat__info-block-status-label"
           style="background-color: ${unit_statuses[flat['sale']]['background']}; color: ${
     unit_statuses[flat['sale']]['color']
@@ -287,7 +287,7 @@ function Flat(
             <a href="#" class="s3d-flat__small-button-with-icon js-s3d__create-pdf">
               ${s3d2spriteIcon('PDF')}
               <span>${i18n.t('Flat.buttons.pdf')}</span>
-            </a> 
+            </a>
             <a href="#" class="s3d-flat__small-button-with-icon js-s3d-add__favourite ${
               isChecked ? 'added-to-favourites' : ''
             }" data-id="${flat['id']}">
@@ -317,16 +317,22 @@ function Flat(
         </div>
       </div>
       ${FlatContentScreen(FlatExplicationScreen(flat, i18n))}
-      <div class="s3d-flat__content-screen ">
-        <div class="text-style-3-d-fonts-1920-h-2-semi-bold text-gray-900">
-      ${i18n.t('Flat.parking')} ${flat['number']}
-    </div>
-        <img src="${flat['parking_image']}" alt="parking"/>
-      </div>
+      ${
+        flat['parking_image']
+          ? `
+        <div class="s3d-flat__content-screen ">
+          <div class="text-style-3-d-fonts-1920-h-2-semi-bold text-gray-900">
+            ${i18n.t('Flat.parking')} ${flat['number']}
+          </div>
+          <img src="${flat['parking_image']}" alt="parking"/>
+        </div>
+      `
+          : ''
+      }
       ${flat['gallery'] ? FlatContentScreen(FlatGalleryScreen(flat['gallery'], i18n)) : ''}
-      
-     
-      
+
+
+
       ${FlatContentScreen(
         `
         <div class="text-style-3-d-fonts-1920-h-2-semi-bold text-gray-900 s3d-flat__floor-plan-container-title">
@@ -508,7 +514,7 @@ function FlatExplicationScreen(flat, i18n) {
     ['mobile'],
     `
     <div class="text-style-3-d-fonts-1920-h-2-semi-bold text-gray-900">
-      
+
     </div>
   `,
   )}
@@ -553,7 +559,7 @@ function FlatExplicationScreen(flat, i18n) {
             ${flat.life_room} ${i18n.t('area_unit')}
           </div>
         </div>
-        
+
       </div>
       <div class="s3d-flat__explication-screen-info space-t-2" data-flat-explication-floor-properties-container>
         <div class="s3d-flat__explication-screen-info-row text-style-3-d-fonts-1920-body-medium text-gray-800">
@@ -573,13 +579,13 @@ function FlatExplicationScreen(flat, i18n) {
         </div>
       </div>
     </div>
-    
+
   </div>
   ${showOn(
     ['desktop', 'tablet'],
     `
     <div class="text-style-3-d-fonts-1920-h-2-semi-bold text-gray-900">
-       
+
     </div>
   `,
   )}

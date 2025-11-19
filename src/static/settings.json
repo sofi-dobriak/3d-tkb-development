@@ -4,8 +4,8 @@
     "generalWrapId": "#js-s3d__wrapper",
     "imageUrl": "images/flyby/genplan/",
     "sd_imageUrl": "images/flyby/genplan/",
-    "enableParalax": true,
-    "enableClouds": true,
+    "enableParalax": false,
+    "enableClouds": false,
     "image_format": "jpg",
     "class": "js-s3d__wrapper",
     "numberSlide": {
@@ -13,12 +13,12 @@
       "max": 119
     },
     "controlPoint": [
-      4,
-      42,
-      65,
-      99
+      1,
+      30,
+      60,
+      90
     ],
-    "activeSlide": 4,
+    "activeSlide": 1,
     "rotateSpeedDefault": 20,
     "rotateSpeed": [],
     "frameWithNorthDirection": 100,
@@ -39,25 +39,25 @@
           "max": 119
         },
         "controlPoint": [
-          18,
-          41,
-          77,
-          101
+          1,
+          30,
+          60,
+          90
         ],
-        "activeSlide": 77,
+        "activeSlide": 1,
         "rotateSpeedDefault": 20,
         "rotateSpeed": [],
         "mouseSpeed": 0.5,
         "startDegCompass": 90,
-        "frameWithNorthDirection": 89
+        "frameWithNorthDirection": 70
       }
     },
-    "2": {
+    "7": {
       "outside": {
-        "id": "flyby_2_outside",
+        "id": "flyby_7_outside",
         "generalWrapId": "#js-s3d__wrapper",
-        "imageUrl": "images/flyby/2/",
-        "sd_imageUrl": "images/flyby/2/",
+        "imageUrl": "images/flyby/7/",
+        "sd_imageUrl": "images/flyby/7/",
         "image_format": "jpg",
         "class": "js-s3d__wrapper",
         "numberSlide": {
@@ -65,25 +65,25 @@
           "max": 119
         },
         "controlPoint": [
-          15,
-          40,
-          74,
-          100
+          1,
+          30,
+          60,
+          90
         ],
-        "activeSlide": 100,
+        "activeSlide": 1,
         "rotateSpeedDefault": 20,
         "rotateSpeed": [],
         "mouseSpeed": 0.5,
         "startDegCompass": 90,
-        "frameWithNorthDirection": 89
+        "frameWithNorthDirection": 90
       }
     },
-    "3": {
+    "8": {
       "outside": {
-        "id": "flyby_3_outside",
+        "id": "flyby_8_outside",
         "generalWrapId": "#js-s3d__wrapper",
-        "imageUrl": "images/flyby/3/",
-        "sd_imageUrl": "images/flyby/3/",
+        "imageUrl": "images/flyby/8/",
+        "sd_imageUrl": "images/flyby/8/",
         "image_format": "jpg",
         "class": "js-s3d__wrapper",
         "numberSlide": {
@@ -91,17 +91,95 @@
           "max": 119
         },
         "controlPoint": [
-          8,
-          32,
-          67,
-          92
+          1,
+          30,
+          60,
+          90
         ],
-        "activeSlide": 92,
+        "activeSlide": 1,
         "rotateSpeedDefault": 20,
         "rotateSpeed": [],
         "mouseSpeed": 0.5,
         "startDegCompass": 90,
-        "frameWithNorthDirection": 89
+        "frameWithNorthDirection": 90
+      }
+    },
+    "9": {
+      "outside": {
+        "id": "flyby_9_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/9/",
+        "sd_imageUrl": "images/flyby/9/",
+        "image_format": "jpg",
+        "class": "js-s3d__wrapper",
+        "numberSlide": {
+          "min": 0,
+          "max": 119
+        },
+        "controlPoint": [
+          1,
+          30,
+          60,
+          90
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 20,
+        "rotateSpeed": [],
+        "mouseSpeed": 0.5,
+        "startDegCompass": 90,
+        "frameWithNorthDirection": 90
+      }
+    },
+    "10": {
+      "outside": {
+        "id": "flyby_10_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/10/",
+        "sd_imageUrl": "images/flyby/10/",
+        "image_format": "jpg",
+        "class": "js-s3d__wrapper",
+        "numberSlide": {
+          "min": 0,
+          "max": 119
+        },
+        "controlPoint": [
+          1,
+          30,
+          60,
+          90
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 20,
+        "rotateSpeed": [],
+        "mouseSpeed": 0.5,
+        "startDegCompass": 90,
+        "frameWithNorthDirection": 90
+      }
+    },
+    "11": {
+      "outside": {
+        "id": "flyby_11_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/11/",
+        "sd_imageUrl": "images/flyby/11/",
+        "image_format": "jpg",
+        "class": "js-s3d__wrapper",
+        "numberSlide": {
+          "min": 0,
+          "max": 119
+        },
+        "controlPoint": [
+          1,
+          30,
+          60,
+          90
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 20,
+        "rotateSpeed": [],
+        "mouseSpeed": 0.5,
+        "startDegCompass": 90,
+        "frameWithNorthDirection": 90
       }
     }
   },
@@ -175,11 +253,6 @@
       "1": {
         "outside": {
           "pin_1": "https://360.visengine.com/portfolio/sobha_vrt3/villa/#pano31/100.6/1.1/65.2"
-        }
-      },
-      "2": {
-        "outside": {
-          "vila_vr": "https://360.visengine.com/portfolio/sobha_vrt3/villa/#pano31/100.6/1.1/65.2"
         }
       }
     }
@@ -299,28 +372,31 @@
     ]
   },
   "flyby_finish_dates": {
-    "1-outside": "31.12.2028",
-    "2-outside": "31.12.2027",
-    "3-outside": "31.12.2025"
+    "1-outside": "coming soon",
+    "7-outside": "coming soon",
+    "8-outside": "coming soon",
+    "9-outside": "coming soon",
+    "10-outside": "coming soon",
+    "11-outside": "coming soon"
   },
   "assotiated_flat_builds_with_flybys": {
-    "1-outside": [
-      "1",
-      "2",
-      "3"
-    ],
-    "1-inside": [
-      "4",
-      "5"
-    ]
+    "1-outside": [ "6"],
+    "7-outside": [ "7"],
+    "8-outside": [ "8"],
+    "9-outside": [ "9"],
+    "10-outside": [ "10"],
+    "11-outside": [ "11"]
   },
-  "project_google_map_location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325519.57556806813!2d30.203056370248245!3d50.401569787880334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1714654468086!5m2!1suk!2sua",
+  "project_google_map_location": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3529.9402443087556!2d32.95784707574237!3d34.65280397293667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDM5JzEwLjEiTiAzMsKwNTcnMzcuNSJF!5e1!3m2!1suk!2sua!4v1763566289547!5m2!1suk!2sua",
   "infoBoxes": {
     "general_flyby_button_titles": {
       "faq": "Можливі підписи для кнопок у інфобоксі обльоту : queue ,villa, house",
-      "1_outside": "queue",
-      "3_outside": "villa",
-      "1_inside": "house"
+      "1_outside": "house",
+      "7_outside": "house",
+      "8_outside": "house",
+      "9_outside": "house",
+      "10_outside": "house",
+      "11_outside": "house"
     }
   },
   "header": {

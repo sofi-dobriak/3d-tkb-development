@@ -74,7 +74,7 @@ function Card(i18n, flat, favouritesIds$, showPrices) {
         ${
           showPrices
             ? `<div class="s3d-card__title">
-            ${i18n.t('Flat.information.priceText')} ${price} 
+            ${i18n.t('Flat.information.priceText')} ${price}
           </div>`
             : ''
         }
@@ -83,10 +83,10 @@ function Card(i18n, flat, favouritesIds$, showPrices) {
             showPrices
               ? `
               <div class="s3d-card__row">
-                <div class="s3d-card__name">
-                  ${i18n.t('Flat.information.priceText')} 
-                  ${i18n.t('Flat.information.per')} 
-                  ${i18n.t('Flat.information.area_unit')}:</div>
+                <!-- <div class="s3d-card__name">
+                  ${i18n.t('Flat.information.priceText')}
+                  ${i18n.t('Flat.information.per')}
+                  ${i18n.t('Flat.information.area_unit')}:</div> -->
                 <!--<div class="s3d-card__value" data-key="floor">${numberWithCommas(
                   price_m2,
                 )}</div>-->

@@ -1,0 +1,451 @@
+{
+  "translation": {
+    "currency_label": "$",
+    "currency_label_m2": "$t(currency_label) trên $t(area_unit)",
+    "area_unit": "m²",
+    "unit_statuses": {
+      "0": "Đã bán",
+      "1": "Có sẵn",
+      "2": "Đặt trước",
+      "3": "Đã đặt",
+      "4": "Không thể tiếp cận",
+      "6": "Bị chặn"
+    },
+    "error": {
+      "pdf": "Để xem nội dung PDF, vui lòng thay đổi cài đặt quyền riêng tư: Đi đến Cài đặt -> Safari -> Chặn cửa sổ bật lên và tắt nó đi.",
+      "open_pdf": "Mở PDF"
+    },
+    "floor_list": {
+      "build": "Tòa {{build}}",
+      "section": "Khu {{section}}"
+    },
+    "infoBox": {
+      "parking": "Bãi đỗ xe: Có",
+      "storage": "Kho: Có",
+      "coming-soon": "Sắp ra mắt",
+      "sold": "Tất cả căn hộ đã được bán",
+      "sold_short": "Đã bán",
+      "flatSold": "Căn hộ đã bán",
+      "flatReserved": "Đã đặt trước",
+      "flatClosed": "Chưa mở bán",
+      "freeObjects": "Có sẵn",
+      "price_m2_from": "Giá trên $t(area_unit):",
+      "from_price": "từ {{currency}} {{text}}",
+      "price_from": "Giá:",
+      "reviewFlat": "Khám phá bất động sản",
+      "buildReview": "Xem tòa nhà",
+      "review": "Xem xét",
+      "finishDate": "Thời gian bàn giao:",
+      "filter_results": "Đã lọc {{count}} căn hộ",
+      "general": {
+        "button_titles": {
+          "queue": "Khám phá",
+          "villa": "Khám phá biệt thự",
+          "house": "Khám phá nhà"
+        }
+      }
+    },
+
+    "title": {
+      "genplan": "Mặt bằng tổng thể",
+      "flyby_1_outside": "Tòa 1",
+      "favourites": "Yêu thích",
+      "plannings": "Mặt bằng"
+    },
+
+    "load": {
+      "loading-text": "Đang tải",
+      "loading-text-wait": "Vui lòng chờ một chút..."
+    },
+
+    "menu": {
+      "menu-title": "Thực đơn",
+      "nav": {
+        "1": {
+          "nav-title": "Tên",
+          "nav-subtitle": {
+            "1": "Tên",
+            "2": "Tên",
+            "3": "Tên",
+            "4": "Tên",
+            "5": "Tên"
+          }
+        },
+        "2": {
+          "nav-title": "Tên",
+          "nav-subtitle": {
+            "1": "Tên",
+            "2": "Tên",
+            "3": "Tên",
+            "4": "Tên",
+            "5": "Tên"
+          }
+        }
+      }
+    },
+
+    "ctr": {
+      "nav": {
+        "title": "Menu 3D",
+        "genplan": "Mặt bằng tổng thể",
+        "navigation": "Điều hướng",
+        "flyby": "Các tòa",
+        "flyby_1_outside": "Khối A",
+        "flyby_1_inside": "Tòa 1 bên trong",
+        "flyby_7_outside": "Khối B",
+        "flyby_7_inside": "Tòa 2 bên trong",
+        "flyby_8_outside": "Khối C",
+        "flyby_8_inside": "Tòa 3 bên trong",
+        "flyby_9_outside": "Tòa 4",
+        "flyby_9_inside": "Tòa 4 bên trong",
+        "flyby_10_outside": "Tòa 5",
+        "flyby_10_inside": "Tòa 5 bên trong",
+        "flyby_11_outside": "Tòa 6",
+        "flyby_11_inside": "Tòa 6 bên trong",
+        "plannings": "Mặt bằng",
+        "floor": "Mặt bằng tầng",
+        "floor_plans": "Mặt bằng các tầng",
+        "flat": "Căn hộ",
+        "functions": "Chức năng",
+        "property": "Bất động sản",
+        "flat_shot": "Căn hộ",
+        "back": "Quay lại",
+        "menu": "Thực đơn",
+        "callback": "Gọi lại"
+      },
+      "share": {
+        "link-copied": "Đã sao chép liên kết"
+      },
+      "flybysidechooser": {
+        "outside": "Mặt tiền bên ngoài",
+        "inside": "Mặt tiền bên trong"
+      },
+      "menu": {
+        "compass": {
+          "south": "N",
+          "west": "T",
+          "east": "Đ",
+          "north": "B"
+        },
+        "btn": {
+          "infrastructure": "Cơ sở hạ tầng",
+          "filter": "Bộ lọc",
+          "chooseOfApartment": "Căn hộ",
+          "chooseOfFloor": "Tầng",
+          "repeatHelp": "?"
+        },
+        "hightlightInfrastructure": "Ẩn lớp phủ",
+        "build_progress": "Tiến độ xây dựng",
+        "on_the_map": "Vị trí & Tiện ích gần đây",
+        "callbackFormCall": "Liên hệ với quản lý"
+      }
+    },
+
+    "Helper": {
+      "slide-0--title": "Giữ và xoay",
+      "slide-1--title": "Bộ lọc",
+      "slide-2--title": "Các tầng hoặc căn hộ",
+      "slide-3--title": "Sử dụng điều hướng",
+      "title1": "Điều hướng",
+      "description1": "Bạn có thể xoay mô hình 3D",
+      "title2": "Công cụ",
+      "description2": "Công cụ để tương tác với mô hình 3D",
+      "title3": "Bộ lọc",
+      "description3": "Bạn có thể lọc theo thông số của mình",
+      "title4": "So sánh",
+      "description5": "Bạn có thể thêm mặt bằng để so sánh",
+      "close": "Bỏ qua hướng dẫn"
+    },
+
+    "Filter": {
+      "title": "Lựa chọn theo thông số",
+      "list": {
+        "type": "Loại",
+        "rooms": "Phòng",
+        "area": "Diện tích",
+        "area_unit": "$t(area_unit)",
+        "price": "Giá",
+        "status": "Trạng thái",
+        "floor": "Tầng",
+        "favourite--add": "Chọn"
+      },
+      "range": {
+        "floor": "Tầng",
+        "area": "Kích thước",
+        "area_unit": "$t(area_unit)",
+        "price_unit": "€"
+      },
+      "checkboxes": {
+        "rooms": "Phòng ngủ",
+        "build": "Tòa",
+        "type": "Loại"
+      },
+      "reset": "Xóa",
+      "apply": "Áp dụng",
+
+      "hide": "Ẩn bộ lọc",
+      "show": "Hiển thị bộ lọc",
+
+      "found": "Đã tìm thấy",
+      "from": "từ",
+
+      "to": "đến",
+      "not-marked-message": "Căn này chưa được đánh dấu",
+      "openFilter": "Mở bộ lọc",
+      "enterUnitNumber": "Nhập số căn",
+      "Search by number": "Tìm kiếm theo số"
+    },
+
+    "Flat": {
+      "name": "Căn",
+      "explication": "Giải thích",
+      "gallery": "Thư viện ảnh",
+      "floor_plan": "Mặt bằng tầng",
+      "other_flats_title": "Căn hộ này, nhưng ở các tầng khác",
+      "doc_title": "Tài liệu",
+      "financial_terms_title": "Điều khoản tài chính",
+      "construction_title": "Tiến độ xây dựng",
+      "parking": "Chỗ đậu xe của bạn số",
+      "explication_data": {
+        "floor_1": "Tầng 1",
+        "floor_2": "Tầng 2",
+        "floor_3": "Tầng 3",
+        "floor_4": "Tầng 4",
+        "floor_5": "Tầng 5"
+      },
+      "buttons": {
+        "with": "3D",
+        "without": "2D",
+        "gallery_btn": "Thư viện",
+        "showIn3d": "Trên 3D",
+        "view": "Xem",
+        "windowView": "Từ cửa sổ",
+        "compare": "So sánh",
+        "addedToCompare": "Đã thêm vào so sánh",
+        "pdf": "PDF",
+        "3dTour": "Tour 3D",
+        "callback--1": "Liên hệ với quản lý",
+        "callback--2": "Đặt căn hộ",
+        "planning2d": "Mặt bằng 2D",
+        "planning3d": "Mặt bằng 3D",
+        "furnished": "Có nội thất",
+        "video": "Xem video báo cáo"
+      },
+      "timer": {
+        "timer-text": "Vẫn còn thời gian để đặt với giá này"
+      },
+
+      "information": {
+        "title": "Thông tin",
+        "sale": "Trạng thái",
+        "build": "Tòa",
+        "number": "Số",
+        "area": "Diện tích",
+        "allArea": "Tổng diện tích",
+        "life_area": "Diện tích sống",
+        "area_unit": "$t(area_unit)",
+        "rooms": "Phòng",
+        "floor": "Tầng",
+        "price": "Giá",
+        "priceText": " $t(currency_label)",
+        "type": "Loại",
+        "section": "Khu",
+        "price_m2": "Giá $t(area_unit)",
+        "per": "trên",
+        "priceHistory": "Diễn biến giá",
+        "floor_n_desktop": "Số tầng",
+        "floor_n_mobile": "Tầng số",
+        "viewPlanning": "Xem mặt bằng"
+      },
+      "goToFloor": "Mặt bằng tầng",
+      "goToFlat": "Khám phá bất động sản"
+    },
+
+    "Floor": {
+      "title-1": "",
+      "changeFloor--": "Thay đổi tầng:",
+      "title-2": "mặt bằng tầng",
+      "number_rooms": "Số phòng",
+      "apps_from": "Căn hộ từ",
+      "information": {
+        "title": "Thông tin",
+        "build": "Tòa",
+        "floor": "Tầng",
+        "section": "Khu",
+        "price_m2_from": "Từ $t(currency_label) trên $t(area_unit)",
+        "all-flats": "Tổng số căn hộ",
+        "free-flats": "Có sẵn",
+        "free-flats--": "Có sẵn:",
+        "from": "Từ",
+        "reviewFloor": "Khám phá mặt bằng tầng"
+      },
+      "filter": {
+        "1": "1 phòng",
+        "2": "2 phòng",
+        "3": "3 phòng",
+        "4": "4 phòng",
+        "5": "5 phòng",
+        "all": "Tất cả phòng",
+        "title-mob": "Phòng ngủ"
+      },
+      "floor-list": "các tầng",
+      "goToFloor": "Đi đến tầng"
+    },
+
+    "Plannings": {
+      "found": "Đã tìm thấy",
+      "found--from": "từ",
+      "found-flats": "căn hộ",
+      "notFound": "Nhưng hãy xem các căn hộ này"
+    },
+
+    "favourite--title": "So sánh",
+    "favourite--added": "So sánh (đã thêm <span class=\"js-s3d__fv-count\"></span> căn hộ)",
+    "favourite--apartments": "căn hộ",
+    "favourite--add": "Chọn",
+    "favourite--empty-title": "Không tìm thấy gì để so sánh",
+    "favourite--empty-text": "Chọn mặt bằng và thêm chúng vào danh sách so sánh",
+    "favourite--empty-button": "Xem mặt bằng",
+    "favourite--show-differences": "Chỉ hiển thị sự khác biệt",
+
+    "card--link": "Đọc thêm",
+
+    "PopupFlyby": {
+      "title": "Căn hộ ",
+      "description": "Mặt bằng ở tòa nhà khác. Để xem nó trên mô hình 3D, bạn cần chuyển sang khối khác.",
+      "btn": "Thay đổi góc nhìn"
+    },
+
+    "Error-popup": {
+      "title": "Đã xảy ra lỗi",
+      "translate-info": "Bạn sẽ được chuyển hướng đến mặt bằng tổng thể 3D qua",
+      "link": "về trang chính",
+      "messages": {
+        "not-find-data": "không nhận được dữ liệu mong đợi",
+        "not-all-required-data-received": "không nhận được tất cả dữ liệu cần thiết",
+        "invalid-url": "dữ liệu không chính xác trong url",
+        "failed-request": "không tải được dữ liệu",
+        "network-error": "lỗi mạng",
+        "application-error": "lỗi ứng dụng",
+        "unknown-error": "Lỗi không xác định"
+      }
+    },
+
+    "Send-error-popup": {
+      "success": "dữ liệu lỗi đã được gửi thành công đến chuyên gia hỗ trợ kỹ thuật",
+      "failed": "dữ liệu lỗi không được lưu, vui lòng thông báo cho bộ phận hỗ trợ kỹ thuật"
+    },
+
+    "slider_popup": {
+      "227": "Loại MasterFly",
+      "228": "Loại 5BR AB",
+      "229": "Loại 4BR AB",
+      "230": "Loại 4BR AB",
+      "231": "Loại 4BR KS",
+      "232": "Loại 4BR KS",
+      "233": "Loại 4BR SJ",
+      "234": "Loại 4BR SJ",
+      "235": "Loại 5BR JM",
+      "236": "Loại 5BR JM",
+      "239": "Loại 5BR KS",
+      "240": "Loại 5BR KS",
+      "241": "Loại 5BR SJ",
+      "242": "Loại 5BR SJ",
+      "default": "Biệt thự"
+    },
+
+    "builds": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "D",
+      "5": "E"
+    },
+
+    "rooms": {
+      "1": "1 phòng ngủ",
+      "2": "2 phòng ngủ",
+      "3": "3 phòng ngủ",
+      "4": "4 phòng ngủ",
+      "5": "5 phòng ngủ"
+    },
+
+    "rooms-abbreviation": {
+      "1": "1 PN",
+      "2": "2 PN",
+      "3": "3 PN",
+      "4": "4 PN",
+      "5": "5 PN"
+    },
+
+    "sales": {
+      "0": "đã bán",
+      "1": "có sẵn",
+      "2": "đặt trước",
+      "3": "không có sẵn"
+    },
+
+    "pins": {
+      "park_trc": "Cửa hàng",
+      "tennis_court": "Bãi đỗ xe khách",
+      "walking_zone": "Khu vực đi bộ",
+      "shop_1": "Cửa hàng thực phẩm",
+      "playground_playground1": "Sân chơi",
+      "shop_coffee": "Quán cà phê",
+      "parking_underground": "Bãi đỗ xe ngầm",
+      "commercial_zone": "Khu thương mại",
+      "street_zamarstynivska": "đường Zamarstynivska",
+      "street_shidna": "đường Shidna",
+      "street_kvitova": "đường Kvitova",
+      "tennis_court_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, vestibulum ligula at, malesuada magna. Nulla nec purus feugiat, vestibulum ligula at, malesuada magna.",
+      "children_playground": "Sân chơi trẻ em",
+      "gated_entrance": "Cổng có bảo vệ",
+      "open_gym_machines": "Phòng tập ngoài trời",
+      "multisport": "Sân thể thao đa năng ngoài trời, bóng rổ, tennis, bóng đá mini",
+      "bbq_area": "Khu vực BBQ, chỗ ngồi ngoài trời",
+      "swimming_pool": "Hồ bơi",
+      "open_cinema": "Rạp chiếu phim ngoài trời",
+      "sphere_360": "Toàn cảnh khu vực BBQ",
+      "sphere_360_descr": "Khu vực hồ bơi chung với vòi sen, được bao quanh bởi vườn cảnh quan, khu vực BBQ và khu vực chỗ ngồi"
+    },
+
+    "loader": {
+      "load": "Đang tải bản xem trước",
+      "wait_a_little": "Vui lòng chờ một chút...",
+      "rotate_warning": "Vui lòng giữ điện thoại thẳng đứng."
+    },
+    "currencies": {
+      "USD": "$",
+      "UAH": "₴",
+      "EUR": "€"
+    },
+    "Dropdown": {
+      "title": "Điều hướng"
+    },
+    "tutorial": {
+      "step_nav": "Điều hướng",
+      "step_nav_description": "Bạn có thể xoay mô hình 3D",
+      "step_interact": "Công cụ",
+      "step_interact_description": "Công cụ để tương tác với mô hình 3D",
+      "ster_filter": "Bộ lọc",
+      "ster_filter_description": "Bạn có thể lọc theo thông số của mình",
+      "step_compare": "So sánh",
+      "step_compare_description": "Bạn có thể thêm mặt bằng để so sánh"
+    },
+    "monthes": {
+      "January": "Tháng Một",
+      "February": "Tháng Hai",
+      "March": "Tháng Ba",
+      "April": "Tháng Tư",
+      "May": "Tháng Năm",
+      "June": "Tháng Sáu",
+      "July": "Tháng Bảy",
+      "August": "Tháng Tám",
+      "September": "Tháng Chín",
+      "October": "Tháng Mười",
+      "November": "Tháng Mười Một",
+      "December": "Tháng Mười Hai"
+    },
+    "from": "từ"
+  }
+}

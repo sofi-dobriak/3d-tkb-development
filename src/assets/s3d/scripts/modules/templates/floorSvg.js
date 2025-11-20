@@ -1,4 +1,4 @@
-import SvgFloorPolygonTooltip from "../../../../s3d2/scripts/templates/floor/SvgFloorPolygonTooltip";
+import SvgFloorPolygonTooltip from '../../../../s3d2/scripts/templates/floor/SvgFloorPolygonTooltip';
 
 const getCenterPolygon = polygon => {
   const array = polygon.split(',');
@@ -47,10 +47,19 @@ const createSoldIcon = ({ x, y }, imageWidth, imageHeight, wrapperSize) => {
   const height = (imageHeight / wrapperSize.height) * size;
   const updatedX = x - width / 2;
   const updatedY = y - height / 2;
-  return `<use x=${updatedX} y=${updatedY} width="${+width / 2}" height="${+height / 2}" xlink:href="#closed"></use>`;
+  return `<use x=${updatedX} y=${updatedY} width="${+width / 2}" height="${+height /
+    2}" xlink:href="#closed"></use>`;
 };
 
-const createInfoIcon = ({ x, y }, imageWidth, imageHeight, wrapperSize, title, description, isActive) => {
+const createInfoIcon = (
+  { x, y },
+  imageWidth,
+  imageHeight,
+  wrapperSize,
+  title,
+  description,
+  isActive,
+) => {
   const size = 100;
   const width = (imageWidth / wrapperSize.width) * size;
   const height = (imageHeight / wrapperSize.height) * size;
@@ -63,7 +72,7 @@ const createInfoIcon = ({ x, y }, imageWidth, imageHeight, wrapperSize, title, d
     y: updatedY,
     title: title,
     isActive,
-    description
+    description,
   });
   return `
   <g style="pointer-events: none">
@@ -145,7 +154,7 @@ function createFloorSvg(i18n, pathImage, flats, sizeImage, activeFlatId) {
       if (!flat) return '';
       const isSold = flat.sale === numSoldKey;
       if (!flat['sorts'] || isSold) return '';
-      const valueToRenderOnPolygon = 'type';
+      const valueToRenderOnPolygon = 'number';
       const valueToRenderOnPolygon2 = 'area';
       const posCenterPoly = getCenterPolygon(
         flat.sortedFromServer ? flat.sortedFromServer : flat.sorts,

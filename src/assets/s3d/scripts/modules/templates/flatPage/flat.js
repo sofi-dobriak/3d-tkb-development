@@ -228,6 +228,7 @@ function Flat(
 
       <div class="s3d-flat__info-block-label-wrapper">
         ${labelsToShowInInfoBlock
+          .filter(property => property['key'] !== 'type')
           .map(property => {
             return `<div class="s3d-flat__info-block-label">
             ${i18n.t(property['label'])}: ${flat[property['key']]} ${i18n.t(
@@ -346,6 +347,17 @@ function Flat(
       `,
         's3d-flat__floor-plan-container',
       )}
+
+      ${
+        flat['overal_3d_tour']
+          ? `
+        <div class="s3d-flat__content-screen ">
+          <iframe src="${flat['overal_3d_tour']}" loading="lazy" allowfullscreen="true"></iframe>
+        </div>
+      `
+          : ''
+      }
+
       <div class="space-b-8 ${showOn(['mobile'], 'space-t-4')} ${showOn(
     ['desktop', 'tablet'],
     'space-t-8',

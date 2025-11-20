@@ -6,7 +6,9 @@
   grid-template-areas:
     'amount amount amount'
     '. content .';
-  grid-template-columns: calc(var(--controller-w) + var(--offset)) auto calc(var(--controller-w) + var(--offset));
+  grid-template-columns: calc(var(--controller-w) + var(--offset)) auto calc(
+      var(--controller-w) + var(--offset)
+    );
   grid-template-rows: auto 100%;
   overflow: hidden;
   padding-top: var(--s3d-header);
@@ -20,9 +22,8 @@
     grid-template-columns: calc(var(--controller-w) + var(--offset)) auto var(--offset);
   }
 
-  @media screen and (max-width:1440px) and (min-width: 1024px) {
+  @media screen and (max-width: 1440px) and (min-width: 1024px) {
     --filter-width: 375px;
-
   }
 
   @media screen and (max-width: 1024px) {
@@ -33,7 +34,8 @@
       'content';
   }
 
-  &__amount-flat {}
+  &__amount-flat {
+  }
 
   @include text-style-3-d-fonts-1920-h-2-semi-bold;
 
@@ -100,7 +102,6 @@
 
       @media screen and (max-width: 680px) {
         // grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-
       }
 
       /*&::-webkit-scrollbar {
@@ -167,8 +168,6 @@
   }
 }
 
-
-
 .s3d-pl {
   grid-template-areas:
     'filter content content'
@@ -183,7 +182,7 @@
   &__list {
     margin-top: 0;
     margin-bottom: 0;
-    transition: .35s ease-out;
+    transition: 0.35s ease-out;
   }
 
   &__container {
@@ -204,8 +203,7 @@
       opacity: 0;
       visibility: hidden;
       pointer-events: none;
-      transition: .15s ease-out;
-
+      transition: 0.15s ease-out;
     }
 
     &.pending &-pending {
@@ -217,7 +215,6 @@
     &.pending .s3d-pl__list {
       opacity: 0;
     }
-
   }
 
   &__container:not(.pending) .lds-ring div {
@@ -231,7 +228,7 @@
       display: none;
     }
 
-    &>* {
+    & > * {
       position: static;
     }
   }
@@ -239,13 +236,12 @@
 
 .desktop {
   .s3d-filter-wrap {
-    @media screen and (max-width:1160px) {
+    @media screen and (max-width: 1160px) {
       --filter-width: min(350px, 100vw);
     }
   }
 
-  @media screen and (max-width:1160px) {
-
+  @media screen and (max-width: 1160px) {
     .s3d-pl {
       grid-template-columns: min(350px, 100vw) auto calc(var(--controller-w) + var(--offset));
       padding-bottom: 0;
@@ -296,7 +292,6 @@
 
 .mobile,
 .tablet {
-
   .s3d-fv__container .s3d-pl__list,
   .s3d-pl__container .s3d-pl__list {
     // height: calc(100vh - var(--menu-h) * 2 - var(--controller-h) - var(--s3d-header) - 47px);
@@ -306,7 +301,6 @@
 
 .tablet.landscape {
   @media screen and (min-width: 1365px) {
-
     .s3d-fv__container .s3d-pl__list,
     .s3d-pl__container .s3d-pl__list {
       height: calc(var(--vh, 1vh) * 100);
@@ -326,8 +320,8 @@
 .tablet {
   .s3d-pl {
     grid-template-areas:
-      "content content content"
-      "content content content";
+      'content content content'
+      'content content content';
     padding: calc(var(--s3d-header) + var(--space-1)) 0 0 0;
     grid-template-columns: 1fr 1fr 1fr;
 
@@ -359,11 +353,9 @@
   }
 }
 
-
 .mobile {
   .s3d-pl {
-    grid-template-areas:
-      "content";
+    grid-template-areas: 'content';
     padding: 0;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -394,15 +386,13 @@
   }
 }
 
-
 .s3d-fv {
   padding-left: var(--space-4);
   padding-right: var(--space-4);
   padding-top: calc(var(--s3d-header) + var(--space-4));
   grid-template-areas:
     'amount amount amount'
-    'content content content'
-  ;
+    'content content content';
 
   .s3d-fv__container {
     .s3d-fv__list {
@@ -412,7 +402,7 @@
       flex-grow: 1;
       @include scrollbars(10px, var(--color-surface-gray-600), transparent);
 
-      &>* {
+      & > * {
         flex-shrink: 0;
         width: 25%;
       }
@@ -426,14 +416,13 @@
     align-items: center;
     justify-content: space-between;
 
-    &>:first-child {
+    & > :first-child {
       margin-right: auto;
     }
 
-    &>:nth-child(n+2) {
+    & > :nth-child(n + 2) {
       margin-left: var(--space-2);
     }
-
   }
 
   .EmptyFavourites {
@@ -462,8 +451,7 @@
     padding-top: calc(var(--s3d-header) + var(--space-4));
     grid-template-areas:
       'amount amount amount'
-      'content content content'
-    ;
+      'content content content';
 
     .s3d-fv__container {
       .s3d-fv__list {
@@ -472,7 +460,7 @@
         overflow-x: auto;
         @include scrollbars(10px, var(--color-surface-gray-600), transparent);
 
-        &>* {
+        & > * {
           flex-shrink: 0;
           width: 40%;
         }
@@ -491,12 +479,12 @@
       flex-wrap: wrap;
       justify-content: flex-start;
 
-      &>:nth-child(n+2) {
+      & > :nth-child(n + 2) {
         margin-left: initial;
       }
 
-      &>:nth-child(2),
-      &>:nth-child(1) {
+      & > :nth-child(2),
+      & > :nth-child(1) {
         width: 100%;
         margin-bottom: var(--space-2);
       }
@@ -515,7 +503,7 @@
         grid-gap: var(--space-2);
 
         // padding-bottom: var(--mobile-controller-height);
-        &>* {
+        & > * {
           width: 84%;
         }
       }

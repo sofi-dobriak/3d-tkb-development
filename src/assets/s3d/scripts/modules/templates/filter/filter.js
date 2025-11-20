@@ -41,7 +41,7 @@ function Filter(i18n, filterData = []) {
             })
             .map(flat => flat[singleFilter.paramaterByWhatWillBeFilter]),
         ),
-      ].sort();
+      ].sort((a, b) => Number(a) - Number(b));
       const containerForThisFilter = document.querySelector(
         `[data-${
           singleFilter.id ? singleFilter.id : singleFilter.paramaterByWhatWillBeFilter
@@ -105,7 +105,7 @@ function Filter(i18n, filterData = []) {
           ${i18n.t('Filter.from')}
           <span class="js-s3d__amount-flat__num-all"></span>
         </div>
-        
+
         ${Link({
           text: i18n.t('Filter.reset'),
           attributes: 'id="resetFilter" ',
@@ -152,7 +152,7 @@ function Filter(i18n, filterData = []) {
           <span class="text-style-3-d-fonts-1920-body-bold text-gray-900" target="_blank">
             smarto.agency
           </span>
-        
+
         </div>
       </div>
       <div class="s3d-filter__view-type">
@@ -237,12 +237,13 @@ function Filter(i18n, filterData = []) {
           ${i18n.t('Filter.from')}
           <span class="js-s3d__amount-flat__num-all"></span>
         </div>
-        
-        ${Link({
-          text: i18n.t('Filter.reset'),
-          attributes: 'id="resetFilter" ',
-          iconName: 'Trash',
-        })}
+
+      ${Link({
+        text: i18n.t('Filter.reset'),
+        attributes: 'id="resetFilter" ',
+        iconName: 'Trash',
+      })}
+
       </div>
   </div>
 `;

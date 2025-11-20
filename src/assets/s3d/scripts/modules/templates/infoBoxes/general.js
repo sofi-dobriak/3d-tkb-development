@@ -15,6 +15,19 @@ function general(i18n, data) {
     buttonType,
     show_prices,
   } = data;
+
+  const originalTitle = i18n.t(`ctr.nav.${type}_${flyby}_${side}`);
+  const targetTitleTexts = [
+    'ITHACA 6 inside',
+    '伊薩卡 6 内部',
+    'ИТАКА 6 внутри',
+    'Bên trong ITHACA 6',
+    'איתקה 6 בפנים',
+  ];
+  const newTitleText = i18n.t('ctr.nav.new_cyprus_property');
+
+  const $infoBoxTitle = targetTitleTexts.includes(originalTitle) ? newTitleText : originalTitle;
+
   if (!type) {
     return '';
   }
@@ -68,7 +81,7 @@ function general(i18n, data) {
     <div class="s3d-infoBox__general">
         ${$closeBtn()}
         <span class="s3d-infoBox__title">
-          ${i18n.t(`ctr.nav.${type}_${flyby}_${side}`)}
+          ${$infoBoxTitle}
         </span>
         ${$freeObjectsTitle}
         ${$finishDate}

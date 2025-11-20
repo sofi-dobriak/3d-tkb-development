@@ -4,8 +4,8 @@
     "generalWrapId": "#js-s3d__wrapper",
     "imageUrl": "images/flyby/genplan/",
     "sd_imageUrl": "images/flyby/genplan/",
-    "enableParalax": false,
-    "enableClouds": false,
+    "enableParalax": true,
+    "enableClouds": true,
     "image_format": "jpg",
     "class": "js-s3d__wrapper",
     "numberSlide": {
@@ -291,6 +291,13 @@
     ],
     "checkboxes": [
       {
+        "title": "Filter.list.build",
+        "type": "checkbox",
+        "needTranslation": false,
+        "translationNS": "",
+        "paramaterByWhatWillBeFilter": "build"
+      },
+      {
         "title": "Filter.list.rooms",
         "type": "checkbox",
         "needTranslation": false,
@@ -380,12 +387,24 @@
     "11-outside": "coming soon"
   },
   "assotiated_flat_builds_with_flybys": {
-    "1-outside": [ "6"],
-    "7-outside": [ "7"],
-    "8-outside": [ "8"],
-    "9-outside": [ "9"],
-    "10-outside": [ "10"],
-    "11-outside": [ "11"]
+    "1-outside": [
+      "6"
+    ],
+    "7-outside": [
+      "7"
+    ],
+    "8-outside": [
+      "8"
+    ],
+    "9-outside": [
+      "9"
+    ],
+    "10-outside": [
+      "10"
+    ],
+    "11-outside": [
+      "11"
+    ]
   },
   "project_google_map_location": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3529.9402443087556!2d32.95784707574237!3d34.65280397293667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDM5JzEwLjEiTiAzMsKwNTcnMzcuNSJF!5e1!3m2!1suk!2sua!4v1763566289547!5m2!1suk!2sua",
   "infoBoxes": {

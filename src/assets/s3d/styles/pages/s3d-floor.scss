@@ -2,16 +2,17 @@
   &-floor {
     --s3d-floor__menu-container-w: 264px;
     display: grid;
-    grid-template-columns: var(--s3d-floor__menu-container-w) auto  40px var(--space-6);
+    grid-template-columns: var(--s3d-floor__menu-container-w) auto 40px var(--space-6);
     grid-template-rows: var(--s3d-header) auto var(--menu-h);
-    grid-template-areas: '. . . .'
-    'menu svg zoom .'
-    'menu svg zoom .';
+    grid-template-areas:
+      '. . . .'
+      'menu svg zoom .'
+      'menu svg zoom .';
     width: 100%;
     height: 100%;
     background-color: var(--color-surface-gray-200);
     padding: var(--space-4);
-  
+
     &__title {
       margin-bottom: var(--space-4);
     }
@@ -25,14 +26,14 @@
 
     &__info-container2 {
       margin-bottom: var(--space-4);
-      &>* {
+      & > * {
         white-space: nowrap;
       }
       &__title {
         margin-bottom: 8px;
       }
     }
-    
+
     .s3d-floor__menu-container {
       position: relative;
       flex-direction: column;
@@ -70,7 +71,8 @@
       height: auto;
       grid-template-columns: 1fr;
       grid-template-rows: var(--s3d-header) auto min-content var(--menu-h);
-      grid-template-areas: '.'
+      grid-template-areas:
+        '.'
         'svg'
         'info'
         'menu';
@@ -78,7 +80,6 @@
 
     &__svg-container {
       overflow: hidden;
-      
     }
     &__svg-wrapper {
       // width: 100%;
@@ -86,7 +87,7 @@
       text-align: center;
     }
     &__svg-container {
-    //&__svg {
+      //&__svg {
       grid-area: svg;
       max-height: 100%;
       width: 100%;
@@ -94,12 +95,15 @@
       align-self: center;
       max-height: calc(var(--vh, 1vh) * 100 - var(--s3d-header));
 
+      @media screen and (min-width: 1024px) {
+        max-height: calc(var(--vh, 1vh) * 100 - var(--s3d-header) + 20%);
+      }
       @media screen and (max-width: 1024px) {
         // padding: 20px;
         // height: calc(100vh - var(--s3d-header) - var(--controller-h) - var(--menu-h));
       }
       svg {
-        max-height: calc(var(--vh, 1vh)* 100 - var(--s3d-header));
+        max-height: calc(var(--vh, 1vh) * 100 - var(--s3d-header));
       }
       use {
         pointer-events: none;
@@ -138,21 +142,21 @@
             border: none;
             color: var(--text-gray-900);
             padding: 0;
-            transition: .25s ease-out;
+            transition: 0.25s ease-out;
             width: 24px;
             height: 24px;
             border-radius: var(--border-space-1);
             cursor: pointer;
 
-            @media screen and (min-width: 1023px){
+            @media screen and (min-width: 1023px) {
               &:hover {
                 // transform: scale(1.25);
-                background-color:var(--surface-gray-900);
+                background-color: var(--surface-gray-900);
                 color: var(--text-gray-200);
               }
             }
             &.active {
-              background-color:var(--surface-gray-900);
+              background-color: var(--surface-gray-900);
               color: var(--text-gray-200);
             }
           }
@@ -166,7 +170,6 @@
         width: 40px;
         text-align: center;
       }
-
 
       button {
         .floor-list {
@@ -185,7 +188,7 @@
           gap: 4px;
           opacity: 0;
           pointer-events: none;
-          transition: .25s ease-out;
+          transition: 0.25s ease-out;
 
           &__title {
             width: 100%;
@@ -202,7 +205,7 @@
             width: 24px;
             height: 24px;
             border-radius: 8px;
-            transition: .25s ease-out;
+            transition: 0.25s ease-out;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -222,7 +225,7 @@
             }
           }
         }
-        @media screen and (min-width: 1023px){
+        @media screen and (min-width: 1023px) {
           &:hover {
             // background: $flat-menu-btn-2-bg-hover;
             // border: 1px solid $flat-menu-btn-2-border-hover;
@@ -241,7 +244,7 @@
         }
       }
 
-      button.swiper-slide {      
+      button.swiper-slide {
       }
     }
 
@@ -255,7 +258,7 @@
           .s3d-floor__tabs {
             opacity: 1;
             visibility: visible;
-            transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
+            transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
             gap: 2px;
           }
         }
@@ -296,7 +299,7 @@
           visibility: hidden;
           position: absolute;
           bottom: 100%;
-          transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
+          transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
           margin-bottom: 2px;
         }
 
@@ -351,7 +354,7 @@
             }
           }
 
-          &[data-rooms="1"] {
+          &[data-rooms='1'] {
             color: $flat-rooms-1-btn;
 
             @media screen and (max-width: 680px) {
@@ -383,7 +386,7 @@
             }
           }
 
-          &[data-rooms="2"] {
+          &[data-rooms='2'] {
             color: $flat-rooms-2-btn;
 
             @media screen and (max-width: 680px) {
@@ -415,7 +418,7 @@
             }
           }
 
-          &[data-rooms="3"] {
+          &[data-rooms='3'] {
             color: $flat-rooms-3-btn;
 
             @media screen and (max-width: 680px) {
@@ -447,7 +450,7 @@
             }
           }
 
-          &[data-rooms="4"] {
+          &[data-rooms='4'] {
             color: $flat-rooms-4-btn;
 
             @media screen and (max-width: 680px) {
@@ -479,7 +482,7 @@
             }
           }
 
-          &[data-rooms="all"] {
+          &[data-rooms='all'] {
             color: $bc;
 
             @media screen and (max-width: 680px) {
@@ -514,7 +517,6 @@
   }
 }
 
-
 .s3d {
   &-floor {
     &__overlay {
@@ -527,7 +529,7 @@
       z-index: 10;
       pointer-events: none;
       opacity: 0;
-      transition: .25s ease-out;
+      transition: 0.25s ease-out;
     }
     &.with-overlay {
       .s3d-floor__overlay {
@@ -542,7 +544,7 @@
       flex-direction: column;
       grid-area: zoom;
       margin-top: var(--space-4);
-      &>:nth-child(n+2) {
+      & > :nth-child(n + 2) {
         margin-top: var(--space-1);
       }
     }
@@ -563,14 +565,14 @@
     padding-left: var(--space-2);
     padding-right: var(--space-2);
 
-    &>.s3d-floor__nav-wrapper {
+    & > .s3d-floor__nav-wrapper {
       text-align: center;
       margin-top: var(--space-4);
       [data-swiper-floor-list-wrapper] {
         width: 175px;
       }
     }
-    &>* {
+    & > * {
       flex-shrink: 0;
     }
     &__svg-container {
@@ -582,37 +584,33 @@
         height: 100%;
         max-height: none;
       }
-
     }
     .s3d-flat__info-container {
-
     }
     .s3d-floor__menu-container {
       order: 1;
     }
-    .s3d-floor__svg-container{
+    .s3d-floor__svg-container {
       order: 2;
       padding: 0;
     }
-    &>.s3d-floor__nav-wrapper {
+    & > .s3d-floor__nav-wrapper {
       order: 4;
     }
     .s3d-floor__zoom-wrapper {
       order: 3;
       flex-direction: row;
-      &>:nth-child(n+2) {
+      & > :nth-child(n + 2) {
         margin-top: 0;
         margin-left: var(--space-1);
       }
     }
-    
 
     &__info-container2 {
       margin-bottom: 0;
     }
   }
 }
-
 
 .tablet.landscape {
   .s3d-floor {
@@ -621,11 +619,8 @@
     div.s3d-floor__svg {
       height: 100%;
     }
-
   }
 }
-
-
 
 .tablet.portrait {
   .s3d-floor {
@@ -634,25 +629,25 @@
     align-items: start;
     grid-template-rows: var(--s3d-header) min-content auto calc(80px + var(--space-4)) var(--menu-h);
     grid-template-areas:
-        "."
-        "menu"
-        "svg"
-        "zoom"
-        "info";
+      '.'
+      'menu'
+      'svg'
+      'zoom'
+      'info';
 
     &__menu-container {
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
       gap: var(--space-3);
-      &>div {
+      & > div {
         width: calc(33% - var(--space-3));
         text-align: center;
       }
     }
     &__zoom-wrapper {
       flex-direction: row;
-      &>:nth-child(n+2) {
+      & > :nth-child(n + 2) {
         margin-top: 0;
         margin-left: var(--space-1);
       }
@@ -664,7 +659,8 @@
     &__info-container2 {
       display: flex;
       flex-direction: column;
-      justify-content: center;align-items: center;
+      justify-content: center;
+      align-items: center;
     }
     &__tabs-wrapper {
       display: flex;

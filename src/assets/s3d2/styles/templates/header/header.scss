@@ -106,6 +106,13 @@ html[lang='he'] {
   }
 }
 
+html[lang='vi'] {
+  .language-list li[data-lang='vi'] {
+    order: -1;
+    pointer-events: none;
+  }
+}
+
 .mobile {
   .header {
     [data-fullscreen-mode] {

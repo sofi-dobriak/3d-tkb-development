@@ -250,7 +250,9 @@
         "viewPlanning": "צפה בתוכנית"
       },
       "goToFloor": "תוכנית קומה",
-      "goToFlat": "חקור נכס"
+      "goToFlat": "חקור נכס",
+      "virtual_tour_open": "צאו לסיור",
+      "virtual_tour_close": "השהה"
     },
 
     "Floor": {

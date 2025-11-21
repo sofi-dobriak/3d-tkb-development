@@ -260,7 +260,9 @@
         "viewPlanning": "Xem mặt bằng"
       },
       "goToFloor": "Mặt bằng tầng",
-      "goToFlat": "Khám phá bất động sản"
+      "goToFlat": "Khám phá bất động sản",
+      "virtual_tour_open": "Khám phá chuyến tham quan",
+      "virtual_tour_close": "Tạm dừng"
     },
 
     "Floor": {

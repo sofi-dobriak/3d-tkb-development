@@ -260,7 +260,9 @@
         "viewPlanning": "Посмотреть план"
       },
       "goToFloor": "План этажа",
-      "goToFlat": "Посмотреть недвижимость"
+      "goToFlat": "Посмотреть недвижимость",
+      "virtual_tour_open": "Начать тур",
+      "virtual_tour_close": "Пауза"
     },
 
     "Floor": {

@@ -258,7 +258,9 @@
         "viewPlanning": "View Planning"
       },
       "goToFloor": "Floor plan",
-      "goToFlat": "Explore property"
+      "goToFlat": "Explore property",
+      "virtual_tour_open": "Explore tour",
+      "virtual_tour_close": "Pause"
     },
 
     "Floor": {

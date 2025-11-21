@@ -72,6 +72,25 @@ function Flat(
     return `flyby_${e.flyby}_${e.side}`;
   });
 
+  document.body.addEventListener(
+    'click',
+    e => {
+      const target = e.target.closest('[data-mobile-room-tour]');
+      if (!target) {
+        return;
+      }
+      const tourContainer = target.closest('.s3d-flat__virtual-tour-iframe-wrap');
+      const type = target.getAttribute('data-mobile-room-tour');
+      const overlay = tourContainer.querySelector('.s3d-flat__virtual-tour-iframe-wrap-overlay');
+
+      tourContainer.querySelectorAll('[data-mobile-room-tour]').forEach(el => {
+        el.style.display = type === el.getAttribute('data-mobile-room-tour') ? 'none' : '';
+      });
+      overlay.style.display = type === 'open' ? 'none' : '';
+    },
+    true,
+  );
+
   const $specifiedFlybysByGroup = Object.entries(specifiedFlybyByGroup)
     .map(([groupName, flybyList]) => {
       return `
@@ -297,7 +316,7 @@ function Flat(
               <span title="${i18n.t('Flat.buttons.addedToCompare')}" data-in-fav>${i18n.t(
     'Flat.buttons.addedToCompare',
   )}</span>
-              <span title="${i18n.t('Flat.buttons.compare')}" data-not-in-fav>${i18n.t(
+                          <span title="${i18n.t('Flat.buttons.compare')}" data-not-in-fav>${i18n.t(
     'Flat.buttons.compare',
   )}</span>
             </a>
@@ -305,13 +324,32 @@ function Flat(
         </div>
     </div>
     <div class="s3d-flat__content-wrapper">
-      ${
-        flat['3d_tour'] && window.status !== 'local'
-          ? FlatContentScreen(`
-        <iframe src="${flat['3d_tour']}" loading="lazy" allowfullscreen="true"></iframe>
-      `)
-          : ''
-      }
+      <div class="s3d-flat__content-screen">
+        ${
+          flat['3d_tour'] && window.status !== 'local'
+            ? `
+          <div class="s3d-flat__virtual-tour-iframe-wrap">
+            <iframe src="${flat['3d_tour']}" loading="lazy" allowfullscreen="true"></iframe>
+
+            <div class="s3d-flat__virtual-tour-iframe-wrap-overlay"></div>
+
+            <div class="s3d-flat__virtual-tour-iframe-wrap-menu">
+                ${ButtonWithoutIcon(
+                  's3d-flat__virtual-tour-iframe-wrap-close',
+                  'data-mobile-room-tour="open"',
+                  i18n.t('Flat.virtual_tour_open'),
+                )}
+                ${ButtonWithoutIcon(
+                  's3d-flat__virtual-tour-iframe-wrap-close',
+                  'data-mobile-room-tour="close" style="display: none"',
+                  i18n.t('Flat.virtual_tour_close'),
+                )}
+            </div>
+          </div>
+             `
+            : ''
+        }
+      </div>
       <div class="s3d-flat__image-container" style="display: none">
         <div class="s3d-flat__image">
           <img onerror="this.onerror=null; this.setAttribute('src', '${defaultModulePath}/images/examples/no-image.png')" class="js-s3d-flat__image" src="" data-mfp-src="">
@@ -348,15 +386,32 @@ function Flat(
         's3d-flat__floor-plan-container',
       )}
 
-      ${
-        flat['overal_3d_tour']
-          ? `
-        <div class="s3d-flat__content-screen ">
-          <iframe src="${flat['overal_3d_tour']}" loading="lazy" allowfullscreen="true"></iframe>
-        </div>
-      `
-          : ''
-      }
+      <div class="s3d-flat__content-screen">
+        ${
+          flat['overal_3d_tour'] && window.status !== 'local'
+            ? `
+          <div class="s3d-flat__virtual-tour-iframe-wrap">
+            <iframe src="${flat['overal_3d_tour']}" loading="lazy" allowfullscreen="true"></iframe>
+
+            <div class="s3d-flat__virtual-tour-iframe-wrap-overlay"></div>
+
+            <div class="s3d-flat__virtual-tour-iframe-wrap-menu">
+                ${ButtonWithoutIcon(
+                  's3d-flat__virtual-tour-iframe-wrap-close',
+                  'data-mobile-room-tour="open"',
+                  i18n.t('Flat.virtual_tour_open'),
+                )}
+                ${ButtonWithoutIcon(
+                  's3d-flat__virtual-tour-iframe-wrap-close',
+                  'data-mobile-room-tour="close" style="display: none"',
+                  i18n.t('Flat.virtual_tour_close'),
+                )}
+            </div>
+          </div>
+             `
+            : ''
+        }
+      </div>
 
       <div class="space-b-8 ${showOn(['mobile'], 'space-t-4')} ${showOn(
     ['desktop', 'tablet'],
@@ -563,13 +618,20 @@ function FlatExplicationScreen(flat, i18n) {
             ${flat.area} ${i18n.t('area_unit')}
           </div>
         </div>
+
         <div class="s3d-flat__explication-screen-info-row text-style-3-d-fonts-1920-body-bold text-gray-900">
+         ${
+           flat.life_room > 0
+             ? `
           <div class="s3d-flat__explication-screen-info-row-title">${i18n.t(
             'Flat.information.life_area',
           )}:</div>
           <div class="s3d-flat__explication-screen-info-row-value">
             ${flat.life_room} ${i18n.t('area_unit')}
           </div>
+        `
+             : ''
+         }
         </div>
 
       </div>

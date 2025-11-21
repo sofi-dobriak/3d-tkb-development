@@ -260,7 +260,9 @@
         "viewPlanning": "查看户型图"
       },
       "goToFloor": "楼层平面图",
-      "goToFlat": "搜索房产"
+      "goToFlat": "搜索房产",
+      "virtual_tour_open": "探索导览",
+      "virtual_tour_close": "暂停"
     },
 
     "Floor": {

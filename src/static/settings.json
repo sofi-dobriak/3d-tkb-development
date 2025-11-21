@@ -379,12 +379,12 @@
     ]
   },
   "flyby_finish_dates": {
-    "1-outside": "coming soon",
-    "7-outside": "coming soon",
-    "8-outside": "coming soon",
-    "9-outside": "coming soon",
-    "10-outside": "coming soon",
-    "11-outside": "coming soon"
+    "1-outside": "infoBox.coming-soon",
+    "7-outside": "infoBox.coming-soon",
+    "8-outside": "infoBox.coming-soon",
+    "9-outside": "infoBox.coming-soon",
+    "10-outside": "infoBox.coming-soon",
+    "11-outside": "infoBox.coming-soon"
   },
   "assotiated_flat_builds_with_flybys": {
     "1-outside": [

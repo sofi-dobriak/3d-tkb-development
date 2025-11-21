@@ -1,10 +1,9 @@
-$default-font: "Avenir LT Pro 55 Roman", sans-serif;
-
+$default-font: 'Avenir LT Pro 55 Roman', sans-serif;
 
 /*OLD variables, dont use it in new version*/
-$wc: #F4F8FD;
+$wc: #f4f8fd;
 $bc: #000000;
-$mc: #E0C7AA;
+$mc: #e0c7aa;
 
 $sale-text: var(--text-gray-200);
 $sale-0: var(--color-semantic-danger);
@@ -12,14 +11,14 @@ $sale-1: var(--color-surface-semantic-success);
 $sale-2: #6d6805;
 $sale-3: #000000;
 
-$bg-color: #D9D9D9;
+$bg-color: #d9d9d9;
 
 $title-dark: #000000;
 $description-text-color: #000000;
 
 $loader-bg: rgba(0, 0, 0, 0.5);
-$loader-icon-color: #F4F8FD;
-$loader-text-color: #F4F8FD;
+$loader-icon-color: #f4f8fd;
+$loader-text-color: #f4f8fd;
 
 $preloader-bg: #fff;
 
@@ -27,35 +26,35 @@ $close-btn-color: #000000;
 $close-btn-color-hover: #000000;
 
 $menu-bg: #000000;
-$menu-text-color: #F4F8FD;
-$menu-close-bg: #E0C7AA;
+$menu-text-color: #f4f8fd;
+$menu-close-bg: #e0c7aa;
 $menu-close-icon: #000000;
-$menu-text-color-hover: #F4F8FD;
-$menu-close-bg-hover: #E3C29B;
+$menu-text-color-hover: #f4f8fd;
+$menu-close-bg-hover: #e3c29b;
 $menu-close-icon-hover: #000000;
 
 $popup-bg: rgba(0, 0, 0, 0.95);
-$popup-content-color: #F4F8FD;
+$popup-content-color: #f4f8fd;
 $popup-text-color: #000000;
-$popup-close-btn-bg: #E0C7AA;
+$popup-close-btn-bg: #e0c7aa;
 $popup-close-btn-icon: #000000;
-$popup-close-btn-bg-hover: #E3C29B;
+$popup-close-btn-bg-hover: #e3c29b;
 $popup-close-btn-icon-hover: #000000;
 $popup-text-color: #000000;
 $popup-invalidate-text-color: red;
 
-$info-box-background: #F4F8FD;
+$info-box-background: #f4f8fd;
 $info-box-text: #000000;
 $info-box-link: #000000;
-$info-box-link-text: #F4F8FD;
+$info-box-link-text: #f4f8fd;
 
 $info-box-flat-background: rgba(0, 0, 0, 0.8);
-$info-box-flat-background2: #F4F8FD;
+$info-box-flat-background2: #f4f8fd;
 $info-box-flat-text-color: #000000;
 $info-box-flat-label-border-color: #000000;
 $info-box-flat-link: red;
 $info-box-flat-link: #000000;
-$info-box-flat-link-text: #F4F8FD;
+$info-box-flat-link-text: #f4f8fd;
 
 $svg-active: rgba(0, 0, 0, 0.6);
 $svg-not-active: rgba(0, 0, 0, 0.1);
@@ -72,24 +71,24 @@ $flat-rooms-3-btn: #000000;
 $flat-rooms-4-btn: #000000;
 $flat-sold: rgba(0, 0, 0, 0);
 
-$fav-border: #E0C7AA;
+$fav-border: #e0c7aa;
 $fav-count: #000000;
-$fav-count-text: #FFFFFF;
+$fav-count-text: #ffffff;
 $fav-icon: #000000;
 $fav-icon-fill: rgba(255, 255, 255, 0);
-$fav-bg: #E0C7AA;
+$fav-bg: #e0c7aa;
 
-$fav-border-hover: #E0C7AA;
+$fav-border-hover: #e0c7aa;
 $fav-icon-hover: #000000;
-$fav-icon-fill-hover: #E3C29B;
-$fav-bg-hover: #E0C7AA;
+$fav-icon-fill-hover: #e3c29b;
+$fav-bg-hover: #e0c7aa;
 
-$fav-border-active: #E0C7AA;
+$fav-border-active: #e0c7aa;
 $fav-count-active: #000000;
-$fav-count-text-active: #FFFFFF;
+$fav-count-text-active: #ffffff;
 $fav-icon-active: #000000;
 $fav-icon-fill-active: #000000;
-$fav-bg-active: #E0C7AA;
+$fav-bg-active: #e0c7aa;
 
 $add-to-fav-bg: transparent;
 $add-to-fav-stroke: #000000; // svg stroke color
@@ -99,156 +98,153 @@ $add-to-fav-fill-hover: #000000; // svg fill color
 $add-to-fav-stroke-active: #000000; // svg stroke color
 $add-to-fav-fill-active: #000000; // svg fill color
 
-$menu-background: #E0C7AA;
+$menu-background: #e0c7aa;
 $menu-elem-color: #000000;
 
 $header-title: #000000;
-$header-before-bg: linear-gradient(180deg, rgba(244, 248, 253, 0.8) 0%, rgba(244, 248, 253, 0) 100%);
+$header-before-bg: linear-gradient(
+  180deg,
+  rgba(244, 248, 253, 0.8) 0%,
+  rgba(244, 248, 253, 0) 100%
+);
 
 $controller-border-radius: 12px;
-$controller-background: #F4F8FD;
-$controller-border: 1px solid #CBD0DB;
+$controller-background: #f4f8fd;
+$controller-border: 1px solid #cbd0db;
 $controller-title-color: #000000;
 
-$controller-btn-border: 1px solid #E3EBF3;
-$controller-btn-background: #E3EBF3;
+$controller-btn-border: 1px solid #e3ebf3;
+$controller-btn-background: #e3ebf3;
 $controller-text-color: #000000;
 
-$controller-btn-border-active: 1px solid #E0C7AA;
-$controller-btn-background-active: #E0C7AA;
+$controller-btn-border-active: 1px solid #e0c7aa;
+$controller-btn-background-active: #e0c7aa;
 $controller-text-color-active: #000000;
 
-$controller-btn-border-hover: 1px solid #C0D1E1;
-$controller-btn-background-hover: #C0D1E1;
+$controller-btn-border-hover: 1px solid #c0d1e1;
+$controller-btn-background-hover: #c0d1e1;
 $controller-text-color-hover: #000000;
 
-$controller-btn-border-disabled: 1px solid #ECF2F8;
-$controller-btn-background-disabled: #ECF2F8;
-$controller-text-color-disabled: #C0D1E1;
+$controller-btn-border-disabled: 1px solid #ecf2f8;
+$controller-btn-background-disabled: #ecf2f8;
+$controller-text-color-disabled: #c0d1e1;
 
-$btn-wrapper: #F4F8FD;
+$btn-wrapper: #f4f8fd;
 $btn-icon: #000000;
 $btn-border-radius: 8px;
 $btn-text: #000000;
 
 $navigation-bg: transparent;
-$navigation-btn-bg: #E0C7AA;
+$navigation-btn-bg: #e0c7aa;
 $navigation-btn-icon: #000000;
-$navigation-btn-bg-hover: #E3C29B;
+$navigation-btn-bg-hover: #e3c29b;
 $navigation-btn-icon-hover: #000000;
 
-$compass-bg: #F4F8FD;
+$compass-bg: #f4f8fd;
 $compass-padding: 6px;
 $compass-text-big: #000000;
-$compass-text-small: #6C7A88;
+$compass-text-small: #6c7a88;
 
-$menu-3d-border-btn: 1px solid #C0D1E1;
+$menu-3d-border-btn: 1px solid #c0d1e1;
 $menu-3d-text-color-btn: #000000;
 $menu-3d-text-color-btn-checked: #000000;
-$menu-3d-background-btn: #F4F8FD;
-$menu-3d-main-color: #E0C7AA;
-$menu-3d-main-color-hover: #E3C29B;
+$menu-3d-background-btn: #f4f8fd;
+$menu-3d-main-color: #e0c7aa;
+$menu-3d-main-color-hover: #e3c29b;
 
-$menu-3d-border-btn-hover: 1px solid #C0D1E1;
-$menu-3d-background-btn-hover: #E3EBF3;
+$menu-3d-border-btn-hover: 1px solid #c0d1e1;
+$menu-3d-background-btn-hover: #e3ebf3;
 $menu-3d-text-color-btn-hover: #000000;
 
-$filter-bg: #E3EBF3;
-$filter-bg-2: #F4F8FD;
+$filter-bg: #e3ebf3;
+$filter-bg-2: #f4f8fd;
 $filter-text-color: #000000;
 
 $filter-range-bg: #000000;
 $filter-range-color: #000000;
 
 $filter-close-btn-color: #000000;
-$filter-close-btn-hover: #E0C7AA;
+$filter-close-btn-hover: #e0c7aa;
 
-$filter-checkbox-border-color: #C0D1E1;
-$filter-checkbox-bg: #F4F8FD;
+$filter-checkbox-border-color: #c0d1e1;
+$filter-checkbox-bg: #f4f8fd;
 $filter-checkbox-text: #000000;
 
-$filter-checkbox-border-color-hover: #C0D1E1;
-$filter-checkbox-bg-hover: #E3EBF3;
+$filter-checkbox-border-color-hover: #c0d1e1;
+$filter-checkbox-bg-hover: #e3ebf3;
 $filter-checkbox-text-hover: #000000;
 
-$filter-checkbox-border-color-active: #E0C7AA;
-$filter-checkbox-bg-active: #E0C7AA;
+$filter-checkbox-border-color-active: #e0c7aa;
+$filter-checkbox-bg-active: #e0c7aa;
 $filter-checkbox-text-active: #000000;
 
 $filter-reset-text-color: #000000;
-$filter-reset-border-color: #C0D1E1;
-$filter-reset-bg: #F4F8FD;
+$filter-reset-border-color: #c0d1e1;
+$filter-reset-bg: #f4f8fd;
 
 $filter-reset-text-color-hover: #000000;
-$filter-reset-border-color-hover: #C0D1E1;
-$filter-reset-bg-hover: #E3EBF3;
+$filter-reset-border-color-hover: #c0d1e1;
+$filter-reset-bg-hover: #e3ebf3;
 
-$filter-hide-bg: #E3EBF3;
+$filter-hide-bg: #e3ebf3;
 $filter-hide-text: #000000;
 
 $filter-type-icon: #000000;
-$filter-type-bg: #C0D1E1;
-$filter-type-bg-2: #E3EBF3;
+$filter-type-bg: #c0d1e1;
+$filter-type-bg-2: #e3ebf3;
 
-$filter-amount-bg: #C0D1E1;
+$filter-amount-bg: #c0d1e1;
 $filter-amount-text-color: #000000;
 
-$flat-list-bg: #F4F8FD;
-$flat-list-bg-2: #ECF2F8;
+$flat-list-bg: #f4f8fd;
+$flat-list-bg-2: #ecf2f8;
 $flat-list-text-color: #000000;
 
-$filter-hover-color: #C0D1E1;
+$filter-hover-color: #c0d1e1;
 
 $card-border-radius: var(--border-space-2);
 $card-text-color: #000000;
-$card-background: #F4F8FD;
-$card-border-color: #C0D1E1;
-$card-border-color-hover: #C0D1E1;
-$card-after-line-color: #B2AA9C;
+$card-background: #f4f8fd;
+$card-border-color: #c0d1e1;
+$card-border-color-hover: #c0d1e1;
+$card-after-line-color: #b2aa9c;
 
-$card-btn-background: #E0C7AA;
+$card-btn-background: #e0c7aa;
 $card-btn-text-color: #000000;
-$card-btn-background-hover: #E3C29B;
+$card-btn-background-hover: #e3c29b;
 $card-btn-text-color-hover: #000000;
 
-$flat-menu-background: #F4F8FD;
-$flat-menu-border: 1px solid #CBD0DB;
+$flat-menu-background: #f4f8fd;
+$flat-menu-border: 1px solid #cbd0db;
 $flat-menu-text-color: #000000;
 
-
-$flat-menu-btn-border: #C0D1E1;
-$flat-menu-btn-bg: #F4F8FD;
+$flat-menu-btn-border: #c0d1e1;
+$flat-menu-btn-bg: #f4f8fd;
 $flat-menu-btn-text: #000000;
-$flat-menu-btn-border-hover: #C0D1E1;
-$flat-menu-btn-bg-hover: #E3EBF3;
+$flat-menu-btn-border-hover: #c0d1e1;
+$flat-menu-btn-bg-hover: #e3ebf3;
 $flat-menu-btn-text-hover: #000000;
 
 $flat-menu-2d-3d-text-сolor-active: #000000;
 
-$flat-menu-btn-2-border: #E0C7AA;
-$flat-menu-btn-2-bg: #E0C7AA;
+$flat-menu-btn-2-border: #e0c7aa;
+$flat-menu-btn-2-bg: #e0c7aa;
 $flat-menu-btn-2-text: #000000;
-$flat-menu-btn-2-border-hover: #E3C29B;
-$flat-menu-btn-2-bg-hover: #E3C29B;
+$flat-menu-btn-2-border-hover: #e3c29b;
+$flat-menu-btn-2-bg-hover: #e3c29b;
 $flat-menu-btn-2-text-hover: #000000;
 
 $flat-menu-btn-3-border: #000000;
 $flat-menu-btn-3-bg: #000000;
-$flat-menu-btn-3-text: #F4F8FD;
+$flat-menu-btn-3-text: #f4f8fd;
 $flat-menu-btn-3-border-hover: #000000;
 $flat-menu-btn-3-bg-hover: rgba(255, 255, 255, 0);
 $flat-menu-btn-3-text-hover: #000000;
 
 $flat-menu-hover: #000000; //???
 
-$flat-info-border: #E0C7AA;
-$flat-info-bg: #E0C7AA;
-
-
-
-
-
-
+$flat-info-border: #e0c7aa;
+$flat-info-bg: #e0c7aa;
 
 $button-desktop-text-mobile-icon-svg-color: #000000;
 
@@ -296,8 +292,8 @@ $name-project: '3d';
 .tablet.portrait {
   --s3d-header: calc(var(--space-4) + 42px);
 
-  [data-type="floor"],
-  [data-type="flat"] {
+  [data-type='floor'],
+  [data-type='flat'] {
     --controller-w: 100%;
   }
 }
@@ -311,7 +307,7 @@ $name-project: '3d';
   }
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width: 1280px) {
   :root {
     --offset-controller-hor: 25px;
   }
@@ -329,7 +325,6 @@ $name-project: '3d';
 
     --smarto-logo-w: 36px;
     --smarto-logo-h: 40px;
-    ;
   }
 }
 

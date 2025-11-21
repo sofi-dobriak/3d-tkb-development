@@ -45,7 +45,7 @@ function general(i18n, data) {
   <div class="s3d-infoBox__block">
     <div class="s3d-infoBox__subtitle">${i18n.t('infoBox.finishDate')} </div>
     <div class="s3d-infoBox__title">
-      ${finishDate}
+      ${i18n.t(finishDate)}
     </div>
   </div>
   `

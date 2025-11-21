@@ -127,8 +127,12 @@
         flex-direction: column-reverse;
       }
       &-wrapper {
-        width: 50%;
+        width: 100%;
         overflow: hidden;
+
+        @media screen and (min-width: 768px) {
+          width: 50%;
+        }
       }
       &-info-wrapper {
         // position: relative;

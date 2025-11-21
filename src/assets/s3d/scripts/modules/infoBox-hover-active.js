@@ -43,7 +43,11 @@ class InfoBox {
 
       this.updateState('static');
       this.history.update({ type: this.state.type, method: 'general', ...this.hoverData$.value });
-      this.updateFsm({ type: this.state.type, method: 'general', search: { ...this.hoverData$.value } });
+      this.updateFsm({
+        type: this.state.type,
+        method: 'general',
+        search: { ...this.hoverData$.value },
+      });
     });
 
     if (this.isInfoBoxMoving) {
@@ -72,7 +76,7 @@ class InfoBox {
     if (data) {
       this.state.type = data.type;
       switch (data.type) {
-          // switch (this.typeSelectedFlyby$.value) {
+        // switch (this.typeSelectedFlyby$.value) {
         case 'flat':
           flat = this.getFlat(+data.id);
           break;
@@ -198,7 +202,7 @@ class InfoBox {
                 <td class="s3d-card__name">Этаж</td>
                 <td class="s3d-card__value" data-s3d-event="update" data-s3d-update="floor">${flat.floor}</td>
               </tr>
-              
+
               <tr class="s3d-card__row">
                 <td class="s3d-card__name">Квартир:</td>
                 <td class="s3d-card__value" data-s3d-event="update" data-s3d-update="rooms">${flat.count}</td>

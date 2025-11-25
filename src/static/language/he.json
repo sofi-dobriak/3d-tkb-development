@@ -40,8 +40,8 @@
       "general": {
         "button_titles": {
           "queue": "חקור",
-          "villa": "חקור וילה",
-          "house": "חקור בית"
+          "villa": "חקור",
+          "house": "חקור"
         }
       }
     },
@@ -98,7 +98,7 @@
         "flyby_10_inside": "איתקה 10 בפנים",
         "flyby_11_outside": "איתקה 11",
         "flyby_11_inside": "איתקה 11 בפנים",
-        "new_cyprus_property": "נכס חדש בקפריסין",
+        "new_cyprus_property": "פרויקט 1",
         "plannings": "תכניות",
         "floor": "תוכנית קומה",
         "floor_plans": "תוכניות קומה",
@@ -199,11 +199,11 @@
       "construction_title": "התקדמות הבנייה",
       "parking": "החנייה שלך №",
       "explication_data": {
-        "floor_1": "קומה 1",
-        "floor_2": "קומה 2",
-        "floor_3": "קומה 3",
-        "floor_4": "קומה 4",
-        "floor_5": "קומה 5"
+        "floor_1": "פרטי הדירה",
+        "floor_2": "פרטי הדירה",
+        "floor_3": "פרטי הדירה",
+        "floor_4": "פרטי הדירה",
+        "floor_5": "פרטי הדירה"
       },
       "buttons": {
         "with": "3D",
@@ -382,6 +382,12 @@
     "pins": {
       "park_trc": "חנות",
       "tennis_court": "חניית אורחים",
+      "veranda": "בר ליד הבריכה",
+      "padel": "פאדל",
+      "playground": "גן שעשועים",
+      "showers": "חדרי הלבשה/ שירותים/ מקלחות",
+      "reception": "קבלה",
+      "gym_room": "חדר כושר",
       "walking_zone": "אזור הליכה",
       "shop_1": "חנות מזון",
       "playground_playground1": "מגרש משחקים",

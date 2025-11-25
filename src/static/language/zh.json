@@ -40,8 +40,8 @@
       "general": {
         "button_titles": {
           "queue": "探索",
-          "villa": "探索别墅",
-          "house": "探索房子"
+          "villa": "探索",
+          "house": "探索"
         }
       }
     },
@@ -102,7 +102,7 @@
         "flyby_10_inside": "伊薩卡 10 内部",
         "flyby_11_outside": "伊薩卡 11",
         "flyby_11_inside": "伊薩卡 11 内部",
-        "new_cyprus_property": "新塞浦路斯物業",
+        "new_cyprus_property": "專案1",
         "plannings": "户型图",
         "floor": "楼层平面图",
         "floor_plans": "楼层平面图",
@@ -209,11 +209,11 @@
       "construction_title": "施工进度",
       "parking": "您的停车位编号",
       "explication_data": {
-        "floor_1": "1楼",
-        "floor_2": "2楼",
-        "floor_3": "3楼",
-        "floor_4": "4楼",
-        "floor_5": "5楼"
+        "floor_1": "公寓详情",
+        "floor_2": "公寓详情",
+        "floor_3": "公寓详情",
+        "floor_4": "公寓详情",
+        "floor_5": "公寓详情"
       },
       "buttons": {
         "with": "3D",
@@ -392,6 +392,12 @@
     "pins": {
       "park_trc": "商店",
       "tennis_court": "访客停车",
+      "veranda": "泳池酒吧",
+      "padel": "板式网球",
+      "playground": "游乐场",
+      "showers": "更衣室/ 衛生間/ 淋浴間",
+      "reception": "接待處",
+      "gym_room": "健身房",
       "walking_zone": "步行区",
       "shop_1": "食品商店",
       "playground_playground1": "游乐场",

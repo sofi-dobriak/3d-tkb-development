@@ -35,12 +35,12 @@
 }
 .s3d-svg__build {
   cursor: pointer;
-  transition: .25s ease-out;
-  
-  &[data-type="sold"] {
+  transition: 0.25s ease-out;
+
+  &[data-type='sold'] {
     cursor: no-drop;
   }
-  &[data-type="slider_popup"] {
+  &[data-type='slider_popup'] {
     cursor: pointer;
     fill: $svg-active;
   }
@@ -56,19 +56,19 @@
 }
 .s3d-svg__house {
   cursor: pointer;
-  transition: .25s ease-out;
-  &[data-type="infrastructure"],
-  &[data-type="sold"] {
+  transition: 0.25s ease-out;
+  &[data-type='infrastructure'],
+  &[data-type='sold'] {
     cursor: no-drop;
   }
-  &[data-type="slider_popup"] {
+  &[data-type='slider_popup'] {
     cursor: pointer;
     fill: $svg-active;
   }
-  &[data-type="flyby"] {
+  &[data-type='flyby'] {
     stroke: #fff;
     stroke-width: 4px;
-    transition: fill .25s ease-out;
+    transition: fill 0.25s ease-out;
   }
   &:hover:not(.polygon__flat-svg) {
     fill: $svg-hover;
@@ -87,7 +87,7 @@
   fill: $svg-select;
 }
 .polygon__flat-svg {
-  fill: rgba(255,255,255,0.75) !important;
+  fill: rgba(255, 255, 255, 0.75) !important;
   stroke: #d3b551;
 }
 .polygon__active-flat:not(.s3d__active) {
@@ -96,14 +96,14 @@
 
 .polygon__filter-select {
   fill: $svg-active;
-  transition: .25s ease-out;
+  transition: 0.25s ease-out;
 }
 
 svg {
   polygon.preview,
   polygon.active,
   .polygon__flat-svg {
-    stroke: rgba(255,255,255, 1);
+    stroke: rgba(255, 255, 255, 1);
     stroke-width: 6;
     opacity: 1;
     animation: stroke-pulsation 1.6s infinite cubic-bezier(0, 0, 0.12, 1.02);
@@ -112,12 +112,11 @@ svg {
 
 .safari {
   svg {
-      polygon.preview,
+    polygon.preview,
     polygon.active,
     .polygon__flat-svg {
       animation: none;
     }
-
   }
 }
 
@@ -135,9 +134,8 @@ svg {
   }
 }
 
-
-[data-type="pin"] {
-
+[data-type='pin'],
+[data-type='infrastructure'] {
   cursor: initial;
   &[data-href] {
     cursor: pointer;
@@ -149,7 +147,7 @@ svg {
     opacity: 0;
     // pointer-events: none;
     fill: rgba(181, 159, 86, 0.7);
-    transition: opacity .25s ease-out;
+    transition: opacity 0.25s ease-out;
     cursor: inherit;
   }
   .text-background,
@@ -161,38 +159,41 @@ svg {
 
   .text-background {
     fill: #0e0e0e;
-    transition: .25s ease-out;
+    transition: 0.25s ease-out;
     opacity: 0;
   }
 
   text {
-    transition: .25s ease-out;
+    transition: 0.25s ease-out;
     opacity: 0;
     font-weight: 400;
     font-size: 1rem;
     fill: #fff;
+
+    textPath {
+      fill: #000;
+    }
   }
   rect:not(.text-background) {
     transform-origin: center;
     transform-box: fill-box;
-    transition: .25s ease-out;
+    transition: 0.25s ease-out;
     transform: translate(-50%, -50%) scale(1);
   }
   &:hover {
-    polygon {
-      opacity: 1;
-    }
-    rect:not(.text-background) {
-      transform: translate(-50%, -50%) scale(1.2);
-    }
-    .text-background,
-    text {
-      opacity: 1;
-      animation: fadeInBottom .25s ease-out 1;
-    }
+    // polygon {
+    //   opacity: 1;
+    // }
+    // rect:not(.text-background) {
+    //   transform: translate(-50%, -50%) scale(1.2);
+    // }
+    // .text-background,
+    // text {
+    //   opacity: 1;
+    //   animation: fadeInBottom 0.25s ease-out 1;
+    // }
   }
 }
-
 
 @keyframes fadeInBottom {
   from {
@@ -204,7 +205,6 @@ svg {
     transform: translateY(-52px) translateX(-30px);
   }
 }
-
 
 foreignObject {
   pointer-events: none;
@@ -232,7 +232,7 @@ foreignObject {
     border-radius: 6px;
     font-family: Proxima Nova;
   }
-  &> svg {
+  & > svg {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -247,6 +247,4 @@ foreignObject {
     text-align: center;
     border-radius: 6px;
   }
-
-
 }

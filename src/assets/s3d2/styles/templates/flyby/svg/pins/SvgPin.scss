@@ -1,7 +1,7 @@
 .SvgPin {
   pointer-events: all;
 
-  &>* {
+  & > * {
     pointer-events: none;
   }
 
@@ -11,10 +11,15 @@
     border-radius: var(--border-space-2);
     background-color: var(--color-surface-gray-900);
     text-align: center;
+    width: fit-content;
+  }
+
+  &[data-id='playground'] {
+    pointer-events: none;
   }
 
   &__icon {
-    &>* {
+    & > * {
       pointer-events: none;
     }
 

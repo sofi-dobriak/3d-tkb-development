@@ -1,7 +1,7 @@
-import ControllerMenu from "./$controller-menu";
-import menuButtons from "./$menu-buttons";
-import compassWrapper from "./$compass-wrapper";
-import $smarto from "../$smarto-logo";
+import ControllerMenu from './$controller-menu';
+import menuButtons from './$menu-buttons';
+import compassWrapper from './$compass-wrapper';
+import $smarto from '../$smarto-logo';
 
 function Controller(i18n, data, innerHtml = '') {
   return `

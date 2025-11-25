@@ -40,8 +40,8 @@
       "general": {
         "button_titles": {
           "queue": "Khám phá",
-          "villa": "Khám phá biệt thự",
-          "house": "Khám phá nhà"
+          "villa": "Khám phá",
+          "house": "Khám phá"
         }
       }
     },
@@ -102,7 +102,7 @@
         "flyby_10_inside": "Bên trong ITHACA 10",
         "flyby_11_outside": "ITHACA 11",
         "flyby_11_inside": "Bên trong ITHACA 11",
-        "new_cyprus_property": "Bất động sản mới tại Cyprus",
+        "new_cyprus_property": "Dự án 1",
         "plannings": "Mặt bằng",
         "floor": "Mặt bằng tầng",
         "floor_plans": "Mặt bằng các tầng",
@@ -209,11 +209,11 @@
       "construction_title": "Tiến độ xây dựng",
       "parking": "Chỗ đậu xe của bạn số",
       "explication_data": {
-        "floor_1": "Tầng 1",
-        "floor_2": "Tầng 2",
-        "floor_3": "Tầng 3",
-        "floor_4": "Tầng 4",
-        "floor_5": "Tầng 5"
+        "floor_1": "Chi tiết căn hộ",
+        "floor_2": "Chi tiết căn hộ",
+        "floor_3": "Chi tiết căn hộ",
+        "floor_4": "Chi tiết căn hộ",
+        "floor_5": "Chi tiết căn hộ"
       },
       "buttons": {
         "with": "3D",
@@ -392,6 +392,12 @@
     "pins": {
       "park_trc": "Cửa hàng",
       "tennis_court": "Bãi đỗ xe khách",
+      "veranda": "Quầy bar bên hồ bơi",
+      "padel": "Bóng Padel",
+      "playground": "Sân chơi",
+      "showers": "Phòng thay đồ/ WC/ Vòi sen",
+      "reception": "Lễ tân",
+      "gym_room": "Phòng tập GYM",
       "walking_zone": "Khu vực đi bộ",
       "shop_1": "Cửa hàng thực phẩm",
       "playground_playground1": "Sân chơi",

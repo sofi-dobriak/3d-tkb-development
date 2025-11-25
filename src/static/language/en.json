@@ -40,8 +40,8 @@
       "general": {
         "button_titles": {
           "queue": "Explore",
-          "villa": "Explore villa",
-          "house": "Explore house"
+          "villa": "Explore",
+          "house": "Explore"
         }
       }
     },
@@ -102,7 +102,7 @@
         "flyby_10_inside": "ITHACA 10 inside",
         "flyby_11_outside": "ITHACA 11",
         "flyby_11_inside": "ITHACA 11 inside",
-        "new_cyprus_property": "New Cyprus Property",
+        "new_cyprus_property": "Project 1",
         "plannings": "Plannings",
         "floor": "Floor plan",
         "floor_plans": "Floor plans",
@@ -207,11 +207,11 @@
       "construction_title": "Construction progress",
       "parking": "Your parking №",
       "explication_data": {
-        "floor_1": "1st floor",
-        "floor_2": "2nd floor",
-        "floor_3": "3rd floor",
-        "floor_4": "4th floor",
-        "floor_5": "5th floor"
+        "floor_1": "Apartment details ",
+        "floor_2": "Apartment details ",
+        "floor_3": "Apartment details ",
+        "floor_4": "Apartment details ",
+        "floor_5": "Apartment details "
       },
       "buttons": {
         "with": "3D",
@@ -390,6 +390,13 @@
     "pins": {
       "park_trc": "Shop",
       "tennis_court": "Guest parking",
+      "veranda": "Pool bar",
+      "padel": "Padel",
+      "swimming_pool": "Swimming pool",
+      "playground": "Playground",
+      "showers": "Changing Rooms/ WC/ Showers",
+      "reception": "Reception",
+      "gym_room": "GYM Room",
       "walking_zone": "Walking area",
       "shop_1": "Food store",
       "playground_playground1": "Playground",
@@ -405,7 +412,6 @@
       "open_gym_machines": "Open gym",
       "multisport": "Multisport outdoor ground, baskeball, teniis, mini football",
       "bbq_area": "Bbq area, open sitting",
-      "swimming_pool": "Swimming pool",
       "open_cinema": "Open cinema",
       "sphere_360": "Panorama BBQ area",
       "sphere_360_descr": "Common swimming pool area with showers, surrounded by landscaped gardens, bbq area and sitting area"

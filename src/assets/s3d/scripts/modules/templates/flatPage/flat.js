@@ -667,11 +667,13 @@ function FlatExplicationScreen(flat, i18n) {
 }
 
 export function FlatExplicationPropertyRow(title, value, i18n) {
+  const titleWithFirstUpperLetter = title[0].toUpperCase() + title.slice(1);
+
   return `
     <div class="s3d-flat__explication-screen-info-row text-style-3-d-fonts-1920-body-medium text-gray-800">
-      <div class="s3d-flat__explication-screen-info-row-title">${title}</div>
+      <div class="s3d-flat__explication-screen-info-row-title">${titleWithFirstUpperLetter}</div>
       <div class="s3d-flat__explication-screen-info-row-value">
-        ${value} ${i18n.t('area_unit')}
+        ${value} ${title === 'bathrooms' ? '' : i18n.t('area_unit')}
       </div>
     </div>
   `;

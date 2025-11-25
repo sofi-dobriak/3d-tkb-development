@@ -307,25 +307,67 @@
     ]
   },
   "pinsInfo": {
-    "parking_3": {
+    "veranda": {
       "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
       "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
-      "type": "zone",
+      "type": "pin",
       "position": "center",
-      "title_i18n": "pins.tennis_court",
-      "img": "/wp-content/themes/3d/assets/s3d/images/flyby/masterplan/113.jpg",
+      "title_i18n": "pins.veranda",
+      "img": "/wp-content/themes/3d/assets/s3d/images/flyby/pins/veranda.jpeg",
       "filter_type": "arrow"
     },
-    "parking_2": {
+    "padel": {
       "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
       "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
-      "iframe": "https://google.com",
-      "type": "zone",
+      "type": "pin",
       "position": "center",
-      "title_i18n": "pins.tennis_court",
-      "description_i18n": "pins.tennis_court_description",
-      "img": "/wp-content/themes/3d/assets/s3d/images/flyby/masterplan/113.jpg",
-      "filter_type": "playground"
+      "title_i18n": "pins.padel",
+      "img": "/wp-content/themes/3d/assets/s3d/images/flyby/pins/padel.jpeg",
+      "filter_type": "arrow"
+    },
+    "swimming_pool": {
+      "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
+      "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
+      "iframe": "https://storage.net-fs.com/hosting/8422073/21/",
+      "type": "pin",
+      "position": "center",
+      "title_i18n": "pins.swimming_pool",
+      "img": "/wp-content/themes/3d/assets/s3d/images/flyby/pins/swimming-pool.jpeg",
+      "filter_type": "arrow"
+    },
+    "playground": {
+      "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
+      "type": "pin",
+      "position": "center",
+      "title_i18n": "pins.playground",
+      "filter_type": "arrow"
+    },
+    "showers": {
+      "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
+      "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
+      "type": "pin",
+      "position": "center",
+      "title_i18n": "pins.showers",
+      "img": "/wp-content/themes/3d/assets/s3d/images/flyby/pins/showers.png",
+      "filter_type": "arrow"
+    },
+    "reception": {
+      "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
+      "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
+      "type": "pin",
+      "position": "center",
+      "title_i18n": "pins.reception",
+      "img": "/wp-content/themes/3d/assets/s3d/images/flyby/pins/reception.png",
+      "filter_type": "arrow"
+    },
+     "gym_room": {
+      "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
+      "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
+      "type": "pin",
+      "position": "center",
+      "title_i18n": "pins.gym_room",
+      "img": "/wp-content/themes/3d/assets/s3d/images/flyby/pins/gym-room.png",
+      "filter_type": "arrow"
     }
   },
   "hide_s3dFlybySideChooser": false,

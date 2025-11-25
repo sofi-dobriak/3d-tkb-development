@@ -173,9 +173,6 @@ class FlatView extends EventEmitter {
         const getSortId = premise => {
           const id = parseInt(premise.property_id);
 
-          if (id === 4) return 8;
-          if (id === 2) return 2;
-          if (id === 3) return 3;
           if (id === 8) return 4;
 
           return id;

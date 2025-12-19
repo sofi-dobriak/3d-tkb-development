@@ -16,6 +16,17 @@
     @include elementVisible;
   }
 
+  .js-s3d-nav__btn {
+    &[data-type='flat'] {
+      display: none;
+    }
+    &[data-type='flat'][data-id] {
+      display: flex;
+    }
+    &[data-type='flat'][data-id='undefined'] {
+      display: none;
+    }
+  }
 
   display: flex;
   align-items: center;

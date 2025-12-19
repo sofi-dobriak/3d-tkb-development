@@ -432,13 +432,19 @@
     },
     "tutorial": {
       "step_nav": "Navigation",
+      "button_next": "Next",
+      "button_done": "Done",
       "step_nav_description": "You can rotate 3D model",
       "step_interact": "Instruments",
       "step_interact_description": "Tools for interacting with the 3D model",
       "ster_filter": "Filter",
       "ster_filter_description": "You can filtered for your parameters",
       "step_compare": "Compare",
-      "step_compare_description": "You can add plannings to compare"
+      "step_compare_description": "You can add plannings to compare",
+      "step_share": "Share",
+      "step_share_description": "You can copy link to the model",
+      "step_fullscreen": "Fullscreen mode",
+      "step_fullscreen_description": "You can enjoy fullscreen experience using this mode"
     },
     "monthes": {
       "January": "January",

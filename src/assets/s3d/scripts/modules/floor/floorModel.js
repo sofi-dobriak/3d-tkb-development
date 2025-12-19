@@ -151,6 +151,9 @@ class Floor extends EventEmitter {
 
     this.handleFloorZoom();
     this.defineFiltersOnChangeFloor();
+
+    document.querySelector('[data-type="rooms-all"]').checked =
+      this.bedroomsFilter$.value.size === 0;
   }
 
   handleFloorZoom() {
@@ -307,6 +310,7 @@ class Floor extends EventEmitter {
         );
         return;
       }
+      document.querySelector('[data-type="rooms-all"]').checked = false;
       this.bedroomsFilter$.next(new Set([...this.bedroomsFilter$.value]).add(target.value));
     });
 

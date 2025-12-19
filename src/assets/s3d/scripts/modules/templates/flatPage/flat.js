@@ -589,16 +589,16 @@ function FlatExplicationScreen(flat, i18n) {
     <div class="s3d-flat__explication-screen-table">
       <div class="s3d-flat__explication-screen-table-navigation">
         <!--${$floorButtons()}-->
-        ${ButtonWithoutIcon(
-          '',
-          'data-flat-explication-button="type"  data-value="2d"',
-          i18n.t(`Flat.buttons.planning3d`),
-        )}
+      <!--  ${ButtonWithoutIcon(
+        '',
+        'data-flat-explication-button="type"  data-value="2d"',
+        i18n.t(`Flat.buttons.planning3d`),
+      )}
         ${ButtonWithoutIcon(
           '',
           'data-flat-explication-button="type" data-value="3d"',
           i18n.t(`Flat.buttons.planning2d`),
-        )}
+        )} -->
       </div>
       <!--${$highlightSvgElements(
         i18n,

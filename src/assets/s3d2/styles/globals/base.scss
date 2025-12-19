@@ -1,17 +1,29 @@
 html.iphone,
 html.iphone body {
- position: fixed;
+  position: fixed;
 }
 
 html.iphone,
 html.iphone body {
- height: calc(var(--vh, 1vh) * 100);
- width: 100vw;
+  height: calc(var(--vh, 1vh) * 100);
+  width: 100vw;
 }
 
 html.tablet,
 html.tablet body {
- position: fixed;
- width: 100%;
- height: 100%;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+:fullscreen {
+  [data-fullscreen-mode] {
+    display: none;
+  }
+}
+
+html:not(:fullscreen) {
+  [data-fullscreen-mode-off] {
+    display: none;
+  }
 }

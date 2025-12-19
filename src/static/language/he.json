@@ -427,13 +427,19 @@
 
     "tutorial": {
       "step_nav": "ניווט",
-      "step_nav_description": "ניתן לסובב את המודל ב-3D",
+      "button_next": "הבא",
+      "button_done": "סיום",
+      "step_nav_description": "ניתן לסובב את מודל התלת-ממד",
       "step_interact": "כלים",
-      "step_interact_description": "כלים לאינטראקציה עם מודל ה-3D",
-      "ster_filter": "פילטר",
+      "step_interact_description": "כלים לאינטראקציה עם מודל התלת-ממד",
+      "ster_filter": "סינון",
       "ster_filter_description": "ניתן לסנן לפי הפרמטרים שלך",
       "step_compare": "השוואה",
-      "step_compare_description": "ניתן להוסיף תוכניות להשוואה"
+      "step_compare_description": "ניתן להוסיף תוכניות להשוואה",
+      "step_share": "שיתוף",
+      "step_share_description": "ניתן להעתיק קישור למודל",
+      "step_fullscreen": "מסך מלא",
+      "step_fullscreen_description": "ניתן ליהנות מחוויית מסך מלא באמצעות מצב זה"
     },
 
     "monthes": {

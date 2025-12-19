@@ -76,9 +76,18 @@ export default function FlybyController(i18n) {
         ${isDesktop ? $s3dFlybySideChooser(i18n, config) : ''}
         ${showOn(['desktop'], $flatFloorChooser(i18n))}
         ${$highlightSvgElements(i18n)}
-        <a class='ButtonWithoutIcon ' href="${config.project_google_map_location}" target="_blank">
+        <!-- <a class='ButtonWithoutIcon ' href="${
+          config.project_google_map_location
+        }" target="_blank">
           ${i18n.t('ctr.menu.on_the_map')}
-        </a>
+        </a> -->
+        ${ButtonWithoutIcon(
+          'js-s3d-flat__3d-tour',
+          `data-href="${config.project_google_map_location}" data-title="${i18n.t(
+            'ctr.menu.on_the_map',
+          )}"`,
+          i18n.t('ctr.menu.on_the_map'),
+        )}
         <!--${ButtonWithoutIcon(
           '',
           'data-open-form',

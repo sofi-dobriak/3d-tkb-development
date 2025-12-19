@@ -434,13 +434,19 @@
     },
     "tutorial": {
       "step_nav": "Навигация",
-      "step_nav_description": "Вы можете вращать 3D модель",
+      "button_next": "Далее",
+      "button_done": "Готово",
+      "step_nav_description": "Вы можете вращать 3D-модель",
       "step_interact": "Инструменты",
-      "step_interact_description": "Инструменты для взаимодействия с 3D моделью",
+      "step_interact_description": "Инструменты для взаимодействия с 3D-моделью",
       "ster_filter": "Фильтр",
-      "ster_filter_description": "Вы можете отфильтровать по вашим параметрам",
+      "ster_filter_description": "Вы можете фильтровать по вашим параметрам",
       "step_compare": "Сравнение",
-      "step_compare_description": "Вы можете добавить планы для сравнения"
+      "step_compare_description": "Вы можете добавлять планировки для сравнения",
+      "step_share": "Поделиться",
+      "step_share_description": "Вы можете скопировать ссылку на модель",
+      "step_fullscreen": "Полноэкранный режим",
+      "step_fullscreen_description": "Вы можете наслаждаться полноэкранным режимом, используя эту функцию"
     },
     "monthes": {
       "January": "Январь",

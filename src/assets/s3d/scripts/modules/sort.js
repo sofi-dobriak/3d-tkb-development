@@ -1,26 +1,28 @@
 function sortArray(arr, name, getFlat, directionSortUp) {
   const result = arr.reduce((previous, current) => {
     const flat = getFlat(current);
-    previous.push([flat.id, flat[name]]);
+    let value = flat[name];
+
+    if (typeof value === 'string') {
+      value = value.replace(/\s/g, '').replace(',', '.');
+    }
+
+    previous.push([flat.id, value]);
     return previous;
   }, []);
+
   return result.sort(directionSortUp ? sortUp : sortDown).map(el => el[0]);
 
   function sortUp(a, b) {
-    if (+a[1] < +b[1]) {
-      return -1;
-    } if (+a[1] > +b[1]) {
-      return 1;
-    }
-    return 0;
+    const valA = parseFloat(a[1]) || 0;
+    const valB = parseFloat(b[1]) || 0;
+    return valA - valB;
   }
+
   function sortDown(a, b) {
-    if (+a[1] > +b[1]) {
-      return -1;
-    } if (+a[1] < +b[1]) {
-      return 1;
-    }
-    return 0;
+    const valA = parseFloat(a[1]) || 0;
+    const valB = parseFloat(b[1]) || 0;
+    return valB - valA;
   }
 }
 

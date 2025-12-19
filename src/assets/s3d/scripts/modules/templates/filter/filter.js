@@ -237,13 +237,6 @@ function Filter(i18n, filterData = []) {
           ${i18n.t('Filter.from')}
           <span class="js-s3d__amount-flat__num-all"></span>
         </div>
-
-      ${Link({
-        text: i18n.t('Filter.reset'),
-        attributes: 'id="resetFilter" ',
-        iconName: 'Trash',
-      })}
-
       </div>
   </div>
 `;

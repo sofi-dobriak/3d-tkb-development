@@ -1,4 +1,4 @@
-import s3d2spriteIcon from "../../../../../s3d2/scripts/templates/spriteIcon";
+import s3d2spriteIcon from '../../../../../s3d2/scripts/templates/spriteIcon';
 
 export default function $favourite() {
   return `

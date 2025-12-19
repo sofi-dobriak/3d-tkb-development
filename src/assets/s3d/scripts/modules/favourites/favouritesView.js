@@ -27,29 +27,38 @@ class FavouritesView extends EventEmitter {
       this.emit('clickFavouriteHandler', favouriteAdd);
     });
 
-    document.querySelector('#js-s3d__favourites')
-      .addEventListener('click', event => {
-        const close = delegateHandler('[data-compare-item-close]', event);
-        const card = delegateHandler('[data-compare-item-open]', event);
+    document.querySelector('#js-s3d__favourites').addEventListener('click', event => {
+      const close = delegateHandler('[data-compare-item-close]', event);
+      const card = delegateHandler('[data-compare-item-open]', event);
 
-        switch (true) {
-            case _.isObject(close):
-              this.emit('removeElement', close);
-              break;
-            case _.isObject(card):
-              this.emit('clickElementHandler', card);
-              break;
-            default:
-              break;
-        }
-      });
+      switch (true) {
+        case _.isObject(close):
+          this.emit('removeElement', close);
+          break;
+        case _.isObject(card):
+          this.emit('clickElementHandler', card);
+          break;
+        default:
+          break;
+      }
+    });
 
-    model.on('clearAllHtmlTag', tag => { this.clearHtml(tag); });
-    model.on('setInPageHtml', tag => { this.addElementInPage(tag); });
-    model.on('removeElemInPageHtml', id => { this.removeCardInPage(id); });
-    model.on('animateFavouriteElement', data => { this.animateFavouriteElement(data); });
+    model.on('clearAllHtmlTag', tag => {
+      this.clearHtml(tag);
+    });
+    model.on('setInPageHtml', tag => {
+      this.addElementInPage(tag);
+    });
+    model.on('removeElemInPageHtml', id => {
+      this.removeCardInPage(id);
+    });
+    model.on('animateFavouriteElement', data => {
+      this.animateFavouriteElement(data);
+    });
 
-    model.on('updateFavouritesInput', favourites => { this.updateFavouritesInput(favourites); });
+    model.on('updateFavouritesInput', favourites => {
+      this.updateFavouritesInput(favourites);
+    });
     model.on('updateCountFavourites', value => this.updateCountFavourites(value));
     model.on('updateFavouritesTitle', count => this.updateFavouritesTitle(count));
   }
@@ -64,7 +73,8 @@ class FavouritesView extends EventEmitter {
   }
 
   addElementInPage(favourites) {
-    gsap.timeline()
+    gsap
+      .timeline()
       .to('.js-s3d-fv__list', {
         opacity: 0,
         duration: 0.25,
@@ -77,7 +87,6 @@ class FavouritesView extends EventEmitter {
         duration: 0.25,
       })
       .add(this.syncItemsScrollHandler);
-
   }
 
   clearListAndAddItems(favourites) {
@@ -94,11 +103,10 @@ class FavouritesView extends EventEmitter {
       // eslint-disable-next-line radix
       const id = parseInt(label.getAttribute('data-id'));
       if (favourites.includes(id)) return;
-      
+
       elem.closest('.js-s3d-add__favourite').classList.remove('added-to-favourites');
       elem.checked = false;
     });
-
 
     favourites.forEach(id => {
       const elements = [...document.querySelectorAll(`${selector}[data-id='${id}']`)];
@@ -134,43 +142,46 @@ class FavouritesView extends EventEmitter {
   }
 
   updateFavouritesTitle(count) {
-    document.querySelector('[data-favourite-filled-title-wrapper]').style.display = count > 0 ? 'block' : 'none';
-    document.querySelector('[data-favourite-empty-title-wrapper]').style.display = count > 0 ? 'none' : 'block';
+    document.querySelector('[data-favourite-filled-title-wrapper]').style.display =
+      count > 0 ? 'block' : 'none';
+    document.querySelector('[data-favourite-empty-title-wrapper]').style.display =
+      count > 0 ? 'none' : 'block';
 
     document.querySelectorAll('[data-disable-when-compare-empty]').forEach(el => {
       if (count > 0) {
         el.removeAttribute('disabled');
         return;
-      } 
+      }
       el.setAttribute('disabled', 'disabled');
     });
   }
 
   syncItemsScrollHandler() {
     const elements = [...document.querySelectorAll('[data-compare-item] .CompareItem__table')];
-        
-    const handleScroll = (e) => {
-      const scrolledEle = e.target;
-      elements.filter((item) => item !== scrolledEle).forEach((ele) => {
-          this.syncScroll(scrolledEle, ele);
-      });
-  };
 
-    document.querySelectorAll('[data-compare-item] .CompareItem__table').forEach((ele) => {
-        ele.addEventListener("scroll", handleScroll);
+    const handleScroll = e => {
+      const scrolledEle = e.target;
+      elements
+        .filter(item => item !== scrolledEle)
+        .forEach(ele => {
+          this.syncScroll(scrolledEle, ele);
+        });
+    };
+
+    document.querySelectorAll('[data-compare-item] .CompareItem__table').forEach(ele => {
+      ele.addEventListener('scroll', handleScroll);
     });
   }
 
-  syncScroll(scrolledEle, ele){
+  syncScroll(scrolledEle, ele) {
     const top = scrolledEle.scrollTop;
     const left = scrolledEle.scrollLeft;
     ele.scrollTo({
-        behavior: "instant",
-        top,
-        left,
+      behavior: 'instant',
+      top,
+      left,
     });
-  };
-
+  }
 }
 
 export default FavouritesView;

@@ -19,7 +19,7 @@ export default function SvgPin(x, y, link, title, polygon, polygonDataset, iconT
     <g class="js-s3d-flat__3d-tour" data-href="${link}" ${polygonDataset}>
       ${polygon}
       <foreignObject width="100" height="130" x="${x}" y="${y}" class="SvgPin"${polygonDataset} >
-        <div style="display: flex;flex-direction: column;">
+        <div style="display: flex;flex-direction: column; align-items: center;">
           <div class="SvgPin__title">${title}</div>
           ${icons[iconType]}
         </div>

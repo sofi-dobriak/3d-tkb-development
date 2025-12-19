@@ -360,7 +360,7 @@
       "img": "/wp-content/themes/3d/assets/s3d/images/flyby/pins/reception.png",
       "filter_type": "arrow"
     },
-     "gym_room": {
+    "gym_room": {
       "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
       "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
       "type": "pin",

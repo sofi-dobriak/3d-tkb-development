@@ -434,13 +434,19 @@
     },
     "tutorial": {
       "step_nav": "Điều hướng",
+      "button_next": "Tiếp theo",
+      "button_done": "Hoàn thành",
       "step_nav_description": "Bạn có thể xoay mô hình 3D",
       "step_interact": "Công cụ",
-      "step_interact_description": "Công cụ để tương tác với mô hình 3D",
+      "step_interact_description": "Các công cụ để tương tác với mô hình 3D",
       "ster_filter": "Bộ lọc",
-      "ster_filter_description": "Bạn có thể lọc theo thông số của mình",
+      "ster_filter_description": "Bạn có thể lọc theo các thông số của mình",
       "step_compare": "So sánh",
-      "step_compare_description": "Bạn có thể thêm mặt bằng để so sánh"
+      "step_compare_description": "Bạn có thể thêm các mặt bằng để so sánh",
+      "step_share": "Chia sẻ",
+      "step_share_description": "Bạn có thể sao chép liên kết đến mô hình",
+      "step_fullscreen": "Chế độ toàn màn hình",
+      "step_fullscreen_description": "Bạn có thể tận hưởng trải nghiệm toàn màn hình bằng chế độ này"
     },
     "monthes": {
       "January": "Tháng Một",

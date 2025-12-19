@@ -86,10 +86,10 @@ function MobileFloorFunctionsMenu(i18n) {
       <div class="text-style-3-d-fonts-1920-h-2-semi-bold MobileFunctionsMenu__title">
         Functions floor
       </div>
-      
+
       ${$highlightSvgElements(i18n, 'data-highlight-floor-svg-elements')}
       ${showOn(['mobile'], $floorFilter(i18n))}
-      
+
     </div>
   `;
 }
@@ -109,16 +109,18 @@ function MobileFunctionsMenu(i18n) {
       ${showOn(['tablet', 'mobile'], $s3dFlybySideChooser(i18n, config))}
       ${showOn(['tablet', 'mobile'], $flatFloorChooser(i18n))}
       ${document.documentElement.classList.contains('desktop') ? '' : $highlightSvgElements(i18n)}
-      <a class='ButtonWithoutIcon ' href="${config.project_google_map_location}" target="_blank">
+    <!--  <a class='ButtonWithoutIcon ' href="${
+      config.project_google_map_location
+    }" target="_blank">
           ${i18n.t('ctr.menu.on_the_map')}
-      </a>
-      <!--${ButtonWithoutIcon(
+      </a> -->
+      ${ButtonWithoutIcon(
         'js-s3d-flat__3d-tour',
         `data-href="${config.project_google_map_location}" data-title="${i18n.t(
           'ctr.menu.on_the_map',
         )}"`,
         i18n.t('ctr.menu.on_the_map'),
-      )}-->
+      )}
       <!--${ButtonWithoutIcon('', '', i18n.t('ctr.menu.build_progress'))}-->
       <!--${ButtonWithoutIcon(
         '',

@@ -20,6 +20,18 @@ function fullscreenMode(element) {
   }
 }
 
+function exitFullscreenMode(element) {
+  if (element.exitFullscreen) {
+    element.exitFullscreen();
+  } else if (element.mozCancelFullScreen) {
+    element.mozCancelFullScreen();
+  } else if (element.webkitExitFullscreen) {
+    element.webkitExitFullscreen();
+  } else if (element.msExitFullscreen) {
+    element.msExitFullscreen();
+  }
+}
+
 function isFullScreenAvailable() {
   return (
     document.fullscreenEnabled ||
@@ -35,10 +47,36 @@ export default function header_2(i18n, { logo, menuSelector }) {
     : ButtonWithoutIcon('', 'data-open-form', i18n.t('ctr.nav.callback'), 'alert');
 
   document.body.addEventListener('click', e => {
-    if (e.target.closest('[data-fullscreen-mode]')) {
+    if (!e.target.closest('[data-fullscreen-mode]')) return;
+    if (e.target.closest('[data-fullscreen-mode]') && !document.fullscreenElement) {
       fullscreenMode(document.documentElement);
+    } else {
+      exitFullscreenMode(document);
+    }
+    console.log('document.fullscreenElement', document.fullscreenElement);
+  });
+
+  document.addEventListener('fullscreenchange', () => {
+    document.querySelectorAll('[data-fullscreen-mode]').forEach(el => {
+      el.classList.toggle('fullscreen', document.fullscreenElement);
+    });
+  });
+
+  document.body.addEventListener('click', e => {
+    if (e.target.closest('[data-fullscreen-mode-off]') && document.fullscreenElement) {
+      exitFullscreenMode(document);
     }
   });
+
+  setTimeout(() => {
+    document.querySelectorAll('.language-list li').forEach(el => {
+      el.addEventListener('click', e => {
+        e.preventDefault();
+        const lang = e.currentTarget.getAttribute('data-lang');
+        window.location.href = `${window.location.origin}/${lang}/3d/${window.location.search}${window.location.hash}`;
+      });
+    });
+  }, 100);
 
   return `
     <div class="header">
@@ -46,45 +84,32 @@ export default function header_2(i18n, { logo, menuSelector }) {
         ${navBar(i18n, { logo })}
       </div>
       <div class="header__right">
-        <div class="lang-wrap"> <ul class="language-list">
-          <li data-lang="en">
-            <a href="${window.location.origin +
-              '/en' +
-              '/3d/' +
-              window.location.search +
-              window.location.hash}" >EN</a>
-          </li>
-          <li data-lang="ru">
-            <a href="${window.location.origin +
-              '/ru' +
-              '/3d/' +
-              window.location.search +
-              window.location.hash}" >РУ</a>
-          </li>
-          <li data-lang="zh">
-            <a href="${window.location.origin +
-              '/zh' +
-              '/3d/' +
-              window.location.search +
-              window.location.hash}" >中文</a>
-          </li>
-          <li data-lang="he">
-            <a href="${window.location.origin +
-              '/he' +
-              '/3d/' +
-              window.location.search +
-              window.location.hash}" >עִברִית</a>
-          </li>
-          <li data-lang="vi">
-            <a href="${window.location.origin +
-              '/vi' +
-              '/3d/' +
-              window.location.search +
-              window.location.hash}" >VI</a>
-          </li>
-        </ul></div>
+        <div class="lang-wrap">
+          <ul class="language-list">
+            <li data-lang="en">
+              <a href="#">EN</a>
+            </li>
+            <li data-lang="ru">
+              <a href="#">РУ</a>
+            </li>
+            <li data-lang="zh">
+              <a href="#">中文</a>
+            </li>
+            <li data-lang="he">
+              <a href="#">עִברִית</a>
+            </li>
+            <li data-lang="vi">
+              <a href="#">VI</a>
+            </li>
+          </ul>
+        </div>
         ${IconButton('', 'data-s3d-share', 'Copy')}
         ${isFullScreenAvailable() ? IconButton('', 'data-fullscreen-mode', 'Full screen') : ''}
+        ${
+          isFullScreenAvailable()
+            ? IconButton('', 'data-fullscreen-mode-off', 'Cancel full screen')
+            : ''
+        }
         <!--${IconButton('js-s3d__favourite-open', 'data-compare-go-to-page', 'Compare')}-->
         ${$favourite()}
         <!--${$callback}

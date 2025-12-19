@@ -8,18 +8,11 @@
  * @param {Array} options.propertiesToShow - The properties to show in the compare item.
  * @returns {string} The HTML string representing the compare item component.
  */
-import { get } from "lodash";
-import ButtonWithoutIcon from "../../../../../s3d2/scripts/templates/common/ButtonWithoutIcon";
-import s3d2spriteIcon from "../../../../../s3d2/scripts/templates/spriteIcon";
+import { get } from 'lodash';
+import ButtonWithoutIcon from '../../../../../s3d2/scripts/templates/common/ButtonWithoutIcon';
+import s3d2spriteIcon from '../../../../../s3d2/scripts/templates/spriteIcon';
 
-
-
-export default function CompareItem({
-  i18n,
-  id,
-  flat,
-  propertiesToShow = []
-}) {
+export default function CompareItem({ i18n, id, flat, propertiesToShow = [] }) {
   return `
     <div class="CompareItem" data-compare-item="${id}"  data-id="${id}">
       ${s3d2spriteIcon('close', 'CompareItem__close', 'data-compare-item-close')}
@@ -27,17 +20,20 @@ export default function CompareItem({
         <img src="${flat['img_big']}">
       </div>
       <div class="CompareItem__table">
-        ${propertiesToShow.map(({ keyPath, hide, valueFormat = (e) => e, title }) => {
-          if (hide) return '';
-          const value = get(flat, keyPath, undefined);
-          if (value === undefined) return `
+        ${propertiesToShow
+          .map(({ keyPath, hide, valueFormat = e => e, title }) => {
+            if (hide) return '';
+            const value = get(flat, keyPath, undefined);
+            if (value == '0') return '';
+            if (value === undefined)
+              return `
             <div class="CompareItem__table-row">
               <div class="CompareItem__table-cell">
                 <span class="text-style-3-d-fonts-1920-body-medium">&nbsp;</span>
               </div>
             </div>
           `;
-          return `
+            return `
             <div class="CompareItem__table-row">
               <div class="CompareItem__table-cell">
                 <span class="text-style-3-d-fonts-1920-body-bold">${title}</span>
@@ -45,11 +41,15 @@ export default function CompareItem({
               </div>
             </div>
           `;
-
-        }).join('')}
+          })
+          .join('')}
       </div>
-      ${ButtonWithoutIcon('CompareItem__link', 
-      `data-compare-item-open="${id}" data-id="${id}"`, i18n.t('Flat.goToFlat'), 'secondary')}
+      ${ButtonWithoutIcon(
+        'CompareItem__link',
+        `data-compare-item-open="${id}" data-id="${id}"`,
+        i18n.t('Flat.goToFlat'),
+        'secondary',
+      )}
     </div>
-  `
+  `;
 }

@@ -2,9 +2,10 @@ import $ from 'jquery';
 import gsap from 'gsap/gsap-core';
 import BezierEasing from 'bezier-easing';
 import HelperNode from './templates/helper';
-import { driver } from "driver.js";
+import { driver } from 'driver.js';
 import dispatchTrigger from './helpers/triggers';
 import s3d2spriteIcon from '../../../s3d2/scripts/templates/spriteIcon';
+import { isFullScreenAvailable } from '../../../s3d2/scripts/helpers/helpers_s3d2';
 
 class HelperGif {
   constructor(i18n, countSlides = 4, onFaq) {
@@ -58,64 +59,147 @@ class HelperGif {
   }
 
   newFaq() {
+    const steps = [
+      {
+        element: '.SpinNav',
+        popover: {
+          title: this.i18n.t('tutorial.step_nav'),
+          description: this.i18n.t('tutorial.step_nav_description'),
+        },
+        onHighlightStarted: () => {
+          gsap
+            .timeline({
+              repeat: 3,
+            })
+            .to('.SpinNav button', { duration: 0.3, scale: 1.2, ease: 'Power1.easeIn' })
+            .to('.SpinNav button', {
+              duration: 0.3,
+              scale: 1,
+              ease: 'Power1.easeIn',
+              clearProps: 'all',
+            });
+        },
+      },
+      {
+        element: document.documentElement.classList.contains('desktop')
+          ? '.FlybyController'
+          : '.MobileFlybyController',
+        popover: {
+          title: this.i18n.t('tutorial.step_interact'),
+          description: this.i18n.t('tutorial.step_interact_description'),
+        },
+        onHighlightStarted: () => {
+          const element = document.documentElement.classList.contains('desktop')
+            ? '.FlybyController'
+            : '.MobileFlybyController';
+          gsap
+            .timeline({
+              repeat: 3,
+            })
+            .to(element, { duration: 0.3, scale: 1.1, ease: 'Power1.easeIn' })
+            .to(element, { duration: 0.3, scale: 1, ease: 'Power1.easeIn', clearProps: 'all' });
+        },
+      },
+      {
+        element: document.documentElement.classList.contains('desktop')
+          ? '.ButtonIconLeft.js-s3d-ctr__filter'
+          : '.MobileFlybyController .js-s3d-ctr__filter',
+        popover: {
+          title: this.i18n.t('tutorial.ster_filter'),
+          description: this.i18n.t('tutorial.ster_filter_description'),
+          side: 'top',
+        },
+        onHighlightStarted: () => {
+          const element = document.documentElement.classList.contains('desktop')
+            ? '.ButtonIconLeft.js-s3d-ctr__filter'
+            : '.MobileFlybyController .js-s3d-ctr__filter';
+          gsap
+            .timeline({
+              repeat: 3,
+            })
+            .to(element, { duration: 0.3, scale: 1.1, ease: 'Power1.easeIn' })
+            .to(element, { duration: 0.3, scale: 1, ease: 'Power1.easeIn', clearProps: 'all' });
+        },
+      },
+      {
+        element: '.header__right .s3d__favourite-container.js-s3d__favourite-open',
+        popover: {
+          title: this.i18n.t('tutorial.step_compare'),
+          description: this.i18n.t('tutorial.step_compare_description'),
+        },
+        onHighlightStarted: () => {
+          const element = '.header__right .s3d__favourite-container.js-s3d__favourite-open';
+          gsap
+            .timeline({
+              repeat: 3,
+            })
+            .to(element, { duration: 0.3, scale: 1.1, ease: 'Power1.easeIn' })
+            .to(element, { duration: 0.3, scale: 1, ease: 'Power1.easeIn', clearProps: 'all' });
+        },
+      },
+      {
+        element: '.header__right [data-s3d-share]',
+        popover: {
+          title: this.i18n.t('tutorial.step_share'),
+          description: this.i18n.t('tutorial.step_share_description'),
+        },
+        onHighlightStarted: () => {
+          const element = '.header__right [data-s3d-share]';
+          gsap
+            .timeline({
+              repeat: 3,
+            })
+            .to(element, { duration: 0.3, scale: 1.1, ease: 'Power1.easeIn' })
+            .to(element, { duration: 0.3, scale: 1, ease: 'Power1.easeIn', clearProps: 'all' });
+        },
+      },
+    ];
+
+    if (isFullScreenAvailable()) {
+      steps.push({
+        element: '.header__right [data-fullscreen-mode]',
+        popover: {
+          title: this.i18n.t('tutorial.step_fullscreen'),
+          description: this.i18n.t('tutorial.step_fullscreen_description'),
+        },
+        onHighlightStarted: () => {
+          const element = '.header__right [data-fullscreen-mode]';
+          gsap
+            .timeline({
+              repeat: 3,
+            })
+            .to(element, { duration: 0.3, scale: 1.1, ease: 'Power1.easeIn' })
+            .to(element, { duration: 0.3, scale: 1, ease: 'Power1.easeIn', clearProps: 'all' });
+        },
+      });
+    }
+
+    const isMobile = !document.documentElement.classList.contains('desktop');
+    if (isMobile) steps.length = 5;
+
     const driverObj = driver({
       showProgress: true,
       showButtons: ['next', 'close'],
+      allowClose: false,
       progressText: '{{current}}/{{total}}',
-      onCloseClick:() => {
+
+      nextBtnText: this.i18n.t('tutorial.button_next'),
+      doneBtnText: this.i18n.t('tutorial.button_done'),
+
+      onCloseClick: () => {
         console.log('Close Button Clicked');
         // Implement your own functionality here
         driverObj.destroy();
       },
       onPopoverRender: ($popover, data) => {
-
         $popover.title.insertAdjacentElement('afterbegin', $popover.progress);
         $popover.closeButton.insertAdjacentHTML('beforeend', s3d2spriteIcon('close'));
-        console.log('onPopoverRender', $popover, data);
       },
-      steps: [
-        { 
-          element: '.SpinNav', 
-          popover: { 
-            title: this.i18n.t('tutorial.step_nav'), 
-            description: this.i18n.t('tutorial.step_nav_description'), 
-          },
-          onHighlightStarted: () => {
-            gsap.timeline({
-              repeat: 3,
-            })
-              .to('.SpinNav button', { duration: 0.3, scale: 1.2, ease: 'Power1.easeIn' })
-              .to('.SpinNav button', { duration: 0.3, scale: 1, ease: 'Power1.easeIn', clearProps: 'all'})
-          },
-        },
-        { 
-          element: document.documentElement.classList.contains('desktop') ?  '.FlybyController' : '.MobileFlybyController', 
-          popover: { 
-            title: this.i18n.t('tutorial.step_interact'), 
-            description: this.i18n.t('tutorial.step_interact_description'), 
-          } 
-        },
-        { 
-          element: document.documentElement.classList.contains('desktop') ? '.ButtonIconLeft.js-s3d-ctr__filter' : '.MobileFlybyController .js-s3d-ctr__filter', 
-          popover: { 
-            title: this.i18n.t('tutorial.ster_filter'), 
-            description: this.i18n.t('tutorial.ster_filter_description'), 
-          } 
-        },
-        { 
-          element: '.header__right .s3d__favourite-container.js-s3d__favourite-open', 
-          popover: { 
-            title: this.i18n.t('tutorial.step_compare'), 
-            description: this.i18n.t('tutorial.step_compare_description'), 
-          } 
-        },
-        // { element: '.js-s3d-ctr__theme', popover: { title: 'Day/Night', description: 'Watch our residential complex at different daytime',  }},
-        // { element: '.s3d__svg__active polygon[data-type="infrastructure"]', popover: { title: 'Infrastructure', description: 'Watch infrastructure amenities near complex',  }},
-      ]
+      steps,
     });
     driverObj.drive();
     dispatchTrigger('faq-open', {
-      url: window.location.href
+      url: window.location.href,
     });
   }
 
@@ -162,17 +246,15 @@ class HelperGif {
   }
 
   triggerGif(num, type = 'show') {
-    const numId = (num > 0) ? num : 1;
+    const numId = num > 0 ? num : 1;
     const container = document.getElementById(`animated-svg-${numId}`);
     const easing = new BezierEasing(0, 1, 1, 0);
     const animate = gsap.timeline({ direction: 1.8, ease: easing });
-    const prevAlpha = (type === 'hide') ? 1 : 0;
-    const pastAlpha = (type === 'hide') ? 0 : 1;
+    const prevAlpha = type === 'hide' ? 1 : 0;
+    const pastAlpha = type === 'hide' ? 0 : 1;
     animate.fromTo(container, { autoAlpha: prevAlpha }, { autoAlpha: pastAlpha });
     setTimeout(() => {
-      container.contentDocument
-        .querySelector('svg')
-        .dispatchEvent(new Event('click'));
+      container.contentDocument.querySelector('svg').dispatchEvent(new Event('click'));
     }, 1500);
   }
 }
@@ -198,9 +280,8 @@ function findTopLeftBounds(pointsAttr) {
 
   return {
     top: topmost,
-    leftmost:leftmost,
+    leftmost: leftmost,
   };
 }
-
 
 export default HelperGif;

@@ -11,16 +11,19 @@
   width: 100%;
 
   height: var(--s3d-header);
+  pointer-events: none;
 
   &__left {
     display: flex;
     align-items: center;
+    pointer-events: auto;
   }
 
   &__right {
     display: flex;
     align-items: center;
     margin-left: auto;
+    pointer-events: auto;
 
     & > :nth-child(n + 2) {
       margin-left: var(--space-1);

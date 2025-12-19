@@ -47,6 +47,9 @@
       display: flex;
       flex-direction: column;
       grid-area: menu;
+      overflow-y: auto;
+      overflow-x: hidden;
+
       .s3d-floor__info-container {
         position: static;
       }
@@ -91,19 +94,17 @@
       grid-area: svg;
       max-height: 100%;
       width: 100%;
-      padding: 40px;
-      align-self: center;
+      // padding: 40px;
+      // align-self: center;
       max-height: calc(var(--vh, 1vh) * 100 - var(--s3d-header));
 
-      @media screen and (min-width: 1024px) {
-        max-height: calc(var(--vh, 1vh) * 100 - var(--s3d-header) + 20%);
-      }
       @media screen and (max-width: 1024px) {
         // padding: 20px;
         // height: calc(100vh - var(--s3d-header) - var(--controller-h) - var(--menu-h));
       }
       svg {
         max-height: calc(var(--vh, 1vh) * 100 - var(--s3d-header));
+        padding: 40px;
       }
       use {
         pointer-events: none;

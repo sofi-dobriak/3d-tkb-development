@@ -434,13 +434,19 @@
     },
     "tutorial": {
       "step_nav": "导航",
-      "step_nav_description": "您可以旋转3D模型",
+      "button_next": "下一步",
+      "button_done": "完成",
+      "step_nav_description": "您可以旋转 3D 模型",
       "step_interact": "工具",
-      "step_interact_description": "3D模型演示工具",
+      "step_interact_description": "与 3D 模型交互的工具",
       "ster_filter": "筛选",
-      "ster_filter_description": "您可以按参数筛选",
-      "step_compare": "我的喜欢",
-      "step_compare_description": "您可以将户型图添加到我的喜欢列表"
+      "ster_filter_description": "您可以根据您的参数进行筛选",
+      "step_compare": "比较",
+      "step_compare_description": "您可以添加户型进行比较",
+      "step_share": "分享",
+      "step_share_description": "您可以复制模型的链接",
+      "step_fullscreen": "全屏模式",
+      "step_fullscreen_description": "您可以使用此模式享受全屏体验"
     },
     "monthes": {
       "January": "一月",

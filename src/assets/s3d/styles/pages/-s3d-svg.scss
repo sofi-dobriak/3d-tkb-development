@@ -139,6 +139,7 @@ svg {
   cursor: initial;
   &[data-href] {
     cursor: pointer;
+    width: 120px;
   }
   &[data-href] polygon {
     cursor: pointer;

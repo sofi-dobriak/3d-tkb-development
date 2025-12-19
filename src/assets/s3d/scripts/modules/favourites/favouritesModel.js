@@ -1,5 +1,6 @@
 import { gsap, Power1, TimelineMax } from 'gsap';
 import Card from '../templates/card/card';
+import xor from 'lodash/xor';
 import EventEmitter from '../eventEmitter/EventEmitter';
 import dispatchTrigger from '../helpers/triggers';
 import CompareItem from '../templates/CompareItem/CompareItem';
@@ -7,6 +8,7 @@ import { EmptyFavourites } from '../templates/favourites';
 import { numberWithCommas } from '../../../../s3d2/scripts/helpers/helpers_s3d2';
 import { BehaviorSubject } from 'rxjs';
 import { isEqual } from 'lodash';
+import { enableDragScroll } from '../../features/dragScroll';
 
 class FavouritesModel extends EventEmitter {
   constructor(config, i18n) {
@@ -16,59 +18,61 @@ class FavouritesModel extends EventEmitter {
     this.updateFsm = config.updateFsm;
     this.history = config.history;
     this.fsm = config.fsm;
-    this.animationSpeed = 800;
+    this.animationSpeed = 1600;
     this.i18n = i18n;
     this.favouritesIds$ = config.favouritesIds$;
     this.updateFavouritesBlock = this.updateFavouritesBlock.bind(this);
     this.isShowOnlyPropertiesDifference = new BehaviorSubject(false);
     this.propertiesToShow = [
-      { 
+      {
         keyPath: '_price',
         title: this.i18n.t('Flat.information.price'),
-        valueFormat: (value) => `${this.i18n.t('currency_label')} ${numberWithCommas(value)}`,
+        valueFormat: value => `${this.i18n.t('currency_label')} ${numberWithCommas(value)}`,
       },
-      { 
+      {
         keyPath: 'price_m2',
         title: this.i18n.t('Flat.information.price_m2'),
-        valueFormat: (value) => `${this.i18n.t('currency_label')} ${numberWithCommas(value)}`,
+        valueFormat: value => `${this.i18n.t('currency_label')} ${numberWithCommas(value)}`,
       },
-      { 
+      {
         keyPath: 'sale',
         title: this.i18n.t('Flat.information.sale'),
-        valueFormat: (value) => `${value}`,
+        valueFormat: value => `${value}`,
       },
-      { 
+      {
         keyPath: 'area',
         title: this.i18n.t('Flat.information.area'),
-        valueFormat: (value) => `${value} ${this.i18n.t('area_unit')}`,
+        valueFormat: value => `${value} ${this.i18n.t('area_unit')}`,
       },
-      { 
+      {
         keyPath: 'life_room',
         title: this.i18n.t('Flat.information.life_area'),
-        valueFormat: (value) => `${value} ${this.i18n.t('area_unit')}`,
+        valueFormat: value => `${value} ${this.i18n.t('area_unit')}`,
       },
-      { 
+      {
         keyPath: 'rooms',
         title: this.i18n.t('Flat.information.rooms'),
       },
-      { 
+      {
         keyPath: 'build',
         title: this.i18n.t('Flat.information.build'),
       },
-      { 
+      {
         keyPath: 'floor',
         title: this.i18n.t('Flat.information.floor'),
       },
-      { 
+      {
         keyPath: 'number',
         title: this.i18n.t('Flat.information.number'),
-      }
+      },
     ];
 
     this.show_prices = config.show_prices;
 
     if (!this.show_prices) {
-      this.propertiesToShow = this.propertiesToShow.filter(property => property.keyPath !== '_price' && property.keyPath !== 'price_m2');
+      this.propertiesToShow = this.propertiesToShow.filter(
+        property => property.keyPath !== '_price' && property.keyPath !== 'price_m2',
+      );
     }
 
     document.body.addEventListener('click', event => {
@@ -82,14 +86,15 @@ class FavouritesModel extends EventEmitter {
       if (!target) return;
       console.log('target', event.target.checked);
       this.isShowOnlyPropertiesDifference.next(event.target.checked);
-    })
-
+    });
 
     this.favouritesIds$.subscribe(favourites => {
       this.emit('updateFavouritesTitle', favourites.length);
       if (favourites.length <= 1) {
         this.isShowOnlyPropertiesDifference.next(false);
-        document.querySelector('[data-compare-show-differences]').setAttribute('disabled', 'disabled');
+        document
+          .querySelector('[data-compare-show-differences]')
+          .setAttribute('disabled', 'disabled');
         document.querySelector('input[data-compare-show-differences]').checked = false;
       } else {
         document.querySelector('[data-compare-show-differences]').removeAttribute('disabled');
@@ -99,19 +104,18 @@ class FavouritesModel extends EventEmitter {
     this.isShowOnlyPropertiesDifference.subscribe(isShowOnlyPropertiesDifference => {
       const flats = this.favouritesIds$.value.map(id => this.getFlat(id));
 
-      const allEqual = arr => arr.every( v => v === arr[0] )
+      const allEqual = arr => arr.every(v => v === arr[0]);
 
       this.propertiesToShow = this.propertiesToShow.map(property => {
         const isEqual = allEqual([...flats.map(flat => flat[property.keyPath])]);
         return {
           ...property,
-          hide: isShowOnlyPropertiesDifference && isEqual
+          hide: isShowOnlyPropertiesDifference && isEqual,
         };
       });
 
       this.updateFavouritesBlock();
     });
-
   }
 
   init(initFavourites = []) {
@@ -148,9 +152,13 @@ class FavouritesModel extends EventEmitter {
   }
 
   getFavourites() {
+    if (!this.isSessionStorageSupported()) {
+      return [];
+    }
+
     const storage = JSON.parse(sessionStorage.getItem('favourites'));
     const result = (storage || [])
-      .filter(el => (!checkValue(el)))
+      .filter(el => !checkValue(el))
       .reduce((previous, el) => {
         if (previous.indexOf(+el) < 0) {
           previous.push(+el);
@@ -166,16 +174,26 @@ class FavouritesModel extends EventEmitter {
 
   updateFavouritesBlock() {
     console.log('updateFavouritesBlock');
-    this.emit('clearAllHtmlTag', '.js-s3d-fv__list .js-s3d-card, .js-s3d-fv__list .EmptyFavourites');
+    this.emit(
+      'clearAllHtmlTag',
+      '.js-s3d-fv__list .js-s3d-card, .js-s3d-fv__list .EmptyFavourites',
+    );
 
     // const html = this.favouritesIds$.value.map(id => Card(this.i18n, this.getFlat(id), this.favouritesIds$));
-    const html = this.favouritesIds$.value.length > 0 ? this.favouritesIds$.value.map(id => CompareItem({
-      flat: this.getFlat(id),
-      i18n: this.i18n,
-      id,
-      propertiesToShow: this.propertiesToShow
-    })) : [EmptyFavourites(this.i18n)];
+    const html =
+      this.favouritesIds$.value.length > 0
+        ? this.favouritesIds$.value.map(id =>
+            CompareItem({
+              flat: this.getFlat(id),
+              i18n: this.i18n,
+              id,
+              propertiesToShow: this.propertiesToShow,
+            }),
+          )
+        : [EmptyFavourites(this.i18n)];
     this.emit('setInPageHtml', html);
+    const list = document.querySelector('.js-s3d-fv__list');
+    if (list) enableDragScroll(list);
   }
 
   changeFavouritesHandler(element, isAnimate) {
@@ -184,13 +202,20 @@ class FavouritesModel extends EventEmitter {
     if (!id) return;
 
     const favourites = this.favouritesIds$.value;
-    const updatedFavourites = _.xor(favourites, [id]);
-    sessionStorage.setItem('favourites', JSON.stringify(updatedFavourites));
-    dispatchTrigger(updatedFavourites.includes(id) ? 'add-object-to-favourites' : 'delete-object-from-favourites', {
-      url: window.location.href,
-      id: id
-    });
+    const updatedFavourites = xor(favourites, [id]);
 
+    if (!this.isSessionStorageSupported()) {
+      return [];
+    }
+
+    sessionStorage.setItem('favourites', JSON.stringify(updatedFavourites));
+    dispatchTrigger(
+      updatedFavourites.includes(id) ? 'add-object-to-favourites' : 'delete-object-from-favourites',
+      {
+        url: window.location.href,
+        id: id,
+      },
+    );
 
     if (isAnimate) {
       this.moveToFavouriteEffectHandler(element, !updatedFavourites.includes(id));
@@ -206,22 +231,42 @@ class FavouritesModel extends EventEmitter {
   // animation transition heart from/to for click
   moveToFavouriteEffectHandler(target, reverse) {
     const animatingIcon = target.querySelector('svg');
-    const endPositionElement = document.querySelector('.js-s3d__favourite-icon');
+
+    const allIcons = document.querySelectorAll('.js-s3d__favourite-icon');
+    const endPositionElement = allIcons[allIcons.length - 1];
+
+    if (!endPositionElement) {
+      console.error('Елемент .js-s3d__favourite-icon взагалі не існує в DOM!');
+      return;
+    }
+
     const distance = this.getBetweenDistance(animatingIcon, endPositionElement);
     this.animateFavouriteElement(endPositionElement, animatingIcon, distance, reverse);
   }
 
   getBetweenDistance(animatingIcon, endPositionElement) {
+    if (!animatingIcon || !endPositionElement) return { x: 0, y: 0 };
     const animate = animatingIcon.getBoundingClientRect();
     const endAnimate = endPositionElement.getBoundingClientRect();
-    const animateX = animate.left + (animate.width / 2);
-    const animateY = animate.top + (animate.height / 2);
-    const endAnimateX = endAnimate.left + (endAnimate.width / 2);
-    const endAnimateY = endAnimate.top + (endAnimate.height / 2);
+    const animateX = animate.left + animate.width / 2;
+    const animateY = animate.top + animate.height / 2;
+    const endAnimateX = endAnimate.left + endAnimate.width / 2;
+    const endAnimateY = endAnimate.top + endAnimate.height / 2;
     return {
       x: endAnimateX - animateX,
       y: endAnimateY - animateY,
     };
+  }
+
+  isSessionStorageSupported() {
+    try {
+      var storage = window.sessionStorage;
+      storage.setItem('test', 'test');
+      storage.removeItem('test');
+      return true;
+    } catch (e) {
+      return false;
+    }
   }
 
   getSpeedAnimateHeart(offsetObj) {
@@ -233,7 +278,9 @@ class FavouritesModel extends EventEmitter {
     const curElem = element.cloneNode(true);
     curElem.classList.add('s3d-favourite__pulse');
     const animatingElParams = element.getBoundingClientRect();
+
     document.querySelector('.js-s3d__slideModule').insertAdjacentElement('beforeend', curElem);
+
     curElem.style.cssText += `
 			width:${animatingElParams.width}px;
 			height:${animatingElParams.height}px;
@@ -241,7 +288,7 @@ class FavouritesModel extends EventEmitter {
 			top:${animatingElParams.top}px;
 			`;
 
-    const speed = this.animationSpeed / 1000 * (this.getSpeedAnimateHeart(distance) / 850);
+    const speed = (this.animationSpeed / 1000) * (this.getSpeedAnimateHeart(distance) / 850);
     const tl = new TimelineMax({
       delay: 0,
       repeat: 0,

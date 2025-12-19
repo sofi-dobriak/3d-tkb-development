@@ -21,20 +21,20 @@ function Floor(i18n, floor, hideOverlay = true, showPrices) {
         showPrices ? '' : 'none'
       }">
         ${i18n.t('Floor.apps_from')}
-      </div> 
+      </div>
       ${Object.entries(info)
         .map(([key, value]) => {
           if (/price/.test(key) && !showPrices) return '';
 
           const formatedValToShow =
             value['type'] === 'number' ? numberWithCommas(value['value']) : value['value'];
-            console.log(value)
-            if(value['value'].includes("NaN")) return;
+          console.log(value);
+          if (value['value'].includes('NaN')) return;
           switch (value['size']) {
             case 'large':
               return `<div class="text-style-3-d-fonts-1920-h-1">${formatedValToShow}</div>`;
             default:
-              return `<div class="text-style-3-d-fonts-1920-h-2-bold">${formatedValToShow}</div>`;
+              return `<div class="text-style-3-d-fonts-1920-h-2-bold"><!-- ${formatedValToShow} --></div>`;
           }
         })
         .join('')}
@@ -91,11 +91,11 @@ function Floor(i18n, floor, hideOverlay = true, showPrices) {
         }
       </div>
       ${!isMobile ? $navWrapperForDesktopAndTablet : ''}
-      
+
     </div>
     <div class="s3d-floor__svg-container ">
       <div class="s3d-floor__svg-wrapper js-s3d-floor" data-svg-floor-zoom></div>
-    
+
     </div>
   </div>
 `;
